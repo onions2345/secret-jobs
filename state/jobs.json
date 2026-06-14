@@ -14,112 +14,8 @@
     ],
     "evidence_url": null,
     "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
-  },
-  "e0fad9a54982": {
-    "id": "e0fad9a54982",
-    "title": "Panel Beater / Spray Painter",
-    "company": "The Body Repair Shop",
-    "category": "Automotive & Mechanics",
-    "location": "Salisbury Plain, Adelaide, South Australia, Australia",
-    "url": "https://thebodyrepairshop.com.au/employment-opportunities/",
-    "source_domain": "thebodyrepairshop.com.au",
-    "summary": "Join a leading crash repair workshop in Adelaide, with opportunities available for qualified tradespeople, estimators, and apprentices.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "mainstream job boards (AI-judged)"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
-  },
-  "08e49449ecc4": {
-    "id": "08e49449ecc4",
-    "title": "Electrician with Residential Experience",
-    "company": "Envy Electrical & Automation",
-    "category": "Skilled Trades",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://envyelectrical.com.au/careers/",
-    "source_domain": "envyelectrical.com.au",
-    "summary": "Seeking a qualified electrician with residential experience to join their team for high-end new residential builds.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "excluded from major boards via search"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "city": "Adelaide"
-  },
-  "5cf27ed1b0f7": {
-    "id": "5cf27ed1b0f7",
-    "title": "Full Time Electrician or 3rd / 4th Year Apprentice",
-    "company": "South Adelaide Electrical",
-    "category": "Skilled Trades",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://southadelaideelectrical.com.au/careers/",
-    "source_domain": "southadelaideelectrical.com.au",
-    "summary": "Seeking a qualified electrician or senior apprentice to handle residential, commercial, solar, and air conditioning projects.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "excluded from major boards via search"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "city": "Adelaide"
-  },
-  "5570feed5143": {
-    "id": "5570feed5143",
-    "title": "Qualified Carpenter",
-    "company": "Bella Carpentry",
-    "category": "Skilled Trades",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://bellacarpentry.com.au/careers/",
-    "source_domain": "bellacarpentry.com.au",
-    "summary": "Seeking a qualified carpenter to join their team for decking, pergolas, and home renovation projects across Adelaide.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "excluded from major boards via search"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "city": "Adelaide"
-  },
-  "e0c434dffc5f": {
-    "id": "e0c434dffc5f",
-    "title": "Metal Roof Plumber",
-    "company": "Hindmarsh Roofing",
-    "category": "Skilled Trades",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://hindmarshroofing.com.au/careers/",
-    "source_domain": "hindmarshroofing.com.au",
-    "summary": "Seeking experienced metal roof plumbers and contractors for residential, commercial, and heritage roofing projects across metropolitan Adelaide.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "mainstream job boards (AI-judged)"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
-  },
-  "7fcee3f7b011": {
-    "id": "7fcee3f7b011",
-    "title": "Qualified Carpenter",
-    "company": "Wilks Building Group",
-    "category": "Skilled Trades",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://wilksbuildinggroup.com.au/careers/",
-    "source_domain": "wilksbuildinggroup.com.au",
-    "summary": "Seeking a skilled carpenter to work on high-end custom architectural homes and detailed renovations across Adelaide.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "mainstream job boards (AI-judged)"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
+    "last_checked": "2026-06-14"
   },
   "4196984f30cd": {
     "id": "4196984f30cd",
@@ -136,7 +32,8 @@
     ],
     "evidence_url": null,
     "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
+    "last_seen": "2026-06-14",
+    "last_checked": "2026-06-14"
   },
   "80bab3fc54c6": {
     "id": "80bab3fc54c6",
@@ -153,96 +50,8 @@
     ],
     "evidence_url": null,
     "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
-  },
-  "a58ea832e713": {
-    "id": "a58ea832e713",
-    "title": "Project Engineer - Concrete Construction",
-    "company": "Ballestrin Construction Services",
-    "category": "Construction & Building",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://ballestrin.com.au/careers/",
-    "source_domain": "ballestrin.com.au",
-    "summary": "Manage concrete construction and remediation projects in Adelaide, overseeing engineering requirements, quality control, and site safety.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "mainstream job boards (AI-judged)"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
-  },
-  "9945a021f602": {
-    "id": "9945a021f602",
-    "title": "Vehicle Technician",
-    "company": "Tesla",
-    "category": "Automotive & Mechanics",
-    "city": "Adelaide",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://careers.tesla.com/careers/job/vehicle-technician-adelaide-249935",
-    "source_domain": "careers.tesla.com",
-    "summary": "Perform maintenance, diagnostics, and repairs on Tesla's electric vehicle fleet at the Adelaide Airport service center.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "excluded from major boards via search"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
-  },
-  "27a92eac5d4a": {
-    "id": "27a92eac5d4a",
-    "title": "Field Service Technician",
-    "company": "Liebherr",
-    "category": "Automotive & Mechanics",
-    "city": "Adelaide",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://www.liebherr.com/en/aus/careers/job-vacancies/",
-    "source_domain": "liebherr.com",
-    "summary": "Diagnose, service, and repair earthmoving equipment and mobile cranes in the field across South Australia.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "excluded from major boards via search"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
-  },
-  "bec2e5345d61": {
-    "id": "bec2e5345d61",
-    "title": "Panel Beater / Coachbuilder",
-    "company": "Finch Restorations",
-    "category": "Automotive & Mechanics",
-    "city": "Adelaide",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://www.finchrestorations.com.au/careers/vacancies",
-    "source_domain": "finchrestorations.com.au",
-    "summary": "Perform traditional rust repair, panel fabrication, and metal shaping on classic and vintage vehicles at the Hindmarsh workshop.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "excluded from major boards via search"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
-  },
-  "a607bae70d21": {
-    "id": "a607bae70d21",
-    "title": "Spare Parts Interpreter",
-    "company": "Multispares Limited",
-    "category": "Automotive & Mechanics",
-    "city": "Adelaide",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://multispares.teamtailor.com/",
-    "source_domain": "multispares.teamtailor.com",
-    "summary": "Handle customer enquiries, prepare quotes, and identify aftermarket spare parts for commercial trucks, trailers, and buses.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "excluded from major boards via search"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
+    "last_seen": "2026-06-14",
+    "last_checked": "2026-06-14"
   },
   "26055b00ba01": {
     "id": "26055b00ba01",
@@ -260,7 +69,8 @@
     ],
     "evidence_url": null,
     "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14"
+    "last_seen": "2026-06-14",
+    "last_checked": "2026-06-14"
   },
   "b8e60d378aa5": {
     "id": "b8e60d378aa5",
@@ -1503,5 +1313,328 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14"
+  },
+  "de993fcf9aa5": {
+    "id": "de993fcf9aa5",
+    "title": "Field Service Technician",
+    "company": "Liebherr",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.liebherr.com/en/aus/latest-news/job-vacancies/detail/field-service-technician-adelaide-en.html",
+    "source_domain": "liebherr.com",
+    "summary": "Qualified plant or diesel mechanic for major repairs and diagnostics on earthmoving equipment in Adelaide.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "de95a904880b": {
+    "id": "de95a904880b",
+    "title": "Field Service Technician - DIDO (R0090656)",
+    "company": "Sandvik Group",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.home.sandvik/en/careers/job-opportunities/job-postings/field-service-technician-dido-r0090656/",
+    "source_domain": "home.sandvik",
+    "summary": "Seeking HD Fitters or Auto Electricians for DIDO field service on underground mining equipment in SA.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "6be292b44c25": {
+    "id": "6be292b44c25",
+    "title": "Vehicle Technician, Adelaide",
+    "company": "Tesla",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.tesla.com/careers/job/vehicletechnicianadelaide249935",
+    "source_domain": "tesla.com",
+    "summary": "Qualified motor mechanic to uphold Tesla's service standards, performing maintenance and repair on Tesla vehicles.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "e65ae908d679": {
+    "id": "e65ae908d679",
+    "title": "Surveyor (Expressions of Interest)",
+    "company": "Mosel Surveyors",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.moselsurveyors.com.au/careers",
+    "source_domain": "moselsurveyors.com.au",
+    "summary": "Mosel Surveyors invites expressions of interest for surveying careers and work experience.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "7d75e362b77f": {
+    "id": "7d75e362b77f",
+    "title": "Registered Nurse - Community Aged Care",
+    "company": "Uniting Communities",
+    "category": "Healthcare & Care",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://unitingcommunities.org/careers",
+    "source_domain": "unitingcommunities.org",
+    "summary": "Seeking dedicated Registered Nurses for community aged care roles, supporting clients in their homes.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "f5ac9f174faa": {
+    "id": "f5ac9f174faa",
+    "title": "Nursing Jobs",
+    "company": "Central Adelaide Local Health Network (CALHN)",
+    "category": "Healthcare & Care",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.calhn.sa.gov.au/careers/nursing-jobs-adelaide",
+    "source_domain": "calhn.sa.gov.au",
+    "summary": "Explore diverse nursing career opportunities across leading public hospitals and health services in Adelaide.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "21c7435711b3": {
+    "id": "21c7435711b3",
+    "title": "Registered Nurse - Intensive Care Unit",
+    "company": "Calvary Adelaide Hospital",
+    "category": "Healthcare & Care",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.calvarycare.org.au/careers/",
+    "source_domain": "calvarycare.org.au",
+    "summary": "Join a busy Level 3 Intensive Care Unit with flexible shifts and a supportive team culture.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "ed6bdf83c3aa": {
+    "id": "ed6bdf83c3aa",
+    "title": "Copywriter (Expression of Interest)",
+    "company": "Blis Web Agency",
+    "category": "Creative & Design",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.blis.net.au/careers",
+    "source_domain": "blis.net.au",
+    "summary": "Blis Web Agency is seeking expressions of interest from Adelaide-based copywriters for an upcoming project.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "fbddc0401a0c": {
+    "id": "fbddc0401a0c",
+    "title": "Courier",
+    "company": "Federal Express Corporation AMEA (FedEx)",
+    "category": "Logistics & Driving",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://careers.fedex.com/fedex/jobs/2024-64475-EN/Courier-in-Adelaide-South-Australia",
+    "source_domain": "careers.fedex.com",
+    "summary": "FedEx Netley is hiring full-time couriers for stable weekday shifts, offering career development and competitive pay.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "cda3da74941c": {
+    "id": "cda3da74941c",
+    "title": "Local Truck Driver",
+    "company": "Qube",
+    "category": "Logistics & Driving",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://careers.qube.com.au/job/Local-Truck-Driver-Outer-Harbor-Adelaide-South-Australia-SA-Australia/1057406800/",
+    "source_domain": "careers.qube.com.au",
+    "summary": "Qube seeks permanent full-time HC/MC licensed local truck drivers for container transport in Adelaide Metro and regional areas.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "4df86c344b04": {
+    "id": "4df86c344b04",
+    "title": "Bookkeeper",
+    "company": "Tea Tree Gully Golf Club Incorporated",
+    "category": "Office & Admin",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://teatreegullygolfclub.employmenthero.com/jobs/65103/bookkeeper",
+    "source_domain": "teatreegullygolfclub.employmenthero.com",
+    "summary": "Maintain accurate financial records, manage accounts, reconcile statements, prepare reports, and assist with office operations.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "c87103995d6b": {
+    "id": "c87103995d6b",
+    "title": "Corporate Receptionist",
+    "company": "Babcock",
+    "category": "Office & Admin",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.babcock.com.au/careers/jobs/corporate-receptionist-adelaide",
+    "source_domain": "babcock.com.au",
+    "summary": "Front-of-house role managing reception, coordinating office activities, and providing administrative support in Adelaide CBD.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "427e61c0c39a": {
+    "id": "427e61c0c39a",
+    "title": "Bookkeeper",
+    "company": "Darcy Bookkeeping & Business Services",
+    "category": "Office & Admin",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://darcyservices.com.au/bookkeeping-jobs/",
+    "source_domain": "darcyservices.com.au",
+    "summary": "Seeking qualified BAS Agents to provide onsite/offsite bookkeeping services for small to medium businesses.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "555388e5c4ce": {
+    "id": "555388e5c4ce",
+    "title": "Administrative Assistant",
+    "company": "SA Health",
+    "category": "Office & Admin",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://careers.sahealth.sa.gov.au/c/job-apply/273030/administrative-assistant",
+    "source_domain": "careers.sahealth.sa.gov.au",
+    "summary": "Provide administrative support within SA Health, contributing to the efficient operation of public health services.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "73735e3da62c": {
+    "id": "73735e3da62c",
+    "title": "Part-Time Tech Savvy Customer Service",
+    "company": "Pierre Strand (Tapes To Digital)",
+    "category": "Office & Admin",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://tapestodigital.employmenthero.com/jobs/65103/part-time-tech-savvy-customer-service",
+    "source_domain": "tapestodigital.employmenthero.com",
+    "summary": "Flexible, home-based role for a tech-savvy individual to handle analog to digital conversions and customer tech queries.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "3ed2f72dc061": {
+    "id": "3ed2f72dc061",
+    "title": "HR Admin",
+    "company": "Adelaide Bites and Booze",
+    "category": "Office & Admin",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://adelaidebitesandbooze.employmenthero.com/jobs/65103/hr-admin",
+    "source_domain": "adelaidebitesandbooze.employmenthero.com",
+    "summary": "Full-time HR administrative support role assisting with recruitment, employee records, and performance management.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
+  },
+  "e276f0d4fe7c": {
+    "id": "e276f0d4fe7c",
+    "title": "Dental Receptionist / Treatment Coordinator",
+    "company": "An independently owned dental practice",
+    "category": "Office & Admin",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.lyncdental.com.au/dental-receptionist-job-in-clinical-dental-support-in-adelaide",
+    "source_domain": "lyncdental.com.au",
+    "summary": "Full-time role for an organized dental receptionist to manage patient flow and support clinical and administrative tasks.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14",
+    "last_checked": ""
   }
 }
