@@ -48,7 +48,7 @@ def _card(j, cont):
     <p class="meta">{_esc(j.get('company'))} <span class="dot">•</span> {_esc(j.get('location'))}</p>
     <p class="summary">{_esc(j.get('summary'))}</p>
     <div class="card-bottom">
-      <span class="stamp">✓ UNLISTED <span class="stamp-sub">not on {_stamp(j)}</span></span>
+      <span class="stamp">✓ OFF-MARKET <span class="stamp-sub">major boards excluded{(' · link checked ' + _esc(j.get('last_checked'))) if j.get('last_checked') else ''}</span></span>
       <span class="src">{_esc(j.get('source_domain') or j['url'].split('/')[2])}</span>
       <a class="open" href="{_esc(j['url'])}" target="_blank" rel="noopener">Open original ↗</a>
     </div>

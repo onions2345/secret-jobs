@@ -3,6 +3,7 @@ from pathlib import Path
 from secretjobs.llm import Gemini
 from secretjobs.budget import Budget
 from secretjobs import discover as D, store as S, render as R, locations as L, pages as P, geo as G
+from secretjobs import boards as B, freshness as F
 
 
 def _read_key():
@@ -28,7 +29,8 @@ def main():
     gem = Gemini(_read_key(), cfg["model"], cfg.get("temperature", 0.2))
     budget = Budget(cfg["max_grounded_calls_per_month"], cfg["max_grounded_calls_per_run"])
     boards = cfg.get("known_boards", [])
-    jobs = S.load(); page_blurbs = S.load_pages(); geo = S.load_geo()
+    jobs = S.load(); page_blurbs = S.load_pages(); geo = S.load_geo(); meta = S.load_meta()
+    eff_boards = B.effective(boards, meta.get("discovered_boards", []))
     print(f"Grounded calls this month: {budget.data['grounded_calls']}/"
           f"{budget.max_per_month}  ({budget.remaining_month()} left)")
 
@@ -43,7 +45,7 @@ def main():
         for cat in cats:
             if not budget.can_spend():
                 print("Budget cap reached — stopping early."); break
-            found = D.discover(gem, budget, cat["brief"], place, boards)
+            found = D.discover(gem, budget, cat["brief"], place, eff_boards)
             print(f"  {cat['name']} @ {place} -> {len(found)} found")
             city = place.split(",")[0].strip()
             for f in found:
@@ -63,9 +65,21 @@ def main():
     page_blurbs = P.update_blurbs(gem, jobs, countries, page_blurbs)
     geo = G.resolve(gem, {P.country_of(j.get("location")) for j in jobs.values()}, geo)
 
-    S.save(jobs); S.save_pages(page_blurbs); S.save_geo(geo)
+    # Weekly: let the AI suggest new job boards to exclude (core list stays locked)
+    meta = B.maybe_update(gem, budget, countries, meta,
+                          cfg.get("boards_refresh_days", 7))
+
+    # Occasionally re-check saved jobs; drop dead links / filled roles
+    checked, removed = F.check(gem, jobs,
+                               cfg.get("max_freshness_checks_per_run", 15),
+                               cfg.get("freshness_ai", True))
+    if checked:
+        print(f"  freshness: re-checked {checked}, removed {removed} dead/closed")
+
+    S.save(jobs); S.save_pages(page_blurbs); S.save_geo(geo); S.save_meta(meta)
     R.render(cfg, jobs, page_blurbs, geo)
-    print(f"\nDone. +{added} new | {len(jobs)} total | {budget.run_calls} searches this run.")
+    print(f"\nDone. +{added} new | -{removed} gone | {len(jobs)} total | "
+          f"{budget.run_calls} searches this run.")
 
 
 if __name__ == "__main__":

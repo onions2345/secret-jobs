@@ -11,42 +11,41 @@ class Gemini:
         self.model = model
         self.temperature = temperature
 
-    def plain(self, prompt, retries=2):
-        """A normal (non-grounded) call — uses the model's own knowledge. Doesn't
-        touch the grounding budget. Used for reasoning like 'which city next?'."""
-        for attempt in range(retries + 1):
-            try:
-                r = self.client.models.generate_content(
-                    model=self.model, contents=prompt,
-                    config=types.GenerateContentConfig(
-                        temperature=self.temperature,
-                        http_options=types.HttpOptions(timeout=120000)))
-                return r.text or ""
-            except Exception:
-                if attempt < retries:
-                    time.sleep(3 * (attempt + 1)); continue
-                return ""
+    def _call(self, prompt, grounded):
+        cfg_kwargs = {"temperature": self.temperature}
+        if grounded:
+            cfg_kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+        cfg = types.GenerateContentConfig(**cfg_kwargs)
+        r = self.client.models.generate_content(
+            model=self.model, contents=prompt, config=cfg)
+        return r.text or ""
 
-    def grounded(self, prompt, retries=2):
-        """One grounded (Google Search) call. Returns plain text. Tolerates the
-        occasional 503/overload from Google by retrying, then skipping (returns "")."""
-        cfg = types.GenerateContentConfig(
-            tools=[types.Tool(google_search=types.GoogleSearch())],
-            temperature=self.temperature,
-            http_options=types.HttpOptions(timeout=120000),  # 30s per call, never hang
-        )
-        for attempt in range(retries + 1):
+    def _with_backoff(self, prompt, grounded, retries=5):
+        """Exponential backoff on transient errors (503 overloaded, rate limits).
+        Waits 2s, 4s, 8s, 16s, 32s between tries, then gives up and returns ''."""
+        for attempt in range(retries):
             try:
-                r = self.client.models.generate_content(
-                    model=self.model, contents=prompt, config=cfg)
-                return r.text or ""
+                return self._call(prompt, grounded)
             except Exception as e:
-                msg = str(e)
-                if attempt < retries:
-                    time.sleep(3 * (attempt + 1))   # short wait, then retry
-                    continue
-                print(f"    (skipped one call after retries: {msg[:80]})")
-                return ""        # don't crash the whole run over one busy moment
+                msg = str(e).lower()
+                transient = any(s in msg for s in (
+                    "503", "unavailable", "overloaded", "429", "rate", "deadline", "timeout"))
+                if attempt == retries - 1 or not transient:
+                    if attempt == retries - 1:
+                        print(f"    (gave up after {retries} tries: {str(e)[:70]})")
+                    else:
+                        print(f"    (non-transient error, skipped: {str(e)[:70]})")
+                    return ""
+                wait = 2 ** (attempt + 1)
+                print(f"    (503/overload — retry in {wait}s)")
+                time.sleep(wait)
+        return ""
+
+    def grounded(self, prompt):
+        return self._with_backoff(prompt, grounded=True)
+
+    def plain(self, prompt):
+        return self._with_backoff(prompt, grounded=False)
 
     @staticmethod
     def parse_json(text, default):

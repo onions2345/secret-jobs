@@ -43,6 +43,7 @@ def upsert(jobs, job, evidence_url):
         "evidence_url": evidence_url,
         "first_seen": today,
         "last_seen": today,
+        "last_checked": "",
     }
     jobs[jid] = rec
     return rec, True
@@ -72,3 +73,16 @@ def load_geo():
 
 def save_geo(geo):
     GEO_FILE.write_text(json.dumps(geo, indent=2, ensure_ascii=False))
+
+
+# ── misc persisted metadata (discovered boards, refresh dates) ──────────────
+META_FILE = STATE_DIR / "meta.json"
+
+
+def load_meta():
+    STATE_DIR.mkdir(exist_ok=True)
+    return json.loads(META_FILE.read_text()) if META_FILE.exists() else {}
+
+
+def save_meta(meta):
+    META_FILE.write_text(json.dumps(meta, indent=2, ensure_ascii=False))
