@@ -37,7 +37,8 @@ def _card(j, cont):
     return f"""
   <article class="card" data-cat="{_esc(j.get('category') or 'Other')}"
            data-country="{_esc(country_of(j.get('location')))}"
-           data-city="{_esc(city)}">
+           data-city="{_esc(city)}"
+           data-status="{_esc(j.get('status') or ('secret' if j.get('board_checked') else 'unchecked'))}">
     <div class="card-top">
       <div>
         <span class="cat">{_esc(j.get('category') or 'Other')}</span>
@@ -48,7 +49,7 @@ def _card(j, cont):
     <p class="meta">{_esc(j.get('company'))} <span class="dot">•</span> {_esc(j.get('location'))}</p>
     <p class="summary">{_esc(j.get('summary'))}</p>
     <div class="card-bottom">
-      {('<span class="stamp">✓ OFF-MARKET <span class="stamp-sub">checked — not on major boards' + ((' · link checked ' + _esc(j.get('last_checked'))) if j.get('last_checked') else '') + '</span></span>') if j.get('board_checked') else '<span class="stamp unv">• OFF-MARKET <span class="stamp-sub">search-filtered, not yet cross-checked</span></span>'}
+      {('<span class="stamp">✓ SECRET <span class="stamp-sub">checked — not on major boards' + ((' · link checked ' + _esc(j.get('last_checked'))) if j.get('last_checked') else '') + '</span></span>') if (j.get('status')=='secret' or (not j.get('status') and j.get('board_checked'))) else ('<span class="stamp brd">● NOT A SECRET <span class="stamp-sub">also on a major board' + ((' (' + _esc(j.get('board_name')) + ')') if j.get('board_name') else '') + '</span></span>') if j.get('status')=='on_board' else '<span class="stamp unv">• NOT YET CHECKED <span class="stamp-sub">search-filtered, not cross-checked</span></span>'}
       <span class="src">{_esc(j.get('source_domain') or j['url'].split('/')[2])}</span>
       <a class="open" href="{_esc(j['url'])}" target="_blank" rel="noopener">Open original ↗</a>
     </div>
@@ -161,7 +162,6 @@ def _index(cfg, jobs):
   <ul class="latest">{latest}</ul>
 
   <div class="diy">
-  <br>
     <h3 class="kicker">DIY — find these jobs yourself with AI</h3>
     <p>You can use AI to find jobs that aren't on the big job boards — so you have a better chance.</p>
     <p>Just ask an AI (like Gemini or ChatGPT) something like:</p>
@@ -198,75 +198,125 @@ def _continent_page(cfg, cont, rows):
                   f"Unlisted jobs across {cont}, verified not on the big boards.", body)
 
 
-def _country_page(cfg, country, rows, blurb):
-    geo = cfg["_geo"]
-    cont = continent_of(country, geo)
-    rows = sorted(rows, key=lambda j: j.get('first_seen', ''), reverse=True)
+def _status_of(j):
+    s = j.get("status")
+    if s in ("secret", "on_board", "unchecked"):
+        return s
+    return "secret" if j.get("board_checked") else "unchecked"   # back-compat
+
+
+def _cat_block(cfg, rows, cont):
+    """Build the category chips + the three status sections for a set of rows."""
     promoted = cfg["promoted_categories"]
-
-    cities = sorted({(r.get("city") or _city_of(r.get("location"))) for r in rows})
-    city_tiles = '<button class="tile citytile on" data-city="all"><span class="tile-c">All cities</span>' \
-                 f'<span class="tile-n">{len(rows)} roles</span></button>'
-    for c in cities:
-        n = sum(1 for r in rows if (r.get("city") or _city_of(r.get("location"))) == c)
-        city_tiles += (f'<button class="tile citytile" data-city="{_esc(c)}">'
-                       f'<span class="tile-c">{_esc(c)}</span><span class="tile-n">{n} roles</span></button>')
-
     cats = _order_cats(sorted({r.get("category", "Other") for r in rows}), promoted)
     chips = '<button class="chip on" data-f="all">All categories</button>' + "".join(
         f'<button class="chip" data-f="{_esc(c)}">{_esc(c)}</button>' for c in cats)
 
-    cards = "\n".join(_card(j, cont) for j in rows) or \
-        '<p class="empty">Nothing here yet — the crawler fills this in.</p>'
+    def _section(title, sub, group, css):
+        items = [j for j in rows if _status_of(j) == group]
+        if not items:
+            return ""
+        cards = "\n".join(_card(j, cont) for j in items)
+        return (f'<div class="section {css}"><h3 class="kicker">{title} '
+                f'<span class="sec-n">{len(items)}</span></h3>'
+                f'<p class="sec-sub">{sub}</p>{cards}</div>')
+
+    secret_n = sum(1 for j in rows if _status_of(j) == "secret")
+    sections = (
+        _section("✓ Verified secret jobs", "Confirmed not on the big job boards.", "secret", "s-secret")
+        + _section("Also on big boards", "These have a company page, but the role is also on a major board — not a secret.", "on_board", "s-onboard")
+        + _section("Not yet checked", "Found on a company/niche site; the cross-check hasn't confirmed these yet.", "unchecked", "s-unchecked")
+    ) or '<p class="empty">Nothing here yet — the crawler fills this in.</p>'
+    return chips, sections, secret_n
+
+
+# category-only filter + shareable #category links + hide-empty-sections
+_FILTER_JS = """
+<script>
+  const cats=document.getElementById('cats');
+  let fc='all';
+  const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  function apply(){
+    let n=0;
+    document.querySelectorAll('.card').forEach(c=>{
+      const ok=(fc==='all'||c.dataset.cat===fc);
+      c.style.display=ok?'':'none';
+      if(ok && c.dataset.status==='secret')n++;
+    });
+    document.querySelectorAll('.section').forEach(sec=>{
+      const any=[...sec.querySelectorAll('.card')].some(c=>c.style.display!=='none');
+      sec.style.display=any?'':'none';
+    });
+    const el=document.getElementById('n'); if(el) el.textContent=n;
+  }
+  function setCat(name,push){
+    fc=name;
+    [...cats.children].forEach(x=>x.classList.toggle('on', x.dataset.f===name));
+    if(push) history.replaceState(null,'',name==='all'?location.pathname:('#'+slug(name)));
+    apply();
+  }
+  cats.addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;setCat(b.dataset.f,true);});
+  function fromHash(){
+    const h=decodeURIComponent(location.hash.replace('#','')).trim();
+    if(!h){setCat('all',false);return;}
+    let match='all';
+    [...cats.children].forEach(x=>{if(slug(x.dataset.f)===slug(h))match=x.dataset.f;});
+    setCat(match,false);
+  }
+  window.addEventListener('hashchange',fromHash);
+  fromHash();
+</script>"""
+
+
+def _country_page(cfg, country, rows, blurb, city_links):
+    geo = cfg["_geo"]
+    cont = continent_of(country, geo)
+    rows = sorted(rows, key=lambda j: j.get('first_seen', ''), reverse=True)
+
+    cities = sorted({(r.get("city") or _city_of(r.get("location"))) for r in rows})
+    city_tiles = ""
+    for c in cities:
+        n = sum(1 for r in rows if (r.get("city") or _city_of(r.get("location"))) == c)
+        href = city_links.get(c, "#")
+        city_tiles += (f'<a class="tile" href="{_esc(href)}"><span class="tile-c">{_esc(c)}</span>'
+                       f'<span class="tile-n">{n} roles</span></a>')
+
+    chips, sections, secret_n = _cat_block(cfg, rows, cont)
     blurb_html = f'<p class="blurb">{_esc(blurb)}</p>' if blurb else ""
 
-    body = (_header("Unlisted jobs", country, "", len(rows), "verified unlisted roles",
+    body = (_header("Unlisted jobs", country, "", secret_n, "verified secret roles",
                     _crumb([("All continents", "index.html"),
                             (cont, f"{_slug(cont)}.html"), (country, None)])) + f"""
 <div class="wrap">
   {blurb_html}
-  <h3 class="kicker">Cities in {_esc(country)}</h3>
-  <div class="tiles" id="cities">{city_tiles}</div>
+  <h3 class="kicker">Cities in {_esc(country)} — open one for that city</h3>
+  <div class="tiles">{city_tiles}</div>
   <div class="controls"><div class="chips" id="cats">{chips}</div></div>
-  <main id="list">{cards}</main>
+  <main id="list">{sections}</main>
   {_footer()}
-</div>
-<script>
-  const cities=document.getElementById('cities'), cats=document.getElementById('cats');
-  let fc='all', fy='all';
-  const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-  function apply(){{
-    let n=0;
-    document.querySelectorAll('.card').forEach(c=>{{
-      const ok=(fc==='all'||c.dataset.cat===fc)&&(fy==='all'||c.dataset.city===fy);
-      c.style.display=ok?'':'none'; if(ok)n++;
-    }});
-    document.getElementById('n').textContent=n;
-  }}
-  function setCat(name,push){{
-    fc=name;
-    [...cats.children].forEach(x=>x.classList.toggle('on', x.dataset.f===name));
-    if(push){{const h=name==='all'?' ':'#'+slug(name);
-      history.replaceState(null,'',name==='all'?location.pathname:('#'+slug(name)));}}
-    apply();
-  }}
-  cities.addEventListener('click',e=>{{const t=e.target.closest('.citytile');if(!t)return;
-    [...cities.children].forEach(x=>x.classList.remove('on'));t.classList.add('on');
-    fy=t.dataset.city;apply();}});
-  cats.addEventListener('click',e=>{{const b=e.target.closest('.chip');if(!b)return;setCat(b.dataset.f,true);}});
-  // open pre-filtered when the link ends with #category (shareable virtual pages)
-  function fromHash(){{
-    const h=decodeURIComponent(location.hash.replace('#','')).trim();
-    if(!h){{setCat('all',false);return;}}
-    let match='all';
-    [...cats.children].forEach(x=>{{if(slug(x.dataset.f)===slug(h))match=x.dataset.f;}});
-    setCat(match,false);
-  }}
-  window.addEventListener('hashchange',fromHash);
-  fromHash();
-</script>""")
+</div>{_FILTER_JS}""")
     return _shell(f"Unlisted jobs in {country} — {cfg['site_name']}",
                   f"Unlisted job openings in {country}, verified not on the big boards.", body)
+
+
+def _city_page(cfg, country, city, rows, back_href):
+    geo = cfg["_geo"]
+    cont = continent_of(country, geo)
+    rows = sorted(rows, key=lambda j: j.get('first_seen', ''), reverse=True)
+    chips, sections, secret_n = _cat_block(cfg, rows, cont)
+
+    body = (_header("Secret jobs in", city, "", secret_n, "verified secret roles",
+                    _crumb([("All continents", "index.html"),
+                            (cont, f"{_slug(cont)}.html"),
+                            (country, back_href), (city, None)])) + f"""
+<div class="wrap">
+  <p class="blurb">Off-market job openings in {_esc(city)}, {_esc(country)} — found on company &amp; niche sites and checked against the big job boards.</p>
+  <div class="controls"><div class="chips" id="cats">{chips}</div></div>
+  <main id="list">{sections}</main>
+  {_footer()}
+</div>{_FILTER_JS}""")
+    return _shell(f"Secret Jobs in {city} — {cfg['site_name']}",
+                  f"Unlisted, off-market job openings in {city}, {country}, not on the big job boards.", body)
 
 
 def render(cfg, jobs, pages=None, geo=None):
@@ -287,10 +337,26 @@ def render(cfg, jobs, pages=None, geo=None):
         if cont == "Other":
             continue
         (SITE_DIR / f"{_slug(cont)}.html").write_text(_continent_page(cfg, cont, rows), encoding="utf-8")
+    used = {f"{_slug(c)}.html" for c in by_cont} | {"index.html", "style.css", "jobs.json"}
     for country, rows in by_country.items():
+        # decide a clean, unique filename for each city in this country
+        cities = sorted({(r.get("city") or _city_of(r.get("location"))) for r in rows})
+        city_links = {}
+        for c in cities:
+            fn = f"{_slug(c)}.html"
+            if fn in used or fn == f"{_slug(country)}.html":
+                fn = f"{_slug(country)}-{_slug(c)}.html"     # avoid clashes across countries
+            used.add(fn)
+            city_links[c] = fn
+        # write each city page
+        for c in cities:
+            crows = [r for r in rows if (r.get("city") or _city_of(r.get("location"))) == c]
+            (SITE_DIR / city_links[c]).write_text(
+                _city_page(cfg, country, c, crows, f"{_slug(country)}.html"), encoding="utf-8")
+        # write the country page with tiles linking to those city pages
         blurb = pages.get(country, {}).get("blurb", "")
         (SITE_DIR / f"{_slug(country)}.html").write_text(
-            _country_page(cfg, country, rows, blurb), encoding="utf-8")
+            _country_page(cfg, country, rows, blurb, city_links), encoding="utf-8")
 
     (SITE_DIR / "jobs.json").write_text(
         json.dumps(list(jobs.values()), indent=2, ensure_ascii=False), encoding="utf-8")
@@ -386,11 +452,17 @@ text-transform:uppercase;color:var(--signal);border:1px solid var(--line-2);bord
 background:var(--ok-dim);border:1px solid #224a30;border-radius:5px;padding:5px 9px;letter-spacing:.06em}
 .stamp-sub{color:var(--muted);font-weight:400;margin-left:4px}
 .stamp.unv{color:var(--muted);background:transparent;border-color:var(--line)}
+.stamp.brd{color:var(--muted);background:transparent;border-color:var(--line)}
 .src{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--muted)}
 .open{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--signal);
 text-decoration:none;border:1px solid var(--line-2);padding:6px 11px;border-radius:5px;transition:.15s}
 .open:hover{border-color:var(--signal);background:rgba(255,176,0,.08)}
 .empty{color:var(--muted);text-align:center;padding:60px 0;font-family:'JetBrains Mono',monospace}
+.section{margin-top:34px}
+.section .sec-n{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--signal);margin-left:6px}
+.sec-sub{color:var(--muted);font-size:13px;margin:2px 0 14px}
+.s-onboard .kicker,.s-unchecked .kicker{color:var(--muted)}
+.s-onboard .sec-n,.s-unchecked .sec-n{color:var(--muted)}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:12px;
 font-family:'JetBrains Mono',monospace;padding:22px 0 40px}
 footer a{color:var(--signal)}

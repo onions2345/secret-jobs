@@ -40,8 +40,8 @@ def main():
     print("This run:", " | ".join(c["name"] for c in cats), "@", " -> ".join(places))
 
     # DISCOVER — one search per (category, place); big boards excluded by the search itself.
-    # Then a SECOND search per NEW job confirms it isn't also on a major board.
-    added = dropped = unsure = 0
+    # Then a SECOND search per NEW job classifies it: secret / on-board / unchecked.
+    added = onboard = unsure = 0
     for place in places:
         for cat in cats:
             if not budget.can_spend():
@@ -56,17 +56,23 @@ def main():
                     continue
                 res = V.check_one(gem, budget, f, eff_boards)   # second check (new jobs only)
                 on_board = res.get("on_board") if isinstance(res, dict) else None
-                if on_board is True:                 # confirmed on a big board -> DROP
-                    dropped += 1
-                    continue
                 f["category"] = cat["name"]; f["city"] = city
                 rec, is_new = S.upsert(jobs, f, (res or {}).get("evidence_url"))
                 rec["category"] = cat["name"]; rec["city"] = city
-                if on_board is False:                # actively confirmed NOT on boards
+                if on_board is True:                 # also on a big board -> "Not a secret"
+                    rec["status"] = "on_board"
+                    rec["board_checked"] = True
+                    rec["verified_unlisted"] = False
+                    rec["board_name"] = (res or {}).get("board") or ""
+                    rec["checked_against"] = ["also listed on a major board"]
+                    onboard += 1
+                elif on_board is False:              # confirmed NOT on boards -> secret
+                    rec["status"] = "secret"
                     rec["board_checked"] = True
                     rec["verified_unlisted"] = True
                     rec["checked_against"] = ["confirmed not on major boards"]
-                else:                                # couldn't confirm -> keep but mark unverified
+                else:                                # couldn't confirm -> not yet checked
+                    rec["status"] = "unchecked"
                     rec["board_checked"] = False
                     rec["verified_unlisted"] = False
                     rec["checked_against"] = ["search-filtered, not yet cross-checked"]
@@ -95,7 +101,7 @@ def main():
 
     S.save(jobs); S.save_pages(page_blurbs); S.save_geo(geo); S.save_meta(meta)
     R.render(cfg, jobs, page_blurbs, geo)
-    print(f"\nDone. +{added} new ({unsure} unverified) | {dropped} dropped (on boards) | "
+    print(f"\nDone. +{added} new (secret + {onboard} on-board + {unsure} unchecked) | "
           f"-{removed} gone | {len(jobs)} total | {budget.run_calls} searches this run.")
 
 
