@@ -38,14 +38,14 @@ categories:
 # Where to start. The AI expands OUTWARD from here on its own (nearby cities
 # first, then further out, then other countries), as budget allows.
 start_location: "Adelaide, South Australia, Australia"
-max_locations_per_run: 15        # raise this to spread to more places each run
+max_locations_per_run: 10        # raise this to spread to more places each run
 
 # ── Cost guardrails (grounded search is the only thing that costs) ───────────
 # Per run it covers `max_categories_per_run` categories (rotated daily so every
 # category gets covered over time) x `max_locations_per_run` places.
 max_categories_per_run: 10
-max_grounded_calls_per_month: 4500    # ~stays under US$10/mo
-max_grounded_calls_per_run: 170
+max_grounded_calls_per_month: 12000    # ~stays under US$10/mo
+max_grounded_calls_per_run: 600
 max_candidates_to_verify_per_run: 25
 
 # Obvious boards to skip INSTANTLY (saves a verify call). Not the authority —

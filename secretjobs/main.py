@@ -3,7 +3,7 @@ from pathlib import Path
 from secretjobs.llm import Gemini
 from secretjobs.budget import Budget
 from secretjobs import discover as D, store as S, render as R, locations as L, pages as P, geo as G
-from secretjobs import boards as B, freshness as F
+from secretjobs import boards as B, freshness as F, verify as V
 
 
 def _read_key():
@@ -40,22 +40,39 @@ def main():
     print("This run:", " | ".join(c["name"] for c in cats), "@", " -> ".join(places))
 
     # DISCOVER — one search per (category, place); big boards excluded by the search itself.
-    added = 0
+    # Then a SECOND search per NEW job confirms it isn't also on a major board.
+    added = dropped = unsure = 0
     for place in places:
         for cat in cats:
             if not budget.can_spend():
                 print("Budget cap reached — stopping early."); break
             found = D.discover(gem, budget, cat["brief"], place, eff_boards)
-            print(f"  {cat['name']} @ {place} -> {len(found)} found")
             city = place.split(",")[0].strip()
+            kept_here = 0
             for f in found:
-                f["category"] = cat["name"]
-                f["city"] = city
-                rec, is_new = S.upsert(jobs, f, None)
-                rec["category"] = cat["name"]
-                rec["city"] = city
-                rec["checked_against"] = ["excluded from major boards via search"]
-                added += int(is_new)
+                jid = S._id(f["url"])
+                if jid in jobs:                      # already known — refresh, no re-verify
+                    S.upsert(jobs, f, None)
+                    continue
+                res = V.check_one(gem, budget, f, eff_boards)   # second check (new jobs only)
+                on_board = res.get("on_board") if isinstance(res, dict) else None
+                if on_board is True:                 # confirmed on a big board -> DROP
+                    dropped += 1
+                    continue
+                f["category"] = cat["name"]; f["city"] = city
+                rec, is_new = S.upsert(jobs, f, (res or {}).get("evidence_url"))
+                rec["category"] = cat["name"]; rec["city"] = city
+                if on_board is False:                # actively confirmed NOT on boards
+                    rec["board_checked"] = True
+                    rec["verified_unlisted"] = True
+                    rec["checked_against"] = ["confirmed not on major boards"]
+                else:                                # couldn't confirm -> keep but mark unverified
+                    rec["board_checked"] = False
+                    rec["verified_unlisted"] = False
+                    rec["checked_against"] = ["search-filtered, not yet cross-checked"]
+                    unsure += 1
+                added += int(is_new); kept_here += 1
+            print(f"  {cat['name']} @ {place} -> {len(found)} found, {kept_here} kept")
         else:
             continue
         break
@@ -78,8 +95,8 @@ def main():
 
     S.save(jobs); S.save_pages(page_blurbs); S.save_geo(geo); S.save_meta(meta)
     R.render(cfg, jobs, page_blurbs, geo)
-    print(f"\nDone. +{added} new | -{removed} gone | {len(jobs)} total | "
-          f"{budget.run_calls} searches this run.")
+    print(f"\nDone. +{added} new ({unsure} unverified) | {dropped} dropped (on boards) | "
+          f"-{removed} gone | {len(jobs)} total | {budget.run_calls} searches this run.")
 
 
 if __name__ == "__main__":

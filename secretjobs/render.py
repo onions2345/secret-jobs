@@ -48,7 +48,7 @@ def _card(j, cont):
     <p class="meta">{_esc(j.get('company'))} <span class="dot">•</span> {_esc(j.get('location'))}</p>
     <p class="summary">{_esc(j.get('summary'))}</p>
     <div class="card-bottom">
-      <span class="stamp">✓ OFF-MARKET <span class="stamp-sub">major boards excluded{(' · link checked ' + _esc(j.get('last_checked'))) if j.get('last_checked') else ''}</span></span>
+      {('<span class="stamp">✓ OFF-MARKET <span class="stamp-sub">checked — not on major boards' + ((' · link checked ' + _esc(j.get('last_checked'))) if j.get('last_checked') else '') + '</span></span>') if j.get('board_checked') else '<span class="stamp unv">• OFF-MARKET <span class="stamp-sub">search-filtered, not yet cross-checked</span></span>'}
       <span class="src">{_esc(j.get('source_domain') or j['url'].split('/')[2])}</span>
       <a class="open" href="{_esc(j['url'])}" target="_blank" rel="noopener">Open original ↗</a>
     </div>
@@ -384,6 +384,7 @@ text-transform:uppercase;color:var(--signal);border:1px solid var(--line-2);bord
 .stamp{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;color:var(--ok);
 background:var(--ok-dim);border:1px solid #224a30;border-radius:5px;padding:5px 9px;letter-spacing:.06em}
 .stamp-sub{color:var(--muted);font-weight:400;margin-left:4px}
+.stamp.unv{color:var(--muted);background:transparent;border-color:var(--line)}
 .src{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--muted)}
 .open{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--signal);
 text-decoration:none;border:1px solid var(--line-2);padding:6px 11px;border-radius:5px;transition:.15s}
