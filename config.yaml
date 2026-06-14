@@ -1,0 +1,56 @@
+# ── Secret Jobs configuration ──────────────────────────────────────────────
+site_name: "Secret Jobs"
+site_tagline: "Unlisted jobs by category, anywhere in the world — found by AI on company & niche sites, verified not on the big boards."
+base_url: "https://secretjobs.work.gd"
+custom_domain: "secretjobs.work.gd"   # written to site/CNAME so Pages keeps your domain
+
+# Gemini model. Use a Gemini 3.x Flash model for the free grounding quota.
+model: "gemini-flash-latest"
+temperature: 0.3
+
+# ── Job categories the AI hunts ─────────────────────────────────────────────
+# Each is plain language — the AI works out the search angles itself.
+# Add, remove, or reword freely. The page lets people browse by these.
+promoted_categories: ["IT & Software"]   # floats to the front of every category filter
+
+categories:
+  - name: "IT & Software"
+    brief: "software engineers, developers, IT support, data, devops, QA at small firms and startups"
+  - name: "Automotive & Mechanics"
+    brief: "car / automotive trade — mechanics, auto electricians, diesel techs, panel beaters, spray painters, service advisors, parts"
+  - name: "Skilled Trades"
+    brief: "electricians, plumbers, carpenters, HVAC, welders, fitters and other licensed trades"
+  - name: "Construction & Building"
+    brief: "builders, labourers, site supervisors, project managers, plant operators, surveyors"
+  - name: "Hospitality & Food"
+    brief: "chefs, cooks, baristas, wait and bar staff, kitchen hands, venue and cafe roles"
+  - name: "Healthcare & Care"
+    brief: "nurses, carers, aged & disability support, allied health, dental, vet and clinic roles"
+  - name: "Creative & Design"
+    brief: "graphic, web and product designers, photographers, videographers, writers, studios"
+  - name: "Retail & Sales"
+    brief: "shop assistants, store managers, sales reps, merchandisers at independent businesses"
+  - name: "Logistics & Driving"
+    brief: "drivers, couriers, warehouse, forklift, dispatch and transport roles"
+  - name: "Office & Admin"
+    brief: "admin, reception, bookkeeping, office management, customer service at small employers"
+
+# Where to start. The AI expands OUTWARD from here on its own (nearby cities
+# first, then further out, then other countries), as budget allows.
+start_location: "Adelaide, South Australia, Australia"
+max_locations_per_run: 1        # raise this to spread to more places each run
+
+# ── Cost guardrails (grounded search is the only thing that costs) ───────────
+# Per run it covers `max_categories_per_run` categories (rotated daily so every
+# category gets covered over time) x `max_locations_per_run` places.
+max_categories_per_run: 4
+max_grounded_calls_per_month: 5500    # ~stays under US$10/mo
+max_grounded_calls_per_run: 200
+max_candidates_to_verify_per_run: 150
+
+# Obvious boards to skip INSTANTLY (saves a verify call). Not the authority —
+# the AI still judges anything not on this list, so it needn't be complete.
+known_boards: [seek.com.au, seek.co.nz, indeed.com, au.indeed.com, jora.com,
+  gumtree.com.au, linkedin.com, glassdoor.com, careerone.com.au, jooble.org,
+  adzuna.com.au, workforceaustralia.gov.au, reed.co.uk, totaljobs.com,
+  monster.com, ziprecruiter.com, naukri.com]

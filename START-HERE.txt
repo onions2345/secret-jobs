@@ -1,0 +1,42 @@
+SECRET JOBS — WINDOWS, ONE-TIME BUILD
+=====================================
+
+You will: paste your key into a file, run one command, then upload
+the result to your website. That's it.
+
+----------------------------------------------------------------------
+STEP 1 — INSTALL PYTHON (one time)
+  Open the Microsoft Store, search "Python 3.12", click Get/Install.
+  (This is the easiest way — it sets everything up for you.)
+
+STEP 2 — PASTE YOUR KEY
+  Get a free key at:  https://aistudio.google.com/apikey
+  In this folder, open the file  key.txt  (double-click, opens Notepad).
+  Delete the placeholder text, paste YOUR key, save and close.
+
+STEP 3 — OPEN THIS FOLDER IN A TERMINAL
+  In File Explorer, open the secret-jobs folder.
+  Right-click an empty area inside it  ->  "Open in Terminal".
+
+STEP 4 — RUN IT (copy/paste these two lines, press Enter after each)
+  python -m pip install -r requirements.txt
+  python -m secretjobs.main
+
+  Wait for it to finish. It creates a new folder called  site .
+  (If "python" gives an error, type  py  instead of  python .)
+
+STEP 5 — PUT IT ONLINE
+  Open the  site  folder. Select everything inside it.
+  In cPanel -> File Manager, go into  public_html  and Upload those files.
+  Visit your domain — done.
+
+----------------------------------------------------------------------
+TO REFRESH JOBS LATER
+  Just do STEP 4's second line again ( python -m secretjobs.main ),
+  then re-upload the  site  folder. No need to reinstall anything.
+
+CHANGE WHAT IT LOOKS FOR (optional)
+  Open  config.yaml  in Notepad:
+   - start_location        = where it begins (default Adelaide)
+   - max_locations_per_run = raise it to cover more places
+   - categories            = the job types it hunts
