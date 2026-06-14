@@ -1,13 +1,15 @@
 name: Build Secret Jobs
 
 on:
+  push:                 # <-- auto-runs every time you upload/commit files
+    branches: [ main ]
   schedule:
-    - cron: "17 19 * * *"   # once a day (UTC); adjust as you like
-  workflow_dispatch: {}      # lets you run it manually from the Actions tab
+    - cron: "17 19 * * *"
+  workflow_dispatch: {}
 
 permissions:
-  contents: write   # to commit updated state/
-  pages: write      # to publish
+  contents: write
+  pages: write
   id-token: write
 
 concurrency:
@@ -32,12 +34,11 @@ jobs:
           git config user.name "secretjobs-bot"
           git config user.email "bot@users.noreply.github.com"
           git add state/ || true
-          git commit -m "Update jobs $(date -u +%F)" || echo "no changes"
+          git commit -m "Update jobs" || echo "no changes"
           git push || echo "nothing to push"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
