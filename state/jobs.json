@@ -873,5 +873,635 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14"
+  },
+  "5d64e19c5577": {
+    "id": "5d64e19c5577",
+    "title": "Parts Advisor",
+    "company": "Tesla",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.tesla.com/careers/search/job/parts-advisor-adelaide-265646",
+    "source_domain": "tesla.com",
+    "summary": "Manage parts inventory, process orders, and provide customer support for Tesla's progressive vehicle service operations in Adelaide.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "d3df484b3d03": {
+    "id": "d3df484b3d03",
+    "title": "Vehicle Technician",
+    "company": "Tesla",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.tesla.com/careers/search/job/vehicle-technician-adelaide-249935",
+    "source_domain": "tesla.com",
+    "summary": "Diagnose, service, and repair electric vehicles, ensuring high standards of quality and safety at Tesla's Adelaide service center.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "181dc94c0a30": {
+    "id": "181dc94c0a30",
+    "title": "Field Service Technician",
+    "company": "Liebherr",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.liebherr.com/",
+    "source_domain": "liebherr.com",
+    "summary": "Perform mechanical, hydraulic, and electrical troubleshooting and repairs on Liebherr earthmoving machinery across South Australia.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "1c5bfbdb0840": {
+    "id": "1c5bfbdb0840",
+    "title": "Heavy Diesel Mechanic / Fitter",
+    "company": "Aurizon",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.aurizon.com.au/careers",
+    "source_domain": "aurizon.com.au",
+    "summary": "Maintain and repair mobile plant assets at Port Adelaide, ensuring safety and reliability for Australia's largest rail freight operator.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "edf58facca66": {
+    "id": "edf58facca66",
+    "title": "Diesel Mechanic",
+    "company": "RAM Equipment",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.ramequipment.com.au/",
+    "source_domain": "ramequipment.com.au",
+    "summary": "Service, maintain, and repair heavy earthmoving hire equipment in both workshop and field environments near Adelaide.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "b726dce284a9": {
+    "id": "b726dce284a9",
+    "title": "Spray Painter",
+    "company": "Wales Heavy Repairs (AMA Group)",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://amagroup.com.au/careers/",
+    "source_domain": "amagroup.com.au",
+    "summary": "Apply professional coatings and finishes to heavy commercial trucks and trailers at a state-of-the-art facility in Adelaide.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "d4889446751b": {
+    "id": "d4889446751b",
+    "title": "Classic Vehicle Mechanic / Auto-Electrician",
+    "company": "Finch Restorations",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.finchrestorations.com.au/vacancies",
+    "source_domain": "finchrestorations.com.au",
+    "summary": "Repair, modify, and commission mechanical and electrical systems on classic cars, vintage trucks, and historic motorcycles.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "016199d68c37": {
+    "id": "016199d68c37",
+    "title": "Storeperson (Parts & Warehouse)",
+    "company": "Cavpower",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.cavpower.com/company/join-our-team/current-vacancies/",
+    "source_domain": "cavpower.com",
+    "summary": "Manage parts inventory, dispatch, and warehouse operations for South Australia's official Caterpillar equipment dealer.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "cf59f1212b33": {
+    "id": "cf59f1212b33",
+    "title": "Qualified Automotive Technician",
+    "company": "Port Adelaide Auto Repairs",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.portadelaideautorepairs.com.au/",
+    "source_domain": "portadelaideautorepairs.com.au",
+    "summary": "Perform general mechanical servicing, diagnostics, and repairs on diverse vehicle makes and models in a family-owned workshop.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "2af92f36da2e": {
+    "id": "2af92f36da2e",
+    "title": "Heavy Duty Diesel Mechanic",
+    "company": "Mader Group",
+    "category": "Automotive & Mechanics",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.madergroup.com.au/",
+    "source_domain": "madergroup.com.au",
+    "summary": "Maintain and repair heavy mobile plant and mining machinery for metro Adelaide and regional field service operations.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "3e521c162ea2": {
+    "id": "3e521c162ea2",
+    "title": "Production Boilermaker/Welder",
+    "company": "BAE Systems",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.baesystems.com/en/careers",
+    "source_domain": "baesystems.com",
+    "summary": "Work on the Hunter Class Frigate Program in Osborne, performing MIG or Flux Core welding on heavy structural steel.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "92ab7333eeb4": {
+    "id": "92ab7333eeb4",
+    "title": "ASC Apprenticeship Program (SA) - Fabrication (Boilermaker/Welder)",
+    "company": "ASC",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.asc.com.au/careers",
+    "source_domain": "asc.com.au",
+    "summary": "Start a career in naval shipbuilding, learning to fabricate, assemble, and install metal components and precision pipework systems.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "22e5691800f4": {
+    "id": "22e5691800f4",
+    "title": "Electrician",
+    "company": "Aquila Electrical",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://aquilaelectrical.com.au/careers",
+    "source_domain": "aquilaelectrical.com.au",
+    "summary": "Join a growing Somerton Park team, handling residential and commercial electrical projects with flexible hours and a company vehicle.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "59831ebd91ca": {
+    "id": "59831ebd91ca",
+    "title": "Qualified Electrician (Residential)",
+    "company": "Bice Electrical",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://biceelectrical.com.au/careers/",
+    "source_domain": "biceelectrical.com.au",
+    "summary": "Carry out residential electrical installations, switchboard upgrades, and fault finding across Adelaide with a supportive team.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "50374303e17a": {
+    "id": "50374303e17a",
+    "title": "A-Class Electrician",
+    "company": "RCG Electrical",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://rcgelectrical.com.au/careers",
+    "source_domain": "rcgelectrical.com.au",
+    "summary": "Install solar, battery, and EV charging systems, and perform domestic and commercial electrical maintenance in Edwardstown.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "151dcbf1db23": {
+    "id": "151dcbf1db23",
+    "title": "Plumber",
+    "company": "Ken Hall Plumbers",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://kenhallplumbers.com.au/jobs",
+    "source_domain": "kenhallplumbers.com.au",
+    "summary": "Join a major Adelaide plumbing and trade service company, offering residential maintenance, gasfitting, and roofing opportunities with great team benefits.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "1f2fab97b23b": {
+    "id": "1f2fab97b23b",
+    "title": "Maintenance Plumber",
+    "company": "Playford Plumbing & Gas",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://playfordplumbing.com.au/careers",
+    "source_domain": "playfordplumbing.com.au",
+    "summary": "Diagnose and repair plumbing issues for residential and commercial clients across Adelaide's northern suburbs.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "5442f1060649": {
+    "id": "5442f1060649",
+    "title": "Maintenance Plumber",
+    "company": "The Fawcett Group",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://fawcettgroup.com.au/careers",
+    "source_domain": "fawcettgroup.com.au",
+    "summary": "Perform general maintenance plumbing, drain repairs, and gas appliance servicing with a long-established Adelaide team.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "ba7859b03428": {
+    "id": "ba7859b03428",
+    "title": "Maintenance & Installation Plumber",
+    "company": "Level Plumbing Adelaide CBD",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://levelplumbing.com.au/adelaide-cbd/careers",
+    "source_domain": "levelplumbing.com.au",
+    "summary": "Perform maintenance and emergency plumbing services across Adelaide, featuring a sign-on bonus and a take-home vehicle.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "fae5165da9a4": {
+    "id": "fae5165da9a4",
+    "title": "Maintenance Plumber / Gas Fitter",
+    "company": "Brown & Son Plumbing",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://brownandsonplumbing.com.au/careers",
+    "source_domain": "brownandsonplumbing.com.au",
+    "summary": "Handle residential and commercial maintenance plumbing, gas fitting, and general building work with a positive, learning-focused team.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "93659c80e826": {
+    "id": "93659c80e826",
+    "title": "Carpenter",
+    "company": "Bella Carpentry",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://bellacarpentry.com.au/careers",
+    "source_domain": "bellacarpentry.com.au",
+    "summary": "Build decks, pergolas, and home extensions across Adelaide with a collaborative team offering hands-on training.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "91b8f3ed09c1": {
+    "id": "91b8f3ed09c1",
+    "title": "Site Supervisor",
+    "company": "Ventia",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://jobs.ventia.com/",
+    "source_domain": "jobs.ventia.com",
+    "summary": "Lead on-site operations, manage subcontractors, and ensure strict safety compliance for a major environmental remediation project in South Australia.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "e6949b92aa01": {
+    "id": "e6949b92aa01",
+    "title": "Remedial Supervisor",
+    "company": "Freyssinet Australia",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://freyssinet.com.au/jobs/",
+    "source_domain": "freyssinet.com.au",
+    "summary": "Oversee structural remediation and concrete repair projects, coordinating site teams and subcontractors to ensure high-quality, safe delivery.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "005b8f6394b2": {
+    "id": "005b8f6394b2",
+    "title": "Site Supervisors - Civil Utilities",
+    "company": "McMahon Services",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.mcmservices.com.au/careers/",
+    "source_domain": "mcmservices.com.au",
+    "summary": "Supervise civil utilities construction works and manage subcontractors on major infrastructure projects across Adelaide and regional South Australia.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "7652d5768349": {
+    "id": "7652d5768349",
+    "title": "Project Manager",
+    "company": "Stevens Group",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://stevens-group.com.au/careers/",
+    "source_domain": "stevens-group.com.au",
+    "summary": "Manage structural steel fabrication and installation projects, ensuring safe, on-time, and within-budget delivery for commercial construction.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "5f052846db96": {
+    "id": "5f052846db96",
+    "title": "Trade Assistant Labourer",
+    "company": "M2P Engineering",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://m2p.com.au/careers-page/",
+    "source_domain": "m2p.com.au",
+    "summary": "Support on-site trades with hands-on tasks across heavy industrial structural, mechanical, and piping construction projects in Adelaide.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "00230b9b61c4": {
+    "id": "00230b9b61c4",
+    "title": "General Labourer",
+    "company": "Premier Constructions Australia",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://premierconstructau.com/",
+    "source_domain": "premierconstructau.com",
+    "summary": "Perform general labouring, site clean-ups, and assist with construction delivery on various project sites in Adelaide.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "88a18655404f": {
+    "id": "88a18655404f",
+    "title": "Custom Home Builder / Construction Roles",
+    "company": "Lofty Building Group",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://loftybuildinggroup.com.au/careers/",
+    "source_domain": "loftybuildinggroup.com.au",
+    "summary": "Join a custom home builder in Adelaide, with opportunities across estimating, project management, and site supervision.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "bf28312cc4aa": {
+    "id": "bf28312cc4aa",
+    "title": "Construction Roles / Builder",
+    "company": "Tandem Building Group",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://tandembuilding.com.au/careers/",
+    "source_domain": "tandembuilding.com.au",
+    "summary": "Work on commercial construction projects in South Australia, with opportunities for tradespeople and construction professionals.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "d946537cdbaa": {
+    "id": "d946537cdbaa",
+    "title": "Residential Builder / Construction Roles",
+    "company": "Weeks Homes",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://weekshomes.com.au/careers/",
+    "source_domain": "weekshomes.com.au",
+    "summary": "Join a leading South Australian residential builder, with roles in site supervision, estimating, and sales.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "9ab25bd8325d": {
+    "id": "9ab25bd8325d",
+    "title": "Residential Builder / Construction Roles",
+    "company": "Fairmont Homes",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://fairmonthomes.com.au/careers/",
+    "source_domain": "fairmonthomes.com.au",
+    "summary": "Express interest in residential construction roles, including site management, estimating, and trade contractor opportunities.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "bd9e32148542": {
+    "id": "bd9e32148542",
+    "title": "Project Managers / Site Managers / Contract Administrators",
+    "company": "Chappell Builders",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://chappellbuilders.com.au/careers/",
+    "source_domain": "chappellbuilders.com.au",
+    "summary": "Deliver small-to-medium commercial construction projects in South Australia, with open expressions of interest for key roles.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "625420c7555a": {
+    "id": "625420c7555a",
+    "title": "Land Surveyor",
+    "company": "Mosel Surveyors",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.mosel.com.au/",
+    "source_domain": "mosel.com.au",
+    "summary": "Join a regional surveying firm with opportunities for licensed surveyors, graduates, and drafting professionals.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "40a756ba79ea": {
+    "id": "40a756ba79ea",
+    "title": "Surveyor",
+    "company": "Engineering Surveys",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://engineeringsurveys.com.au/careers/",
+    "source_domain": "engineeringsurveys.com.au",
+    "summary": "Work on major infrastructure and construction projects using advanced surveying technology in Adelaide.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
+  },
+  "c402d0ee4d77": {
+    "id": "c402d0ee4d77",
+    "title": "Surveyor",
+    "company": "Alexander Symonds",
+    "category": "Construction & Building",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://alexandersymonds.com.au/careers/",
+    "source_domain": "alexandersymonds.com.au",
+    "summary": "Build a career in surveying with South Australia's leading consultancy, offering graduate and experienced roles.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "excluded from major boards via search"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-06-14",
+    "last_seen": "2026-06-14"
   }
 }
