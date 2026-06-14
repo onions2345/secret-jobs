@@ -233,6 +233,7 @@ def _country_page(cfg, country, rows, blurb):
 <script>
   const cities=document.getElementById('cities'), cats=document.getElementById('cats');
   let fc='all', fy='all';
+  const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
   function apply(){{
     let n=0;
     document.querySelectorAll('.card').forEach(c=>{{
@@ -241,12 +242,27 @@ def _country_page(cfg, country, rows, blurb):
     }});
     document.getElementById('n').textContent=n;
   }}
+  function setCat(name,push){{
+    fc=name;
+    [...cats.children].forEach(x=>x.classList.toggle('on', x.dataset.f===name));
+    if(push){{const h=name==='all'?' ':'#'+slug(name);
+      history.replaceState(null,'',name==='all'?location.pathname:('#'+slug(name)));}}
+    apply();
+  }}
   cities.addEventListener('click',e=>{{const t=e.target.closest('.citytile');if(!t)return;
     [...cities.children].forEach(x=>x.classList.remove('on'));t.classList.add('on');
     fy=t.dataset.city;apply();}});
-  cats.addEventListener('click',e=>{{const b=e.target.closest('.chip');if(!b)return;
-    [...cats.children].forEach(x=>x.classList.remove('on'));b.classList.add('on');
-    fc=b.dataset.f;apply();}});
+  cats.addEventListener('click',e=>{{const b=e.target.closest('.chip');if(!b)return;setCat(b.dataset.f,true);}});
+  // open pre-filtered when the link ends with #category (shareable virtual pages)
+  function fromHash(){{
+    const h=decodeURIComponent(location.hash.replace('#','')).trim();
+    if(!h){{setCat('all',false);return;}}
+    let match='all';
+    [...cats.children].forEach(x=>{{if(slug(x.dataset.f)===slug(h))match=x.dataset.f;}});
+    setCat(match,false);
+  }}
+  window.addEventListener('hashchange',fromHash);
+  fromHash();
 </script>""")
     return _shell(f"Unlisted jobs in {country} — {cfg['site_name']}",
                   f"Unlisted job openings in {country}, verified not on the big boards.", body)
