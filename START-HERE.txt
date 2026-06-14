@@ -1,42 +1,49 @@
-SECRET JOBS — WINDOWS, ONE-TIME BUILD
-=====================================
+SECRET JOBS — EASY SETUP ON GITHUB (runs itself, free)
+======================================================
+Nothing runs on your computer or your cPanel hosting. GitHub's free
+servers run the program on a schedule and show the website online.
 
-You will: paste your key into a file, run one command, then upload
-the result to your website. That's it.
+WHAT YOU NEED
+  - A free GitHub account: https://github.com
+  - A free Google AI key:  https://aistudio.google.com/apikey
 
-----------------------------------------------------------------------
-STEP 1 — INSTALL PYTHON (one time)
-  Open the Microsoft Store, search "Python 3.12", click Get/Install.
-  (This is the easiest way — it sets everything up for you.)
+STEP 1 — MAKE A REPOSITORY
+  Sign in to github.com. Click the + (top right) -> New repository.
+  Name: secret-jobs   |   choose Public   |   click Create repository.
 
-STEP 2 — PASTE YOUR KEY
-  Get a free key at:  https://aistudio.google.com/apikey
-  In this folder, open the file  key.txt  (double-click, opens Notepad).
-  Delete the placeholder text, paste YOUR key, save and close.
+STEP 2 — UPLOAD THESE FILES
+  On the new repo page click the link "uploading an existing file".
+  Open this secret-jobs folder, select EVERYTHING inside it, and drag it
+  into the GitHub upload box. Wait for it to finish, then click
+  "Commit changes".
 
-STEP 3 — OPEN THIS FOLDER IN A TERMINAL
-  In File Explorer, open the secret-jobs folder.
-  Right-click an empty area inside it  ->  "Open in Terminal".
+STEP 3 — ADD YOUR KEY (kept private)
+  In the repo: Settings -> Secrets and variables -> Actions ->
+  "New repository secret".
+  Name:  GEMINI_API_KEY
+  Secret: paste your Google AI key
+  Click Add secret.
 
-STEP 4 — RUN IT (copy/paste these two lines, press Enter after each)
-  python -m pip install -r requirements.txt
-  python -m secretjobs.main
+STEP 4 — TURN ON THE WEBSITE
+  Settings -> Pages -> under "Source" choose "GitHub Actions". Save.
 
-  Wait for it to finish. It creates a new folder called  site .
-  (If "python" gives an error, type  py  instead of  python .)
+STEP 5 — RUN IT THE FIRST TIME
+  Click the "Actions" tab -> click "Build Secret Jobs" on the left ->
+  click "Run workflow" -> "Run workflow".
+  Wait ~3-5 minutes. A green tick means it worked.
 
-STEP 5 — PUT IT ONLINE
-  Open the  site  folder. Select everything inside it.
-  In cPanel -> File Manager, go into  public_html  and Upload those files.
-  Visit your domain — done.
+DONE
+  Your site is live at the address shown in Settings -> Pages
+  (looks like https://YOURNAME.github.io/secret-jobs ).
+  From now on it rebuilds AUTOMATICALLY on a schedule and finds more
+  jobs over time. You do nothing.
 
-----------------------------------------------------------------------
-TO REFRESH JOBS LATER
-  Just do STEP 4's second line again ( python -m secretjobs.main ),
-  then re-upload the  site  folder. No need to reinstall anything.
+USE YOUR OWN DOMAIN (optional, later)
+  config.yaml already has secretjobs.work.gd set. To point your domain
+  at the GitHub site, add a DNS CNAME record:
+     secretjobs.work.gd  ->  YOURNAME.github.io
+  then Settings -> Pages -> Custom domain -> secretjobs.work.gd.
 
 CHANGE WHAT IT LOOKS FOR (optional)
-  Open  config.yaml  in Notepad:
-   - start_location        = where it begins (default Adelaide)
-   - max_locations_per_run = raise it to cover more places
-   - categories            = the job types it hunts
+  Edit config.yaml on GitHub:
+   - start_location, max_locations_per_run, categories
