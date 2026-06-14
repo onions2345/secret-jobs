@@ -33,10 +33,11 @@ def _stamp(j):
 
 
 def _card(j, cont):
+    city = j.get("city") or _city_of(j.get("location"))
     return f"""
   <article class="card" data-cat="{_esc(j.get('category') or 'Other')}"
            data-country="{_esc(country_of(j.get('location')))}"
-           data-city="{_esc(_city_of(j.get('location')))}">
+           data-city="{_esc(city)}">
     <div class="card-top">
       <div>
         <span class="cat">{_esc(j.get('category') or 'Other')}</span>
@@ -188,7 +189,7 @@ def _continent_page(cfg, cont, rows):
 def _country_page(cfg, country, rows, blurb):
     geo = cfg["_geo"]
     cont = continent_of(country, geo)
-    cities = sorted({_city_of(r.get("location")) for r in rows})
+    cities = sorted({(r.get("city") or _city_of(r.get("location"))) for r in rows})
     blurb_html = f'<p class="blurb">{_esc(blurb)}</p>' if blurb else ""
     body = (_header("Unlisted jobs", country, "", len(rows), "verified unlisted roles",
                     _crumb([("All continents", "index.html"),

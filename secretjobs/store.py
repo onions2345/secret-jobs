@@ -33,6 +33,7 @@ def upsert(jobs, job, evidence_url):
         "title": job.get("title", "").strip(),
         "company": job.get("company", "").strip(),
         "category": job.get("category", "").strip(),
+        "city": job.get("city", "").strip(),
         "location": job.get("location", "").strip(),
         "url": job["url"].strip(),
         "source_domain": job.get("source_domain", "").strip(),

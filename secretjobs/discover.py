@@ -1,37 +1,39 @@
-def _prompt(brief, location):
-    return f"""You are an expert job-hunting agent with live Google Search. Your goal: surface
-CURRENT job openings that almost nobody finds because they are NOT advertised on the big job
-boards — only on the employer's own website, or on small niche, trade, community, club, or
-local sites.
+# Big boards to exclude with negative search filters (Google strips them BEFORE
+# results reach the model — so no second "verify" search is needed).
+def _neg_filters(boards):
+    return " ".join(f"-site:{b}" for b in boards)
 
-Brief: {brief}
+
+def _prompt(brief, location, boards):
+    neg = _neg_filters(boards)
+    return f"""You are a job-hunting agent with live Google Search. Find CURRENT job openings
+for: {brief}
 Location: {location}
 
-Decide for yourself how to hunt: the employer-careers angle ("join our team", "we're hiring",
-"current vacancies"), trade/industry association job pages, local business directories,
-specialist enthusiast communities, and any other corner of the web where a small employer
-posts directly. Cast a wide net — you choose the sources.
-
-YOU decide what counts as a "big job board" and EXCLUDE it. Only return roles hosted on an
-employer's own domain or a genuinely small/niche site.
+Run searches that EXCLUDE the big job boards using negative site filters, e.g.:
+  "we are hiring" OR "careers" OR "current vacancies" {brief} {location} {neg}
+Only keep roles hosted on an employer's OWN website or a small niche/trade/community site.
+Because the big boards are filtered out of the search itself, everything you find is
+already off-market — no need to second-guess it.
 
 Return ONLY a JSON array (no prose, no markdown). Each item:
 {{
   "title": "...",
   "company": "...",
   "location": "{location}",
-  "url": "https://exact-link-to-the-posting-or-careers-page",
+  "url": "https://direct-link-to-the-posting-or-careers-page",
   "source_domain": "the website's domain",
-  "source_kind": "company-site | trade-association | community | local-directory | other",
   "summary": "<=25 words IN YOUR OWN WORDS; never copy the listing text"
 }}
-Return as many credible, distinct roles as you can find. If none, return []."""
+Aim to return as MANY genuinely off-market roles as you can find — up to 20 per search.
+Only include a job if you are confident the URL is real. If none, return []."""
 
 
-def discover(gem, budget, brief, location, known_boards):
+def discover(gem, budget, brief, location, boards):
+    """One grounded search per (category, location). No per-job verification."""
     if not budget.can_spend():
         return []
-    text = gem.grounded(_prompt(brief, location))
+    text = gem.grounded(_prompt(brief, location, boards))
     budget.record(1)
     items = gem.parse_json(text, [])
     out = []
@@ -39,7 +41,7 @@ def discover(gem, budget, brief, location, known_boards):
         url = (it.get("url") or "").strip()
         if not url.startswith("http"):
             continue
-        if any(b in url for b in known_boards):
+        if any(b in url for b in boards):     # safety net: drop any board URL that slipped through
             continue
         out.append(it)
     return out
