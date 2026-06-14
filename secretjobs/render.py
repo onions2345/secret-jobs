@@ -159,6 +159,20 @@ def _index(cfg, jobs):
   <div class="tiles">{tiles}</div>
   <h3 class="kicker">Latest finds</h3>
   <ul class="latest">{latest}</ul>
+
+  <div class="diy">
+    <h3 class="kicker">DIY — find these jobs yourself with AI</h3>
+    <p>You can use AI to find jobs that aren't on the big job boards — so you have a better chance.</p>
+    <p>Just ask an AI (like Gemini or ChatGPT) something like:</p>
+    <p class="ask">"Find jobs about cars in Adelaide that aren't posted on any job network — only on mechanic or private company websites that most people wouldn't find."</p>
+    <p>It will return some listings. Then ask:</p>
+    <p class="ask">"Do any of these websites actually say they're looking for people right now?"</p>
+    <p>Then ask:</p>
+    <p class="ask">"Can you confirm these jobs aren't posted anywhere else?"</p>
+    <p>After those steps, it'll give you a more reliable answer.</p>
+    <p class="diy-note">Always double-check the link before applying — AI sometimes gets details wrong.</p>
+  </div>
+
   {_footer()}
 </div>""")
     return _shell(f"{cfg['site_name']} — unlisted jobs by continent, country & city",
@@ -316,6 +330,12 @@ justify-content:space-between;gap:14px;flex-wrap:wrap}
 .latest a{font-family:'Space Grotesk',sans-serif;text-decoration:none}
 .latest a:hover{text-decoration:underline;text-decoration-color:var(--signal)}
 .latest span{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--muted)}
+.diy{margin-top:40px;border:1px solid var(--line);border-radius:10px;
+padding:20px 22px;background:var(--panel)}
+.diy p{margin:10px 0;color:var(--text);font-size:14.5px;line-height:1.55}
+.diy .ask{border-left:3px solid var(--signal);padding:8px 12px;margin:10px 0;
+background:rgba(255,176,0,.05);font-style:italic;color:var(--text)}
+.diy .diy-note{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted);margin-top:14px}
 .muted{color:var(--muted)}
 .controls{position:sticky;top:0;background:var(--ink);z-index:5;border-bottom:1px solid var(--line);
 padding:16px 0 14px;margin-top:8px}
