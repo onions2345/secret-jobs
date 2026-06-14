@@ -161,6 +161,7 @@ def _index(cfg, jobs):
   <ul class="latest">{latest}</ul>
 
   <div class="diy">
+  <br>
     <h3 class="kicker">DIY — find these jobs yourself with AI</h3>
     <p>You can use AI to find jobs that aren't on the big job boards — so you have a better chance.</p>
     <p>Just ask an AI (like Gemini or ChatGPT) something like:</p>
