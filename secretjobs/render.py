@@ -166,7 +166,6 @@ def _index(cfg, jobs):
 
 
 def _continent_page(cfg, cont, rows):
-    geo = cfg["_geo"]
     countries = sorted({country_of(r.get("location")) for r in rows})
     tiles = "".join(
         f'<a class="tile" href="{_slug(c)}.html"><span class="tile-c">{_esc(c)}</span>'
@@ -177,9 +176,7 @@ def _continent_page(cfg, cont, rows):
 <div class="wrap">
   <h3 class="kicker">Countries in {_esc(cont)}</h3>
   <div class="tiles">{tiles}</div>
-  <h3 class="kicker">All {_esc(cont)} roles — filter below</h3>
-  {_listing(sorted(rows, key=lambda j: j.get('first_seen',''), reverse=True),
-            cfg['promoted_categories'], 'country', ('Country','All countries'), countries, geo)}
+  <p class="muted" style="margin-top:18px">Choose a country to see its cities and roles.</p>
   {_footer()}
 </div>""")
     return _shell(f"Unlisted jobs in {cont} — {cfg['site_name']}",
@@ -189,17 +186,54 @@ def _continent_page(cfg, cont, rows):
 def _country_page(cfg, country, rows, blurb):
     geo = cfg["_geo"]
     cont = continent_of(country, geo)
+    rows = sorted(rows, key=lambda j: j.get('first_seen', ''), reverse=True)
+    promoted = cfg["promoted_categories"]
+
     cities = sorted({(r.get("city") or _city_of(r.get("location"))) for r in rows})
+    city_tiles = '<button class="tile citytile on" data-city="all"><span class="tile-c">All cities</span>' \
+                 f'<span class="tile-n">{len(rows)} roles</span></button>'
+    for c in cities:
+        n = sum(1 for r in rows if (r.get("city") or _city_of(r.get("location"))) == c)
+        city_tiles += (f'<button class="tile citytile" data-city="{_esc(c)}">'
+                       f'<span class="tile-c">{_esc(c)}</span><span class="tile-n">{n} roles</span></button>')
+
+    cats = _order_cats(sorted({r.get("category", "Other") for r in rows}), promoted)
+    chips = '<button class="chip on" data-f="all">All categories</button>' + "".join(
+        f'<button class="chip" data-f="{_esc(c)}">{_esc(c)}</button>' for c in cats)
+
+    cards = "\n".join(_card(j, cont) for j in rows) or \
+        '<p class="empty">Nothing here yet — the crawler fills this in.</p>'
     blurb_html = f'<p class="blurb">{_esc(blurb)}</p>' if blurb else ""
+
     body = (_header("Unlisted jobs", country, "", len(rows), "verified unlisted roles",
                     _crumb([("All continents", "index.html"),
                             (cont, f"{_slug(cont)}.html"), (country, None)])) + f"""
 <div class="wrap">
   {blurb_html}
-  {_listing(sorted(rows, key=lambda j: j.get('first_seen',''), reverse=True),
-            cfg['promoted_categories'], 'city', ('City','All cities'), cities, geo)}
+  <h3 class="kicker">Cities in {_esc(country)}</h3>
+  <div class="tiles" id="cities">{city_tiles}</div>
+  <div class="controls"><div class="chips" id="cats">{chips}</div></div>
+  <main id="list">{cards}</main>
   {_footer()}
-</div>""")
+</div>
+<script>
+  const cities=document.getElementById('cities'), cats=document.getElementById('cats');
+  let fc='all', fy='all';
+  function apply(){{
+    let n=0;
+    document.querySelectorAll('.card').forEach(c=>{{
+      const ok=(fc==='all'||c.dataset.cat===fc)&&(fy==='all'||c.dataset.city===fy);
+      c.style.display=ok?'':'none'; if(ok)n++;
+    }});
+    document.getElementById('n').textContent=n;
+  }}
+  cities.addEventListener('click',e=>{{const t=e.target.closest('.citytile');if(!t)return;
+    [...cities.children].forEach(x=>x.classList.remove('on'));t.classList.add('on');
+    fy=t.dataset.city;apply();}});
+  cats.addEventListener('click',e=>{{const b=e.target.closest('.chip');if(!b)return;
+    [...cats.children].forEach(x=>x.classList.remove('on'));b.classList.add('on');
+    fc=b.dataset.f;apply();}});
+</script>""")
     return _shell(f"Unlisted jobs in {country} — {cfg['site_name']}",
                   f"Unlisted job openings in {country}, verified not on the big boards.", body)
 
@@ -269,6 +303,9 @@ border-left:2px solid var(--signal);padding-left:14px}
 .tile{display:flex;flex-direction:column;gap:4px;text-decoration:none;
 border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:16px;transition:.15s}
 .tile:hover{border-color:var(--signal)}
+.citytile{cursor:pointer;text-align:left;font:inherit;color:var(--text)}
+.citytile.on{border-color:var(--signal);background:rgba(255,176,0,.06)}
+.citytile .tile-c{color:var(--text)}
 .muted-tile{opacity:.5}
 .tile-c{font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:500}
 .tile-n{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--signal)}
