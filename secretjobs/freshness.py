@@ -69,3 +69,9 @@ def check(gem, jobs, batch=15, use_ai=True):
         else:
             job["last_checked"] = _today()
     return checked, removed
+
+
+def is_live(url, timeout=10):
+    """Quick free check: does this URL load (not 404/unreachable)? For screening NEW jobs."""
+    ok, _ = _fetch(url, timeout=timeout)
+    return ok

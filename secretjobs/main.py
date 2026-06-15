@@ -62,7 +62,7 @@ def main():
 
     # DISCOVER — one search per (category, place); big boards excluded by the search itself.
     # Then a SECOND search per NEW job classifies it: secret / on-board / unchecked.
-    added = onboard = unsure = skipped = 0
+    added = onboard = unsure = skipped = deadlink = 0
     for place in places:
         for cat in cats:
             if not budget.can_spend():
@@ -78,6 +78,9 @@ def main():
                 jid = S._id(f["url"])
                 if jid in jobs:                      # already known — refresh, no re-verify
                     S.upsert(jobs, f, None)
+                    continue
+                if not F.is_live(f["url"]):          # NEW job with a dead link -> drop now
+                    deadlink += 1
                     continue
                 res = V.check_one(gem, budget, f, eff_boards)   # second check (new jobs only)
                 on_board = res.get("on_board") if isinstance(res, dict) else None
@@ -128,8 +131,8 @@ def main():
     S.save(jobs); S.save_pages(page_blurbs); S.save_geo(geo); S.save_meta(meta)
     R.render(cfg, jobs, page_blurbs, geo)
     print(f"\nDone. +{added} new (secret + {onboard} on-board + {unsure} unchecked) | "
-          f"{skipped} skipped (cooldown) | -{removed} gone | {len(jobs)} total | "
-          f"{budget.run_calls} searches this run.")
+          f"{skipped} skipped (cooldown) | {deadlink} dead links dropped | "
+          f"-{removed} gone | {len(jobs)} total | {budget.run_calls} searches this run.")
 
 
 if __name__ == "__main__":
