@@ -68,6 +68,8 @@ def _shell(title, desc, body):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script data-goatcounter="https://secretjobs.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 {body}
@@ -98,7 +100,12 @@ def _header(eyebrow, h1, tag, count, label, crumb=""):
 def _footer():
     u = datetime.datetime.utcnow().strftime("%d %b %Y, %H:%M UTC")
     return (f'<footer>Updated {u} · Every role checked against major boards and not found '
-            f'on them · <a href="index.html">All continents</a> · <a href="jobs.json">jobs.json</a></footer>')
+            f'on them · <a href="index.html">All continents</a> · <a href="jobs.json">jobs.json</a>'
+            f'<br><span class="hits">👁 <span id="hitcount">…</span> site visits</span>'
+            f'<script>fetch("https://secretjobs.goatcounter.com/counter/TOTAL.json")'
+            f'.then(r=>r.json()).then(d=>{{document.getElementById("hitcount").textContent='
+            f'(d.count||"0").toString();}}).catch(()=>{{document.getElementById("hitcount").textContent="—";}});'
+            f'</script></footer>')
 
 
 def _listing(rows, promoted, sec_attr, sec_label, sec_values, cont_map):
@@ -466,4 +473,6 @@ text-decoration:none;border:1px solid var(--line-2);padding:6px 11px;border-radi
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:12px;
 font-family:'JetBrains Mono',monospace;padding:22px 0 40px}
 footer a{color:var(--signal)}
+.hits{display:inline-block;margin-top:8px;color:var(--muted)}
+.hits #hitcount{color:var(--signal)}
 """
