@@ -58,6 +58,6 @@ known_boards: [seek.com.au, seek.co.nz, indeed.com, au.indeed.com, jora.com,
   monster.com, ziprecruiter.com, naukri.com]
 
 # ── Upkeep: re-check saved jobs and refresh the boards list ──────────────────
-max_freshness_checks_per_run: 15   # how many old jobs to re-verify each run
+max_freshness_checks_per_run: 100   # how many old jobs to re-verify each run
 freshness_ai: true                 # also AI-check if a still-loading page is "filled/closed"
 boards_refresh_days: 7             # how often the AI suggests new boards to exclude
