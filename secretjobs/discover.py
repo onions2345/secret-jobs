@@ -12,6 +12,7 @@ Location: {location}
 
 Run searches that EXCLUDE the big job boards using negative site filters, e.g.:
   "we are hiring" OR "careers" OR "current vacancies" {brief} {location} {neg}
+Strongly prefer roles POSTED OR UPDATED IN THE LAST 14 DAYS — fresh, currently-open vacancies.
 Only keep roles hosted on an employer's OWN website or a small niche/trade/community site.
 Because the big boards are filtered out of the search itself, everything you find is
 already off-market — no need to second-guess it.

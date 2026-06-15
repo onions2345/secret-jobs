@@ -35,19 +35,44 @@ def main():
           f"{budget.max_per_month}  ({budget.remaining_month()} left)")
 
     places = L.expand(gem, cfg["start_location"], cfg.get("max_locations_per_run", 1))
+    # ROTATE cities: cover only a few per run so each refreshes every few days
+    per_run = cfg.get("cities_per_run", len(places))
+    rot = meta.get("city_rotation", 0)
+    if per_run < len(places):
+        order = places[rot % len(places):] + places[:rot % len(places)]
+        places = order[:per_run]
+        meta["city_rotation"] = (rot + per_run) % max(1, len(order))
     day = datetime.date.today().toordinal()
     cats = _rotate(cfg["categories"], day)[: cfg.get("max_categories_per_run", 10)]
     print("This run:", " | ".join(c["name"] for c in cats), "@", " -> ".join(places))
 
+    # SKIP combos searched within the last `search_cooldown_days`
+    cooldown = cfg.get("search_cooldown_days", 5)
+    today_iso = datetime.date.today().isoformat()
+    last_searched = meta.get("last_searched", {})  # {"city|category": "YYYY-MM-DD"}
+
+    def _recently_done(city, catname):
+        d = last_searched.get(f"{city}|{catname}")
+        if not d:
+            return False
+        try:
+            return (datetime.date.today() - datetime.date.fromisoformat(d)).days < cooldown
+        except ValueError:
+            return False
+
     # DISCOVER — one search per (category, place); big boards excluded by the search itself.
     # Then a SECOND search per NEW job classifies it: secret / on-board / unchecked.
-    added = onboard = unsure = 0
+    added = onboard = unsure = skipped = 0
     for place in places:
         for cat in cats:
             if not budget.can_spend():
                 print("Budget cap reached — stopping early."); break
-            found = D.discover(gem, budget, cat["brief"], place, eff_boards)
             city = place.split(",")[0].strip()
+            if _recently_done(city, cat["name"]):     # searched recently -> skip, save money
+                skipped += 1
+                continue
+            found = D.discover(gem, budget, cat["brief"], place, eff_boards)
+            last_searched[f"{city}|{cat['name']}"] = today_iso
             kept_here = 0
             for f in found:
                 jid = S._id(f["url"])
@@ -99,10 +124,12 @@ def main():
     if checked:
         print(f"  freshness: re-checked {checked}, removed {removed} dead/closed")
 
+    meta["last_searched"] = last_searched
     S.save(jobs); S.save_pages(page_blurbs); S.save_geo(geo); S.save_meta(meta)
     R.render(cfg, jobs, page_blurbs, geo)
     print(f"\nDone. +{added} new (secret + {onboard} on-board + {unsure} unchecked) | "
-          f"-{removed} gone | {len(jobs)} total | {budget.run_calls} searches this run.")
+          f"{skipped} skipped (cooldown) | -{removed} gone | {len(jobs)} total | "
+          f"{budget.run_calls} searches this run.")
 
 
 if __name__ == "__main__":

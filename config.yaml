@@ -39,6 +39,8 @@ categories:
 # first, then further out, then other countries), as budget allows.
 start_location: "Adelaide, South Australia, Australia"
 max_locations_per_run: 10        # raise this to spread to more places each run
+cities_per_run: 4              # cover only this many cities each run (rotates through the rest)
+search_cooldown_days: 5        # skip a city+category if searched within this many days
 
 # ── Cost guardrails (grounded search is the only thing that costs) ───────────
 # Per run it covers `max_categories_per_run` categories (rotated daily so every
