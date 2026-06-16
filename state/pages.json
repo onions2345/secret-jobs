@@ -1,6 +1,14 @@
 {
   "Australia": {
-    "blurb": "This is your source for Australian job openings not found on the major boards. We dig deep into employer career pages and niche sites, listing roles across healthcare, construction, trades, and creative industries that others overlook.",
-    "updated": "2026-06-15"
+    "blurb": "This page lists Australian job openings that aren't advertised on the big job boards. We find these roles directly on employer websites and smaller, niche industry sites. It's a way to discover opportunities before they hit wider circulation.",
+    "updated": "2026-06-16"
+  },
+  "United Kingdom": {
+    "blurb": "Discover UK job openings that bypass the big boards. We scour employer websites and niche sites for roles in Skilled Trades, Construction & Building, and specialist areas like Cyber, giving you access to opportunities often missed.",
+    "updated": "2026-06-16"
+  },
+  "New Zealand": {
+    "blurb": "Here are New Zealand job openings you won't see on the big boards. We find these roles posted directly on employer sites and niche industry platforms. Expect to see positions like Auto Electrician within categories such as Automotive & Mechanics.",
+    "updated": "2026-06-16"
   }
 }
