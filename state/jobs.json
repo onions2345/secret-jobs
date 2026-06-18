@@ -16,7 +16,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -37,7 +37,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -58,7 +58,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -79,7 +79,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFvDBoivTAeew-KZVthUhgjJTU2hjqhus1EI71YnbFFNf2f4Td8MQsrh9uyO32l8lmBYFx2eujahcFoD0zAQ2mzwzKlfHcCfLyRe5IlRZHPVI1YbAytclKndH58S4ECbPdNDfYxCUksfK4hiV-",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -101,7 +101,7 @@
     "evidence_url": "https://au.jora.com/Dentist-Recruitment-Drive-2026-SA-Dental-jobs-in-Norwood-SA-5067-b5087532353f47260589255e4e844626?se=job_search&sp=serp&sl=Adelaide,+South+Australia,+Australia&st=job&sps=serp&spv=job_search&spp=1&spt=job&sps=serp&spv=job_search&spp=1&spt=job",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jora.com"
@@ -123,7 +123,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1VEg_RMALCLzOSxYkFlNP-h_Oplpko7_2InvF_dLepf8rJb-nkpmhr9hCcbFOUaK0LjWIwTrs7d7w_d7CoSVxj_EFprmWc5jegTzI2Ae55gwe7rPVw3pyICvacXM6BOzur9UzYqdK0jf15O,oRlYkmu82TypssiOcjD7cw7EU",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -145,29 +145,7 @@
     "evidence_url": "https://www.seek.com.au/anglicaresa-jobs/in-All-Adelaide-SA",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "seek.com.au"
-  },
-  "14c65cf40776": {
-    "id": "14c65cf40776",
-    "title": "Casual Support Workers",
-    "company": "SACARE",
-    "category": "Healthcare & Care",
-    "city": "Adelaide",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd0B6siyA9p5eVwa7smURzT0f0ugzFBfOMWASyC2tkm_GfG2upzlCb40vyAMDk47sRJ3r_Rw--ZrZ6LtFYrrynclgu4iAWszzmI6nqJJPVZySgfEVSKM61_gY9XZfzFpI-SQMeXZhOsGfqq_Rn",
-    "source_domain": "sacare.com.au",
-    "summary": "SACARE is hiring Casual Support Workers for individualized home care for diverse participants.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHio298qJEemW8hl8wRWtMoJCFanz_pld0hNXp6PGVL0YKKltcFZx_C0iGp2N-LqdV8VimFbjmNGYdJSRZNbyNcn00Evj1zbt36M-6EV5lSe8voE1U6mixC1oiGNXoDK0sjup6RItildfnrMCVioZA8PZrhoud5WzgxAvShnNTnFlPr6JpR-R_x",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -189,7 +167,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -210,7 +188,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
   },
@@ -231,7 +209,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -252,7 +230,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -273,7 +251,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_gMS9OY2lJa5yeVQon9bqxBFe5MCnFxCDYSwjZ_RX1X1Tf6RXr--i9yVshX4fY9KjMT-ac0toxx-5SfxNKUiD_9oiUqelsGEq_Zr6mSfdb9a-ZrpJQEJ0dp9DDWX6_ItCRqB8vG84Dyidv0aXk4M2Vp-NP_7ZQ0TbOzw=",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -295,7 +273,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -316,7 +294,7 @@
     "evidence_url": "https://www.seek.com.au/job/76251214",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -338,31 +316,9 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
-  },
-  "f51b573bbf35": {
-    "id": "f51b573bbf35",
-    "title": "Dental Assistant",
-    "company": "Bupa",
-    "category": "Healthcare & Care",
-    "city": "Mount Barker",
-    "location": "Mount Barker, South Australia, Australia",
-    "url": "https://careers.bupa.com.au/job/dental-assistant-bupa-dental-mount-barker/77605415/",
-    "source_domain": "careers.bupa.com.au",
-    "summary": "Bupa Dental Mount Barker is hiring a Dental Assistant to support clinical procedures and patient care.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://www.seek.com.au/job/76251239",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "seek.com.au"
   },
   "0705fdb67359": {
     "id": "0705fdb67359",
@@ -381,7 +337,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
   },
@@ -402,7 +358,7 @@
     "evidence_url": "https://au.indeed.com/jobs?q=Vic+plumbing&l=Victoria",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -424,28 +380,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
-    "status": "secret",
-    "board_checked": true
-  },
-  "5200804fe919": {
-    "id": "5200804fe919",
-    "title": "Plumber Jobs & Apprenticeship Melbourne",
-    "company": "O'Shea Plumbing",
-    "category": "Skilled Trades",
-    "city": "Melbourne",
-    "location": "Melbourne, Victoria, Australia",
-    "url": "https://osheaplumbing.com.au/careers/",
-    "source_domain": "osheaplumbing.com.au",
-    "summary": "O'Shea Plumbing is seeking qualified plumbers and apprentices for residential service, repair, and replacement work.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -466,7 +401,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
   },
@@ -487,7 +422,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -508,7 +443,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -529,7 +464,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
   },
@@ -550,53 +485,9 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
-  },
-  "8104b1b6e1ca": {
-    "id": "8104b1b6e1ca",
-    "title": "Territory Manager - Orthopaedics",
-    "company": "Zimmer Biomet",
-    "category": "Healthcare & Care",
-    "city": "Melbourne",
-    "location": "Melbourne, Victoria, Australia",
-    "url": "https://careers.zimmerbiomet.com/job/Melbourne-Territory-Manager-Orthopaedics-VIC/10844/",
-    "source_domain": "careers.zimmerbiomet.com",
-    "summary": "Drives sales and provides clinical support for orthopaedic products, building relationships with surgeons and hospital staff.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/viewjob?jk=29e3a6a21e4b316f",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "indeed.com"
-  },
-  "f7bf20e603eb": {
-    "id": "f7bf20e603eb",
-    "title": "Area Sales Manager, Victoria",
-    "company": "Zimmer Biomet",
-    "category": "Healthcare & Care",
-    "city": "Melbourne",
-    "location": "Melbourne, Victoria, Australia",
-    "url": "https://careers.zimmerbiomet.com/job/Melbourne-Area-Sales-Manager%2C-Victoria-VIC/10279/",
-    "source_domain": "careers.zimmerbiomet.com",
-    "summary": "Leads and coaches a sales team to achieve targets, develops business opportunities, and ensures superior customer service.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/cmp/Zimmer-Biomet/jobs?q=Area+Sales+Manager%2C+Victoria",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "au.indeed.com"
   },
   "6c4d2091629f": {
     "id": "6c4d2091629f",
@@ -615,31 +506,10 @@
     "evidence_url": "https://au.indeed.com/q-junior-product-designer-$70,000-jobs.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
-  },
-  "4a28ad99a9ea": {
-    "id": "4a28ad99a9ea",
-    "title": "GTM Engineer",
-    "company": "UpGuard",
-    "category": "IT & Software",
-    "city": "Melbourne",
-    "location": "Melbourne, Victoria, Australia",
-    "url": "https://www.upguard.com/careers",
-    "source_domain": "upguard.com",
-    "summary": "Drive go-to-market strategies and engineering solutions for a cybersecurity platform in Melbourne.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
-    "status": "secret",
-    "board_checked": true
   },
   "d57c4cbe6f3e": {
     "id": "d57c4cbe6f3e",
@@ -658,7 +528,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFvZXt7mFBvPSAluVXmq2d2jMxy2R9B7MAyW_BhHvBrs9wqh9RIxq9FZGWk1aWS5UT2JHDCChFlBjzwfYbuxzeA6qb2nTHwsNME774W1nPs5okU-I6bLw3YPodLu7s7TZeTdqwPrPVPVzvcnuiN",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jora.com"
@@ -680,7 +550,7 @@
     "evidence_url": "https://www.seek.com.au/job/76251410",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -702,30 +572,9 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
-  },
-  "8bad533e2896": {
-    "id": "8bad533e2896",
-    "title": "Van Delivery Driver",
-    "company": "EEP AU/NZ Corporate",
-    "category": "Logistics & Driving",
-    "city": "Sydney",
-    "location": "Sydney, New South Wales, Australia",
-    "url": "https://eep.com.au/job-openings/",
-    "source_domain": "eep.com.au",
-    "summary": "Seeking a reliable and professional van driver for a busy catering company in Artarmon, Sydney.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
-    "status": "secret",
-    "board_checked": true
   },
   "bc481d469e99": {
     "id": "bc481d469e99",
@@ -744,7 +593,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -765,7 +614,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpCjG_7-a3hV78zuwh_ZRrMpsZwJhVnAY_3ksKrDPka7uSRa9pL1frRsNIJJgYtpnD3W0XGKMMOV6H_jzLJE3KOMLkZC7WoIzenHtgOjuO-cKkxC2S5FFJoNpK9s3IJl81Nqg8T-Nb6wZcbMNGOh-sDcB-_6zbRRfAnS-kmNtTH9WqHf-6LwQ=",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "careerjet.com.au"
@@ -787,7 +636,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkKBNY9532rwcRBzSuBpFVLhVN6O2af5w8CkuMDA9t-t6zAP90qPY6ZuLLQoOD008uaZxG_9Co7imAz3XCUbZ0rZMzXS1jhtqDaBUZkcOtDZ18rF14OnOyGhdQkcQUrUAFY9NFWI9Xi2N2AihG5apEJtk1QxTdow==",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -809,7 +658,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
   },
@@ -830,7 +679,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -851,7 +700,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0MQBcbBlfAlw1ICFAGHiy7ctV2vhMpn1kA_ZaMvqslzTFPk5i1vj0S9vLFvpA6iDZv90ZfwoPlY5MxPw5a__3wpKPBQS8UaiSzrnaDZqWMyTSDRLOIEW8dgSIQcOrNz8ZKThg0BXK5JV9UDZ0aWjAN2h80EQd",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -873,7 +722,7 @@
     "evidence_url": "https://au.indeed.com/q-Industrial-Designer-jobs-in-Fortitude-Valley-QLD.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
@@ -895,7 +744,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -916,7 +765,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -937,7 +786,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -958,31 +807,9 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
-  },
-  "83c59bbd89a8": {
-    "id": "83c59bbd89a8",
-    "title": "Associate Site Reliability Engineer (Incident Manager)",
-    "company": "Arkose Labs",
-    "category": "IT & Software",
-    "city": "Brisbane",
-    "location": "Brisbane, Queensland, Australia",
-    "url": "https://www.arkoselabs.com/careers/",
-    "source_domain": "arkoselabs.com",
-    "summary": "Join a cybersecurity startup to ensure smooth operation of live production environments and develop SRE skills.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.jora.com/Associate-Site-Reliability-Engineer-(Incident-Manager)-jobs-in-Brisbane-QLD/57820606",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-15",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "jora.com"
   },
   "66132508e550": {
     "id": "66132508e550",
@@ -1001,7 +828,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1022,7 +849,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1043,29 +870,7 @@
     "evidence_url": "https://au.indeed.com/q-diesel-mechanic-$70,000-jobs-in-malaga-wa.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "au.indeed.com"
-  },
-  "783b0c4fc687": {
-    "id": "783b0c4fc687",
-    "title": "Power Generation Electrician | 2:1 Roster | Wodgina",
-    "company": "Mineral Resources Ltd (MinRes)",
-    "category": "Skilled Trades",
-    "city": "Perth",
-    "location": "Perth, Western Australia, Australia",
-    "url": "https://careers.mineralresources.com.au/job/power-generation-electrician-21-roster-wodgina-in-pilbara-wa-australia/",
-    "source_domain": "careers.mineralresources.com.au",
-    "summary": "Qualified Power Generation Operator Maintainers (Electrical) for a 2:1 FIFO roster at Wodgina.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/viewjob?jk=5903b604502f694f",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1087,7 +892,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1108,7 +913,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRn3m7FFS1IX8Sw1J90VQForpAZvW-F81oQdXSO1V5Yq7cn3-AVy4QJ3FseJBxPH3YjdnL4et9DyUUNrERGErzpegocqJ9kyitB__23XSrDFtqqLYMgLCOf5Nre2wEpDQiXgFS8QQWPkRyx9Ede3rtil3vH8Udynzi5kEZ2hle",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1130,7 +935,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsx_wNUBlM7T1CCV7IIq1LkTE8luTtH4fEdLfY5cisCikTYJLD_qw0NhBtaY88xqif4Mgd9oz8uweKgHf7rvwqB-2lsFtDGcaPAG30CCHQ79TN0a3j7vud9wZVYxO6la38Yq6XI-K2uj3Hcjo=",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1152,7 +957,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZhWMCxJYJT9OOacOkX9viejweig0k7Hv1jQLJbBsLSa4VoE23-avUsfrPrlhOwAJfpe_xc2Pc1sUbqul7LbhPeziYEsDn8ISvxekdZYUM7TSy5pthCiNNfj-qxDgUDsL0pUqOPg6zhgXVPLy-D_kyJYyng==",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jora.com"
@@ -1174,7 +979,7 @@
     "evidence_url": "https://au.indeed.com/viewjob?jk=7227e26017b2049d",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1196,7 +1001,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1217,7 +1022,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1238,7 +1043,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1259,7 +1064,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1280,7 +1085,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1301,7 +1106,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1322,31 +1127,9 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
-  },
-  "0ac7cb078273": {
-    "id": "0ac7cb078273",
-    "title": "Panel Beater",
-    "company": "Royans Transport Accident Repairs",
-    "category": "Automotive & Mechanics",
-    "city": "Canberra",
-    "location": "Canberra, Australian Capital Territory, Australia",
-    "url": "https://royans.com.au/careers",
-    "source_domain": "royans.com.au",
-    "summary": "Royans Transport Accident Repairs is hiring a trade-qualified Panel Beater for heavy vehicle collision repair in Canberra.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy7Bsxkd-Z5Ug5jLwyTUGfpkJ_rQPcynOq9lEaeJIpWZqNIRon8GctwkTSHOwLVhbepga-6i7GKQdue6DvxQk-q-5fSKTTk4kicMBoo2hjkWBdlKohYtov5kpZo-1GAcYVbHpfgmV30t1tXP85IcSOJm1ZBYY0ODT-hkk=",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "seek.com.au"
   },
   "babb2fa98fee": {
     "id": "babb2fa98fee",
@@ -1365,7 +1148,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh1q9yjB1BdWswpG43j9FVqgQSdy7L0DgN3gIBmmEmcx2gtPFC2Bj5Eej6HaX4-8bBmAQs17EIwEqHm7NvaDHCQK5sDqUyNGPJXGEGDUVwM_6y1xZaJ4XUhRKgcOshLRDi4r9PZJeVhQy7Qg==",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1387,7 +1170,7 @@
     "evidence_url": "https://www.seek.com.au/Australian-Broadcasting-Corporation-jobs-in-All-Canberra-ACT/in-Canberra-ACT",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1409,7 +1192,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1430,30 +1213,9 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
-  },
-  "5c405ec0a290": {
-    "id": "5c405ec0a290",
-    "title": "General Labourer - Labour Hire",
-    "company": "Work & Training",
-    "category": "Construction & Building",
-    "city": "Hobart",
-    "location": "Hobart, Tasmania, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcg3AGW_HqCbCZ_4Wixasoy_FVrrIXOdKh1Uw3_lS47vfgk1h8U6aBmrp00VGZooqllnC5DF1waDVGvdxK1xHeO9ve8xezOinb1MyGNpvh2SCLZj6bu27zMVc2Lgudwdh-Pn-sVG2q9nGB44VIqZIVzqmqynfFucoEhxQsHLCLX8_WOHfFFsTpbOQRENz5iIOMAgs8BLRYcoxcqgrAYvSOm6P3yGwkkeOHDLM2ge8w_xvuGDWPUuU=",
-    "source_domain": "workandtraining.com.au",
-    "summary": "Work & Training seeks reliable general labourers for casual work across various Hobart worksites, offering skill development and hands-on experience.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
-    "status": "secret",
-    "board_checked": true
   },
   "139043b8b3d1": {
     "id": "139043b8b3d1",
@@ -1472,7 +1234,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1493,7 +1255,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1514,7 +1276,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-16",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1535,28 +1297,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-17",
-    "status": "secret",
-    "board_checked": true
-  },
-  "89e83d0ee076": {
-    "id": "89e83d0ee076",
-    "title": "Automotive Careers (Register Your Interest)",
-    "company": "Darwin Motor Group (DMG)",
-    "category": "Automotive & Mechanics",
-    "city": "Darwin",
-    "location": "Darwin, Northern Territory, Australia",
-    "url": "https://www.darwinmotorgroup.com.au/careers",
-    "source_domain": "darwinmotorgroup.com.au",
-    "summary": "Darwin Motor Group seeks expressions of interest for various roles including mechanics, parts, and apprentices.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1577,7 +1318,7 @@
     "evidence_url": "https://au.indeed.com/q-roof-plumber-jobs-in-Darwin-NT.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1599,28 +1340,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-17",
-    "status": "secret",
-    "board_checked": true
-  },
-  "ddbd24b966f2": {
-    "id": "ddbd24b966f2",
-    "title": "Expression of Interest - Hospitality Roles",
-    "company": "Darwin Convention Centre",
-    "category": "Hospitality & Food",
-    "city": "Darwin",
-    "location": "Darwin, Northern Territory, Australia",
-    "url": "https://www.darwinconvention.com.au/about-us/careers/",
-    "source_domain": "darwinconvention.com.au",
-    "summary": "Submit an expression of interest for various hospitality roles at the Darwin Convention Centre.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1641,7 +1361,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMYjh0vF2TRoB1FiFhfoNlkTfsa7MRkR1F65N0tSC3jkC1JqeVcGznQRdBkRyxZLb5tYFtLbNTI4ehgY9KtnBT7qDqsDfoaV1YGsKAgYibUJhCmZiOar5Mi6KFZGnXCB8MsYuGzBMuDcvfDrJs1cD40zBPe2V-qB8V",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1663,7 +1383,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1684,7 +1404,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1705,7 +1425,7 @@
     "evidence_url": "https://au.indeed.com/viewjob?jk=7a1b3a1b3a1b3a1b",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
@@ -1727,7 +1447,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWyxdPQX4cexSa6yPDUCgYHW-d10L-YPmHJ0Eun5j1Lfq8Tu4b8YsZFvmY4OmkdMSBezwivRrBn0-77yJxVY376bf_HG0d8fPtJLbbZL9uMTxqQzcjCtEijb4ASIS3b-Z4JupRlBT4LmtWefozUDO0LONkJL6u2_UlgXgIBV9ZvqpMUnHNErdWXa7U",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
@@ -1749,7 +1469,7 @@
     "evidence_url": "https://au.indeed.com/jobs?q=Workplace+Concierge+Bupa+Melbourne",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1771,7 +1491,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1792,7 +1512,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1813,31 +1533,10 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdwd3VT2RQt1XVEFVktn4J52adsaNzEmXlvVTTinyuBCwiqTiX9Yp_2bUOZzNxvKdYsYy8nHGsUkr9bhUY4hg8W-CZPLKZwnl_NsnB0XhIxAnnhxiKyBjh9kvwe0T_rJVIra7idYwS-o7kkGHiRhrl",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
-  },
-  "7346073a87a4": {
-    "id": "7346073a87a4",
-    "title": "Automotive Technician",
-    "company": "Trivett Subaru",
-    "category": "Automotive & Mechanics",
-    "city": "Sydney",
-    "location": "New South Wales, Australia",
-    "url": "https://www.trivettsubaru.com.au/careers",
-    "source_domain": "trivettsubaru.com.au",
-    "summary": "Trivett Subaru is seeking an Automotive Technician for career growth opportunities and perks.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-15",
-    "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
-    "status": "secret",
-    "board_checked": true
   },
   "b0647ce6e5fa": {
     "id": "b0647ce6e5fa",
@@ -1856,7 +1555,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1877,7 +1576,7 @@
     "evidence_url": "https://au.indeed.com/q-Site-Supervisor-Remedial-(QLD)-Freyssinet-Australia-jobs.html",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1899,7 +1598,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -1920,7 +1619,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-17",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -2281,7 +1980,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-16",
     "last_seen": "2026-06-16",
-    "last_checked": "",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
@@ -2302,49 +2001,50 @@
     "evidence_url": null,
     "first_seen": "2026-06-16",
     "last_seen": "2026-06-16",
-    "last_checked": "",
+    "last_checked": "2026-06-18",
     "status": "secret",
     "board_checked": true
   },
-  "15b0b683ece9": {
-    "id": "15b0b683ece9",
-    "title": "Forklift Operator",
-    "company": "Box manufacturing warehouse",
-    "category": "Logistics & Driving",
-    "city": "Elizabeth",
-    "location": "Elizabeth, South Australia, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHXAopJJseEts_1eYIsPfaGoOpQE50LPcOGzLcL0Xo7zJFvEJEb8jriNHKVn_YBQOkPx-N-ohNSwD1n-6ZT-oSnQSUhbHokVNEW2UNd7c5FqCkh7UUcW8sY-KGJc9Kc-91dFiPMC13tgJTekaPsGlyGu_cKMkdpwCt",
-    "source_domain": "backpackerjobssouthaustralia.com.au",
-    "summary": "Skilled forklift operator sought for a busy box manufacturing warehouse in Virginia, South Australia, with an immediate start.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-16",
-    "last_seen": "2026-06-16",
-    "last_checked": "",
-    "status": "secret",
-    "board_checked": true
-  },
-  "735d9b5e23b5": {
-    "id": "735d9b5e23b5",
-    "title": "Electrician (Train Technician)",
-    "company": "Journey Beyond",
-    "category": "Skilled Trades",
-    "city": "Elizabeth",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://journeybeyond.workable.com/",
-    "source_domain": "journeybeyond.workable.com",
-    "summary": "Journey Beyond seeks a qualified electrician for train maintenance in Adelaide.",
+  "ceb1ee58c6a3": {
+    "id": "ceb1ee58c6a3",
+    "title": "Community Support Worker",
+    "company": "RSL LifeCare",
+    "category": "Healthcare & Care",
+    "city": "Canberra",
+    "location": "Canberra, Australian Capital Territory, Australia",
+    "url": "https://rsllifecare.org.au/careers/",
+    "source_domain": "rsllifecare.org.au",
+    "summary": "Provide home care support to veterans and seniors in Canberra.",
     "verified_unlisted": false,
     "checked_against": [
       "also listed on a major board"
     ],
-    "evidence_url": "https://au.indeed.com/q-Journey-Beyond-jobs-in-Greater-Adelaide-SA.html",
-    "first_seen": "2026-06-16",
-    "last_seen": "2026-06-16",
-    "last_checked": "",
+    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyOCvdoK9W2RqRqxcHKR_kafa1e0ddtdACbvhPaAIHZIA97qep6G8A9bMRxY_2IQ_dAj46i8SRfRDz94UhlZSPT2ziMwxWHU4kPbJlgYJ7crfA15WQ_HFyV9ysvAt82YSneVM12NDHSJ7Tw18C0erq4zR0MRFG",
+    "first_seen": "2026-06-18",
+    "last_seen": "2026-06-18",
+    "last_checked": "2026-06-18",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
+  },
+  "eabe06b97b5b": {
+    "id": "eabe06b97b5b",
+    "title": "Handyman",
+    "company": "Cushman & Wakefield",
+    "category": "Skilled Trades",
+    "city": "Canberra",
+    "location": "Canberra, Australian Capital Territory, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwmjxewQhJIt-wlWKC1ba5kcLeaY4vDxTdfGb3g8FmgecTHm7QqDcZPKBbISTUtH1e0rrXtMzpUdlpu_BfQaSxS5eCRH1OhRRAnoOkLpsy2DuS1MdTL0c85bSDG6VAQw9RdA4gVWTcsIlwlKwtmPObSW1NkwjWyvel",
+    "source_domain": "cushmanwakefield.com",
+    "summary": "Assists with maintenance and repairs of commercial buildings, including HVAC, plumbing, carpentry, and electrical systems in Canberra.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/q-handyman-cushman-wakefield-canberra-act-jobs.html",
+    "first_seen": "2026-06-18",
+    "last_seen": "2026-06-18",
+    "last_checked": "2026-06-18",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"

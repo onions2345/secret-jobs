@@ -12,7 +12,7 @@
     "simplyhired.com.au"
   ],
   "boards_updated": "2026-06-14",
-  "city_rotation": 6,
+  "city_rotation": 0,
   "last_searched": {
     "Adelaide|Skilled Trades": "2026-06-15",
     "Adelaide|Construction & Building": "2026-06-15",
@@ -123,6 +123,16 @@
     "Victor Harbor|IT & Software": "2026-06-17",
     "Victor Harbor|Automotive & Mechanics": "2026-06-17",
     "Victor Harbor|Skilled Trades": "2026-06-17",
-    "Victor Harbor|Construction & Building": "2026-06-17"
+    "Victor Harbor|Construction & Building": "2026-06-17",
+    "Canberra|Healthcare & Care": "2026-06-18",
+    "Canberra|Creative & Design": "2026-06-18",
+    "Canberra|Retail & Sales": "2026-06-18",
+    "Canberra|Logistics & Driving": "2026-06-18",
+    "Canberra|Office & Admin": "2026-06-18",
+    "Canberra|IT & Software": "2026-06-18",
+    "Canberra|Automotive & Mechanics": "2026-06-18",
+    "Canberra|Skilled Trades": "2026-06-18",
+    "Canberra|Construction & Building": "2026-06-18",
+    "Canberra|Hospitality & Food": "2026-06-18"
   }
 }
