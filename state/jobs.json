@@ -16,7 +16,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -37,7 +37,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -58,7 +58,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFvDBoivTAeew-KZVthUhgjJTU2hjqhus1EI71YnbFFNf2f4Td8MQsrh9uyO32l8lmBYFx2eujahcFoD0zAQ2mzwzKlfHcCfLyRe5IlRZHPVI1YbAytclKndH58S4ECbPdNDfYxCUksfK4hiV-",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -80,7 +80,7 @@
     "evidence_url": "https://au.jora.com/Dentist-Recruitment-Drive-2026-SA-Dental-jobs-in-Norwood-SA-5067-b5087532353f47260589255e4e844626?se=job_search&sp=serp&sl=Adelaide,+South+Australia,+Australia&st=job&sps=serp&spv=job_search&spp=1&spt=job&sps=serp&spv=job_search&spp=1&spt=job",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jora.com"
@@ -102,7 +102,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1VEg_RMALCLzOSxYkFlNP-h_Oplpko7_2InvF_dLepf8rJb-nkpmhr9hCcbFOUaK0LjWIwTrs7d7w_d7CoSVxj_EFprmWc5jegTzI2Ae55gwe7rPVw3pyICvacXM6BOzur9UzYqdK0jf15O,oRlYkmu82TypssiOcjD7cw7EU",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -124,31 +124,10 @@
     "evidence_url": "https://www.seek.com.au/anglicaresa-jobs/in-All-Adelaide-SA",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
-  },
-  "778d9033304e": {
-    "id": "778d9033304e",
-    "title": "Multidisciplinary Allied Health Assistant",
-    "company": "Central Adelaide Local Health Network (CALHN)",
-    "category": "Healthcare & Care",
-    "city": "Adelaide",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIPoAupWySoEU59D8ug28lKw4opYhsOy9IJUorPjZdz3_5OejB4EPnfrq5fWpr53Ut05wWsTabpPzdtAzbB27NdsQJ2td8MwpZcROA-OIgglRafnH1DldYAwhKg3gjZwuUbVRmKxlgrYtQ_c-h5L5MuGksxQNkoMV92kmgWOmVfneCYUgV054ZbEExQPaomSapBEhmQEMUL3YT03U=",
-    "source_domain": "sahealth.sa.gov.au",
-    "summary": "CALHN seeks a Multidisciplinary Allied Health Assistant for acute general medical team.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
-    "status": "secret",
-    "board_checked": true
   },
   "4a3e2a40f7ea": {
     "id": "4a3e2a40f7ea",
@@ -167,7 +146,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "unchecked",
     "board_checked": false
   },
@@ -188,7 +167,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -209,7 +188,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -230,7 +209,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -251,7 +230,7 @@
     "evidence_url": "https://www.seek.com.au/job/76251214",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -273,7 +252,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -294,7 +273,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "unchecked",
     "board_checked": false
   },
@@ -315,7 +294,7 @@
     "evidence_url": "https://au.indeed.com/jobs?q=Vic+plumbing&l=Victoria",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -337,7 +316,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -358,7 +337,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "unchecked",
     "board_checked": false
   },
@@ -379,7 +358,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -400,7 +379,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -421,7 +400,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "unchecked",
     "board_checked": false
   },
@@ -442,7 +421,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -463,7 +442,7 @@
     "evidence_url": "https://au.indeed.com/q-junior-product-designer-$70,000-jobs.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -485,7 +464,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFvZXt7mFBvPSAluVXmq2d2jMxy2R9B7MAyW_BhHvBrs9wqh9RIxq9FZGWk1aWS5UT2JHDCChFlBjzwfYbuxzeA6qb2nTHwsNME774W1nPs5okU-I6bLw3YPodLu7s7TZeTdqwPrPVPVzvcnuiN",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jora.com"
@@ -507,7 +486,7 @@
     "evidence_url": "https://www.seek.com.au/job/76251410",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -529,7 +508,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -550,7 +529,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkKBNY9532rwcRBzSuBpFVLhVN6O2af5w8CkuMDA9t-t6zAP90qPY6ZuLLQoOD008uaZxG_9Co7imAz3XCUbZ0rZMzXS1jhtqDaBUZkcOtDZ18rF14OnOyGhdQkcQUrUAFY9NFWI9Xi2N2AihG5apEJtk1QxTdow==",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -572,7 +551,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "unchecked",
     "board_checked": false
   },
@@ -593,7 +572,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -614,7 +593,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0MQBcbBlfAlw1ICFAGHiy7ctV2vhMpn1kA_ZaMvqslzTFPk5i1vj0S9vLFvpA6iDZv90ZfwoPlY5MxPw5a__3wpKPBQS8UaiSzrnaDZqWMyTSDRLOIEW8dgSIQcOrNz8ZKThg0BXK5JV9UDZ0aWjAN2h80EQd",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1471,27 +1450,6 @@
     "status": "secret",
     "board_checked": true
   },
-  "9c1a3450831f": {
-    "id": "9c1a3450831f",
-    "title": "Cyber Change Program Manager",
-    "company": "TEKsystems",
-    "category": "Construction & Building",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://careers.teksystems.com/uk/en/job/TEKSUK144702/Cyber-Change-Program-Manager",
-    "source_domain": "careers.teksystems.com",
-    "summary": "TEKsystems is hiring a Cyber Change Program Manager to lead complex transformation programs in cyber, risk, and operational sustainability in London.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-16",
-    "last_seen": "2026-06-16",
-    "last_checked": "2026-06-29",
-    "status": "secret",
-    "board_checked": true
-  },
   "f8facf9dec52": {
     "id": "f8facf9dec52",
     "title": "Electrician (Level 3) Wandsworth",
@@ -1509,28 +1467,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-16",
     "last_seen": "2026-06-16",
-    "last_checked": "2026-06-29",
-    "status": "secret",
-    "board_checked": true
-  },
-  "a63393ba0d7b": {
-    "id": "a63393ba0d7b",
-    "title": "Forklift Operator / Yard Person",
-    "company": "Adbri Masonry",
-    "category": "Logistics & Driving",
-    "city": "Elizabeth",
-    "location": "Elizabeth, South Australia, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXl3cvoE1Uzuw92wwZFVNwBmTFJVDlPvVsskHm-n5yavVlFfYCWEflzfhF0tiA3gddmIU8QWOj2RXH4cog3PmwlhphZMSTamxwuk4-J-H3Yx0lgt5OVYzRZ6CiSqSVHbTQvY9q7qHVcdBypb2rDm6hiYa97xFWkkNBuK5GNHXzuk4zPCeLgxlOAn8dxdJDyhDZ2uOH1Y2NquYwdC0Xbotx2uSK7IMTDUCOKkSl9dI=",
-    "source_domain": "livehire.com",
-    "summary": "Full-time Forklift Operator/Yard Person preparing orders and loading trucks for masonry products in Pooraka.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-16",
-    "last_seen": "2026-06-16",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -1551,7 +1488,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-16",
     "last_seen": "2026-06-16",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -1572,7 +1509,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyOCvdoK9W2RqRqxcHKR_kafa1e0ddtdACbvhPaAIHZIA97qep6G8A9bMRxY_2IQ_dAj46i8SRfRDz94UhlZSPT2ziMwxWHU4kPbJlgYJ7crfA15WQ_HFyV9ysvAt82YSneVM12NDHSJ7Tw18C0erq4zR0MRFG",
     "first_seen": "2026-06-18",
     "last_seen": "2026-06-18",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1594,7 +1531,7 @@
     "evidence_url": "https://au.indeed.com/q-handyman-cushman-wakefield-canberra-act-jobs.html",
     "first_seen": "2026-06-18",
     "last_seen": "2026-06-18",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -2269,27 +2206,6 @@
     "board_checked": true,
     "board_name": "au.indeed.com"
   },
-  "336de2bc044b": {
-    "id": "336de2bc044b",
-    "title": "Ready Mix Drivers - Casual and Full Time",
-    "company": "Allied Concrete (HWR Group)",
-    "category": "Logistics & Driving",
-    "city": "Auckland",
-    "location": "Auckland, Auckland Region, New Zealand",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBmSa_s4RK6Zhw7Rh_mJ_4-IpVcms8SzGiHJVUPr9lSid7po8xvcI0GHh8uYR_wED7P1sGfFqH0QkTytHefIJsPcpP1pvP_vO2rt4T25DDh6D6bBA2bzV2vUBZUPb6WMKnOOgeoulkrnjQJJFEo3JRSW0m3P7bYufDhhrgdmuB0_k3Idh2au8TJp6-QTNKUuR0",
-    "source_domain": "hwr.co.nz",
-    "summary": "Seeking Class 4 drivers for ready mix concrete delivery across Auckland, offering casual and full-time positions.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "search-filtered, not yet cross-checked"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-21",
-    "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
-    "status": "unchecked",
-    "board_checked": false
-  },
   "25a443f1aa9c": {
     "id": "25a443f1aa9c",
     "title": "Concrete Truck Driver",
@@ -2307,7 +2223,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDJSRWMF4GmoA5ifHeJKbhokXcDeGufWlLCVcAbf5SlpSXZxHoM52-nAtNdJrppYaT9J7QPuuHfCA45q_Y1epNlNlozgvcWI1w0CWHrmjrGPs379e9v-IvF59PDaXnos1azFsq6N-mIfuk1YhLRqEH7porPf_Hbb74TBB3Re7QjQ==",
     "first_seen": "2026-06-21",
     "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.co.nz"
@@ -2329,7 +2245,7 @@
     "evidence_url": "https://www.seek.co.nz/job/76378411",
     "first_seen": "2026-06-21",
     "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.co.nz"
@@ -2351,7 +2267,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgeyPCx9vd3z8s3Bgs2HQaMXF6FxcXXsOVjo118SzBAeef_q1Z6SEGTOb3QrwHsKYuJ4NIV0WcvkURerUUZsej9Hd_RjQUa8JwJDXKuc45HAAIcvrODK3ik9zwJLb6zqWHo66aGtR6DrodgYDjhGh3ekHIkXnFHzY4S8QL",
     "first_seen": "2026-06-21",
     "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.co.nz"
@@ -2373,7 +2289,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-21",
     "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -2394,7 +2310,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1a8Nct4ZVEaTudgKyV3ayH6JdpeITm0W3NoQ8klbW1QrvY08FlyJqp6DlRDpsmg5PTYK4yO6ueCd0C7Bd98xwvakg1qiHaFCfS3mAoX3DTs9d4Ti-nNmutwspG5gtOoYpfijomNSCxHO0kYzS8scC6v-yxTX5AFlO0zrw9UlNpfLw2wCEarKGrn0URgQjcruCuJWN4_-PcLHLWNbAAz-pQO3Q85gWvT58_WDwOLIka5ue1Q==",
     "first_seen": "2026-06-21",
     "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "Employment Hero"
@@ -2416,7 +2332,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuqEn8g8qVdx2tsZoexMhA7rSwScPxvnk2VPtHtKyTh9lNeeRRR1l9EumB2QKjPXlmvpovq9hndTBs4U021f8DitRgYedHoi6j1F2A3EA8eJRkZbqCtDgZYF-cupqFA==",
     "first_seen": "2026-06-21",
     "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jooble.org"
@@ -2438,7 +2354,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwiWcI1GIO2sVuUUAZ7YFGD4Pg14zH9olk-JAHyVrZdHq5uuMPiWqcatFMtzpI6qzCodLLdZu6rYjsaGF-rAyn3M91v1mxsJgPwm3aRq0DxOyMDx6guwgeBexsRSDNIYFbsXbUxegUdk_AxXvZyXaPZ3yLoLk=",
     "first_seen": "2026-06-21",
     "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jora.com"
@@ -2460,120 +2376,10 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKYHDIh9G6FFqtFlKswNMYQKxAgFUkvL-yT27VXGLlI6ZQmyKkcHKqBwZUQi2jIszWeAJPqCpBCThgN2D1noHc4sqNbNam-dD7P40sotd3F4UhzL5IK9-pYhS9cQd-DiMHrJiyzq92laDdBEE8-DAcJM7uGbuQ8cM=",
     "first_seen": "2026-06-21",
     "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
-  },
-  "c74eda9fa7f0": {
-    "id": "c74eda9fa7f0",
-    "title": "Digital Content Coordinator",
-    "company": "Adelaide Fringe",
-    "category": "Creative & Design",
-    "city": "Adelaide",
-    "location": "Adelaide, South Australia, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG6MvGfN7_tovA4wSUcBICzjZ2Mq81HYoCOrI6mUQR39Wyg7-aRS_lZ4u41iNjvIfzI3gVILAzafmd3jlDvigEHFleiaK2o3yF79EM85gHt5z5Qdl-EG-ZP6rIUJ2_8CqF_E11KNrbAqnpwSvolKyE34qW_y9Cvu48d9irziIb579shnrduut3ApEzSkdONhS5u8FwmaI",
-    "source_domain": "employmenthero.com",
-    "summary": "Creates digital/social graphics, edits short-form videos, and schedules content for Adelaide Fringe's dynamic online presence.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhSUHbSJquzlWQU3UOtN8wQ-jl1yveAwHXlvfKB0LS13a7xn7PtSXsdPqY8nSYoP9uZU_c5ToKMehWdiqO0bHojDrO5vNEJiId0puASlOaeqdBwO0nAhCHWcGATj9MZOlnygLIT4Fjl-AZeYDaf3_crU2Tdf3ZG6AQBFciFb2Qa6Pz05kp1GzGOgynPpiALrT11Hbg40PR0T65iqcPNqZssfpvcg==",
-    "first_seen": "2026-06-21",
-    "last_seen": "2026-06-21",
-    "last_checked": "2026-06-29",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "au.indeed.com"
-  },
-  "9f2a38636467": {
-    "id": "9f2a38636467",
-    "title": "Implementation Specialist",
-    "company": "Karbon",
-    "category": "IT & Software",
-    "city": "Canberra",
-    "location": "Canberra, Australian Capital Territory, Australia",
-    "url": "https://karbonhq.com/careers",
-    "source_domain": "karbonhq.com",
-    "summary": "Opportunity for an Implementation Specialist to help customers integrate and utilize Karbon's software.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/viewjob?jk=291b8f0a7b8e0a1a",
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "indeed.com"
-  },
-  "c75f158f0383": {
-    "id": "c75f158f0383",
-    "title": "Clinical Support Representative - Upper Extremities",
-    "company": "Zimmer Biomet",
-    "category": "Healthcare & Care",
-    "city": "Canberra",
-    "location": "Canberra, Australian Capital Territory, Australia",
-    "url": "https://careers.zimmerbiomet.com/global/en/job/2600000000003051465/Clinical-Support-Representative-Upper-Extremities",
-    "source_domain": "careers.zimmerbiomet.com",
-    "summary": "Supports surgeons and theatre teams with clinical expertise for upper extremity medical devices.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/viewjob?jk=2999653139363032",
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "indeed.com"
-  },
-  "a753be24a783": {
-    "id": "a753be24a783",
-    "title": "Dental Assistant",
-    "company": "Bupa",
-    "category": "Healthcare & Care",
-    "city": "Canberra",
-    "location": "Canberra, Australian Capital Territory, Australia",
-    "url": "https://careers.bupa.com.au/job/Canberra-Dental-Assistant-ACT-2600/1089228800/",
-    "source_domain": "careers.bupa.com.au",
-    "summary": "Provides chair-side assistance for dental professionals, ensuring safe clinical care and infection control.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7yNZf1HAbW6Y8GC8PqKzM4Q6JTztnQSf3KE2Mcz8mwsSY_JyNBcdSxOxuFYkTr16ud3CHmbTsO3EM1hdnvAllvAo8jjBJYCS42R4fuYFxYifcnAtQQMBwH25ggqTsFNa71cdV-ua8wkjvJ1VcsIFYJnD15WE8LIp6ke7NDbdgYbTp7CV2DWLJtNqlK9hN7Q==",
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "seek.com.au"
-  },
-  "df2aa31ae00e": {
-    "id": "df2aa31ae00e",
-    "title": "Integrated Logistics Support Manager (ILSM)",
-    "company": "Amentum",
-    "category": "Logistics & Driving",
-    "city": "Canberra",
-    "location": "Canberra, Australian Capital Territory, Australia",
-    "url": "https://www.amentum.com/careers/",
-    "source_domain": "amentum.com",
-    "summary": "Manages integrated logistics support for Defence programs, ensuring sustainment and cost-effectiveness across the lifecycle.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/viewjob?jk=73c7344b1c713807",
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "indeed.com"
   },
   "95dd5eb95d79": {
     "id": "95dd5eb95d79",
@@ -2592,29 +2398,7 @@
     "evidence_url": "https://uk.indeed.com/jobs?q=Shift+Technician+CBRE+London",
     "first_seen": "2026-06-23",
     "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "indeed.com"
-  },
-  "657893221a37": {
-    "id": "657893221a37",
-    "title": "Data Centre Commissioning Supervisor",
-    "company": "Carrier",
-    "category": "Skilled Trades",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkTFjD4xlbjHfFWF4b6m73VT_5QLhs3FasLs2TG2lWh_FZpCD6UEUeF2L3zJncyaYy0EOdCAJIxQQzbsinPmw6rN_pQ83gZf17oMDervXZ7KE1Hg85G_PSoSudWvBpGM3qOhkRnMm5qCGRDyiS9QYpS1okOnlxAdjyZe1pkpi9nQDHu98wIFvhVXiblGU99MBz8clHXVGI",
-    "source_domain": "carrier.com",
-    "summary": "Lead a team of field service professionals for data centre commissioning, requiring specialized HVAC system knowledge.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://uk.indeed.com/viewjob?jk=29c0b1a03e1b7319",
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
@@ -2636,31 +2420,10 @@
     "evidence_url": "https://uk.indeed.com/jobs?q=Munich+Re&l=London",
     "first_seen": "2026-06-23",
     "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
-  },
-  "a905282fae23": {
-    "id": "a905282fae23",
-    "title": "HS2 Plant Operators",
-    "company": "L Lynch",
-    "category": "Construction & Building",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9E0scGB4zYpOJBj-LUUPRM-heYlMWM-5UNwhsNhRWtc7cGxkHEZ79Kb6nPlouRmDqzNeFhNLRTS5FjNm8zoIL2TSRztrqRt-KXGy7S37lYI1FfQt6C4CxDji5",
-    "source_domain": "llynch.com",
-    "summary": "L Lynch seeks HS2 Plant Operators for roles between London Euston and Birmingham, requiring valid CPCS qualifications.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "secret",
-    "board_checked": true
   },
   "2c06f3050b06": {
     "id": "2c06f3050b06",
@@ -2679,53 +2442,10 @@
     "evidence_url": "https://uk.linkedin.com/company/l-lynch-plant-hire-&-haulage",
     "first_seen": "2026-06-23",
     "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "linkedin.com"
-  },
-  "bc57225b4a5d": {
-    "id": "bc57225b4a5d",
-    "title": "Building Surveying - 12 Month Placement",
-    "company": "Colliers International",
-    "category": "Construction & Building",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE4Qopz8H7NkcspgWQQ3X69P8vmyVaAE0dufb6gXS1hVBLK7EM28XZwclBVAsX_SzaY6djTC1-7ElYgPbe_fTOmJF53L_8qpAhyFROgm8xZz4tJV3FrA5YoWhImicXmXxGUqQIyFukfdYvGEda_AEASnHoh8HDSbvqpMahBWbD_83OdbZobEnx6Nbrpe7fFmOmyIEMuPfJUJZ4jf1-5jxMbgv2Y1YZhARNk6EjkKYlJ1T2HUwWmG-bZDE=",
-    "source_domain": "colliers.com",
-    "summary": "Colliers International offers a 12-month Building Surveying placement in London, starting July 2026, for RICS-accredited students.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "secret",
-    "board_checked": true
-  },
-  "ab3648d0b4e9": {
-    "id": "ab3648d0b4e9",
-    "title": "Engineer Surveyor - Lift & Crane",
-    "company": "Allianz",
-    "category": "Construction & Building",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPxo4J2DCCo3YdVwrrFQtLybmoNl2c5jYmf215w94naff_sOjPwmNz5LSQuiETelzHhka3BvMCeidPiieVXoLysXfUp1nyUpGztwwecPMvqDaPRPPbINV7AF40H0IpFDKhzscgnUKHA-nxrKluLoh7OxsxV9Zihj6NlDrO_hGR3cshcnr3wfNQaNgZjafsV4YEvww=",
-    "source_domain": "allianz.com",
-    "summary": "Allianz seeks an Engineer Surveyor for Lift & Crane in City London, home-based, with mechanical background.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBvpk6b4MFbBzZI1J23fcq_NVU7yYCaQI90RuBXCG1e27z7rbnzpc9aI5Urt5byrNQPUuMGunnBGJCmJdP1dPlWjrZKaG32I8O6FsiGwdV2Sg-zulehpYu6ZxBI-H9rIAUitQg5OYyBLQ=",
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "jooble.org"
   },
   "6c6778fb7d8e": {
     "id": "6c6778fb7d8e",
@@ -2744,7 +2464,7 @@
     "evidence_url": "https://uk.indeed.com/viewjob?jk=f357599059c40215",
     "first_seen": "2026-06-23",
     "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
@@ -2766,29 +2486,7 @@
     "evidence_url": "https://uk.indeed.com/viewjob?jk=2a5b6c7d8e9f0a1b&tk=1h2i3j4k5l6m7n8o&from=serp&vjs=3",
     "first_seen": "2026-06-23",
     "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "indeed.com"
-  },
-  "fdee7f8370e5": {
-    "id": "fdee7f8370e5",
-    "title": "Specialist Dental Nurse",
-    "company": "Great Ormond Street Hospital for Children NHS Foundation Trust",
-    "category": "Healthcare & Care",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://www.jobs.nhs.uk/xi/vacancy/917297380",
-    "source_domain": "jobs.nhs.uk",
-    "summary": "Provide expert dental nursing care within the Maxillofacial and Dental team at a leading children's hospital.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElAe5oOCbRymUYxEKDwEjwK1zimQHPUrwDeFaQ_oAXXFiIsdUxNcdQjkYlKgsXMPBY_y9IeborwtuBxXo4nN2HN8SIyFVh0S-2J2R45DcUNLFSTKa5v7Exmc9_cuiDLw1Yi8fGrZTEFGFWqLWKj-e2n8uBmXap3g4F69FcFNcdTz3zjmLcKdxcu330xw==",
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
@@ -2810,7 +2508,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjv9CjJXxTdX6AEriV0d5KR1fQSDcb_mxp7huyyoIFJUbhXmMYk8TxgwEa9BO0gCrd2J5JoDcYpbg9BwXQkmTmdlg_Bxf81B8u47DLGrtPOS5nzGEwC_QqaUV2a4f9lP9xaqWZDu97hbKSVTf_ZZKDdV8Gpjl5ZISn26NF2gtOk20LVq5v7viaPGJqDg49Do2-wD_SQnFWcis4bCsONcmkLhfeKOL",
     "first_seen": "2026-06-23",
     "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "linkedin.com"
@@ -2832,70 +2530,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-23",
     "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "secret",
-    "board_checked": true
-  },
-  "8fbcb3c89866": {
-    "id": "8fbcb3c89866",
-    "title": "Photographer",
-    "company": "The British Museum",
-    "category": "Creative & Design",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://fastforward.photography/opportunities/photographer-at-the-british-museum",
-    "source_domain": "fastforward.photography",
-    "summary": "The British Museum seeks a Photographer to produce high-quality images of collection objects for various client briefs and requests.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "secret",
-    "board_checked": true
-  },
-  "32c874c827d2": {
-    "id": "32c874c827d2",
-    "title": "Freelance Tutor (Adult Community Learning)",
-    "company": "Open Age",
-    "category": "Creative & Design",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://www.nawe.co.uk/writing-resources/jobs/freelance-tutor-adult-community-learning-open-age.html",
-    "source_domain": "nawe.co.uk",
-    "summary": "Open Age, a charity for older people, is seeking an enthusiastic freelance tutor for their Adult Community Learning team in London.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "search-filtered, not yet cross-checked"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "unchecked",
-    "board_checked": false
-  },
-  "edf40120d1b1": {
-    "id": "edf40120d1b1",
-    "title": "Customer Service Representative London",
-    "company": "OpsArmy Careers",
-    "category": "Office & Admin",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://operationsarmy.com/application",
-    "source_domain": "operationsarmy.com",
-    "summary": "Seeking a UK-based Customer Service Representative with strong communication skills to handle customer inquiries and resolve issues.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "secret",
     "board_checked": true
   },
@@ -2916,72 +2551,395 @@
     "evidence_url": "https://www.ziprecruiter.com/jobs/exclaimer-group-d102_765953/senior-customer-service-manager-4655990101",
     "first_seen": "2026-06-23",
     "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "last_checked": "2026-07-01",
     "status": "on_board",
     "board_checked": true,
     "board_name": "ziprecruiter.com"
   },
-  "1ee595110e75": {
-    "id": "1ee595110e75",
-    "title": "Front Office Manager",
-    "company": "Millennium Hotel and Resorts UK",
+  "63bf486440db": {
+    "id": "63bf486440db",
+    "title": "Commercial Plumber",
+    "company": "World of Water Plumbing & Gas",
+    "category": "Skilled Trades",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://www.worldofwater.com.au/careers",
+    "source_domain": "worldofwater.com.au",
+    "summary": "Qualified commercial plumber needed for diverse domestic, construction, and aged care plumbing work in Adelaide.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuYl1zI8EoqbdmLcpteQo6Czq_KfYbfX4PdZsQbYBiN56uGvnrNx3m7aSEBkPhL3tzoHEJVWOLEZuD90ZIyiTIIXDDVAUufEOFO1Slc_ESA_B7hJiuRgzRd402H00WR1Q-GWAoKiimb1hwib8wyVVOlw==",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
+  },
+  "a26e596fe004": {
+    "id": "a26e596fe004",
+    "title": "Enrolled Nurse - Expression of Interest",
+    "company": "Bupa",
+    "category": "Healthcare & Care",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://careers.bupa.com.au/job/Enrolled-Nurse%2C-South-Australia-Expression-of-Interest/10363251/",
+    "source_domain": "careers.bupa.com.au",
+    "summary": "Bupa seeks Enrolled Nurses for aged care in Adelaide, offering person-centred care, clinical skill development, and career pathways.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "secret",
+    "board_checked": true
+  },
+  "f973d80ed7a6": {
+    "id": "f973d80ed7a6",
+    "title": "Carer",
+    "company": "Bupa",
+    "category": "Healthcare & Care",
+    "city": "Adelaide",
+    "location": "Adelaide, South Australia, Australia",
+    "url": "https://careers.bupa.com.au/job/Carer-%7C-Adelaide/10363248/",
+    "source_domain": "careers.bupa.com.au",
+    "summary": "Bupa Aged Care seeks compassionate Carers in Adelaide to empower residents and contribute to quality care.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXIrTrTBmn8h3I_f1xZ801cNO3g_8LzjzImKW3sS2ey4PEgp5Q-t_IfV8Bn1QF7HDKhpFzZDYXFAs3ZN-n6n37kWr0XOrjKqpCIbmU_xOdS8yKfiwXj9RYGbRkPZPQs7QAXe4MP8tVXuE=",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
+  },
+  "21067c4bf23a": {
+    "id": "21067c4bf23a",
+    "title": "Dental Assistant",
+    "company": "Bupa Dental Mount Barker",
+    "category": "Healthcare & Care",
+    "city": "Mount Barker",
+    "location": "Mount Barker, South Australia, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsVgpjWMo1-Au18I_dsrNCeDvHHAO5OlagN_duc8lZLST0YXooyP2f4JxROFeA0Gif0Oj96JLV7mKhHwhLPNDe5o-1im2Kj1l2q6FbQMYFu3zM-RDydfTtkaetguLZ1_A8tPSW7-3B5feRTr65DZeZeiR3VQZ78aJasTZNuI4El-KCY1FbU85oRo-nKk3hFOyooSqTHbAjJVbjMh_mfGMdv04=",
+    "source_domain": "bupa.com.au",
+    "summary": "Bupa Dental Mount Barker seeks a Dental Assistant to support clinical procedures, maintain infection control, and assist with patient care.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/viewjob?jk=7280362f7e774577",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "indeed.com"
+  },
+  "1dd968d6c761": {
+    "id": "1dd968d6c761",
+    "title": "Associate Dentist",
+    "company": "Confidential",
+    "category": "Healthcare & Care",
+    "city": "Mount Barker",
+    "location": "Mount Barker, South Australia, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdj8fBw-j5-TPcUrThgY7ssefPhitb6m7PHIjmzEE15jc6ihcPHKlvJQ4Ge4WfVTQVQAlpAOAATt_Iz5QCOFTROCnWaU53WN0a9WyAzFAkMvgDw6cY_3iTdgfx1TktAxwC7nGJc7gvqPXMntMjgwkQkikrvtESch4lARcgpkBoHBHorX8_oBRW3z82_w_tbxK2sr4pEXFGkGNK169JUqeXhQVHNNQQweFeY7QSlksY1hQ=",
+    "source_domain": "ada.org.au",
+    "summary": "Confidential dental practice in Mount Barker seeks an Associate Dentist for full-time or part-time work, posted on ADA Career Center.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "secret",
+    "board_checked": true
+  },
+  "d7bb970f8c7a": {
+    "id": "d7bb970f8c7a",
+    "title": "Customer Experience Consultant - Melbourne",
+    "company": "Cushman & Wakefield",
     "category": "Office & Admin",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://millenniumhotels.workable.com/j/D1E2F3G4H5",
-    "source_domain": "millenniumhotels.workable.com",
-    "summary": "Passionate Front Office Manager needed to deliver exceptional guest experiences at Chelsea Harbour Hotel and Spa.",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjd2seQ6X7h9ffCfwvBi1YOU7f_SLtTx7hB0mr89Xf69kutUmInSeRqttMo77aSMy57wkZ5s4FpTSyLM__tsDveJUfDngVJ_kgHBgfPkuZvh0lnqnlzfqch277Sz9xb5reFbZHw_QJzpDMzSneKVsamP0ExDpp5mjoEZGmlcIyAFz9h910dXkalwKzuvP76V2Gcwib2-pGRSg=",
+    "source_domain": "cushmanwakefield.com",
+    "summary": "Entry-level role providing exceptional customer support, handling calls and emails, and enhancing client experience with training.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/viewjob?jk=22291587a821e25e",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "au.indeed.com"
+  },
+  "fff6322d7db6": {
+    "id": "fff6322d7db6",
+    "title": "Customer Service Representative",
+    "company": "TTEC",
+    "category": "Office & Admin",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQFiNybjW5NywG5Q5BCcqLOouXcvFpg-jKmQzSbnCRduHfx3gp4HYdqtOOGUeIjZmrTqDBANkD0Vj-ohMo_1ejo8K7KbGBRifQxuYMtUx0k9Ls-0BUJhHatKFZ-iguts0wRwq0N-OdAbL1w00mes9afzlneaUg5EjteiEOSOxOVijhk4tHXe6g0ukpSAo4dzWWdxVtn7k=",
+    "source_domain": "ttec.com",
+    "summary": "Focuses on making customers happy, handling billing/credit issues, and providing support in a hybrid working environment.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "secret",
+    "board_checked": true
+  },
+  "4e6548a321d0": {
+    "id": "4e6548a321d0",
+    "title": "Sales Administration Coordinator",
+    "company": "Travel + Leisure Co.",
+    "category": "Office & Admin",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_iQ4Bbg0l-6XUYvBK9jEZYUhUMUGGwszEdRti1d9RpjoxAEnJPljGP8n7ZNZC3trttqDju914jpH8AVApXzCiQ1sFrD-ysUrWx8E5k82WI5m0NDyuW13iQ7hHJ0PyaPuZn-NWdmbaH8JsGleSS_FiV3vh415Y5bImZWqLi_ssej_yDQdEP8hgXYME5RrFwVdYe8E8OFWgZA6w_y8sMgRqqg3IcffXMykd_7TKox48UuiHfELef44Dk5uYzO3j-plzJuqAS_ULWvIg",
+    "source_domain": "wyndhamhotels.com",
+    "summary": "Part-time role supporting sales staff with daily administrative duties, data entry, reporting, and customer service.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/cmp/Travel--Leisure-Co./jobs?q=Sales+Administration+Coordinator&l=Melbourne+VIC",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "au.indeed.com"
+  },
+  "cbf5b8c737aa": {
+    "id": "cbf5b8c737aa",
+    "title": "Project Manager (CSA or MEP Construction - Data Centres)",
+    "company": "Linesight",
+    "category": "Construction & Building",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://www.linesight.com/careers/en-us/jobs/project-manager-csa-or-mep-construction-data-centres-melbourne/4186",
+    "source_domain": "linesight.com",
+    "summary": "Manage construction projects for data centres, focusing on CSA or MEP aspects, within a dynamic global team.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/viewjob?jk=2834015672950942",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "au.indeed.com"
+  },
+  "b61be511a8a1": {
+    "id": "b61be511a8a1",
+    "title": "Engineering Surveyor",
+    "company": "HR Surveyors",
+    "category": "Construction & Building",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://www.hrsurveyors.com.au/careers",
+    "source_domain": "hrsurveyors.com.au",
+    "summary": "Seeking an Engineering Surveyor for full-time permanent work in Melbourne, posted recently on the company's career page.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/viewjob?jk=2b8d5a1b3a5b3a5b",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "au.indeed.com"
+  },
+  "a5fe781fcb71": {
+    "id": "a5fe781fcb71",
+    "title": "Surveyor (Expression of Interest)",
+    "company": "Land Surveys",
+    "category": "Construction & Building",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://www.landsurveys.net.au/careers",
+    "source_domain": "landsurveys.net.au",
+    "summary": "Land Surveys invites expressions of interest for various surveying roles across Australia, with opportunities in Melbourne.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "secret",
+    "board_checked": true
+  },
+  "6c3482fd3716": {
+    "id": "6c3482fd3716",
+    "title": "Tradespeople / Builders (Expression of Interest)",
+    "company": "Metricon",
+    "category": "Construction & Building",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://www.metricon.com.au/careers",
+    "source_domain": "metricon.com.au",
+    "summary": "Metricon is seeking experienced, high-quality tradespeople for ongoing work in Melbourne, inviting general applications.",
     "verified_unlisted": false,
     "checked_against": [
       "search-filtered, not yet cross-checked"
     ],
     "evidence_url": null,
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
     "status": "unchecked",
     "board_checked": false
   },
-  "d3261836f132": {
-    "id": "d3261836f132",
-    "title": "Bookkeeping Assistant",
-    "company": "e-Careers Limited",
-    "category": "Office & Admin",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://e-careers.workable.com/j/A1B2C3D4E5",
-    "source_domain": "e-careers.workable.com",
-    "summary": "Entry-level Bookkeeping Assistant for remote/flexible role, offering AAT qualification and internship placement.",
+  "f8abed21953f": {
+    "id": "f8abed21953f",
+    "title": "Building Surveyors (Expression of Interest)",
+    "company": "BSA Building Surveyors",
+    "category": "Construction & Building",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://www.bsabs.com.au/careers",
+    "source_domain": "bsabs.com.au",
+    "summary": "BSA Building Surveyors welcomes expressions of interest for building surveying and consulting roles in Melbourne and Victoria.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "secret",
+    "board_checked": true
+  },
+  "f565679e3faf": {
+    "id": "f565679e3faf",
+    "title": "Skilled Trades (Expression of Interest)",
+    "company": "Backman Builders",
+    "category": "Construction & Building",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://backmanbuilders.com.au/careers",
+    "source_domain": "backmanbuilders.com.au",
+    "summary": "Backman Builders is seeking skilled tradespeople who prioritize quality and detail for high-performance building projects.",
     "verified_unlisted": false,
     "checked_against": [
       "search-filtered, not yet cross-checked"
     ],
     "evidence_url": null,
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
     "status": "unchecked",
     "board_checked": false
   },
-  "28cbe7669386": {
-    "id": "28cbe7669386",
-    "title": "Front of House - Receptionist",
-    "company": "Barclays",
-    "category": "Office & Admin",
-    "city": "London",
-    "location": "London, England, United Kingdom",
-    "url": "https://search.jobs.barclays/job/london/front-of-house-receptionist/2361988/",
-    "source_domain": "search.jobs.barclays",
-    "summary": "Seeking a Front of House Receptionist in London to provide excellent service within a corporate environment.",
-    "verified_unlisted": false,
+  "5488a864d15c": {
+    "id": "5488a864d15c",
+    "title": "Veterinary Surgeon - Exotics",
+    "company": "Lort Smith (via VetFinders)",
+    "category": "Healthcare & Care",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETRjPbequbHEM2wXHI9yIf355boGZ5OPLDGkehlX2PWf6z-qo6LarYE_pv43fJe3cNy-o0Rs9sV-2yElDy0T7AQotPIHFb_8kJbY_jjSzbc6RAPT6Rh6zfAK1fkznjHM8WluwZpUjQlsaEzX8LTRli",
+    "source_domain": "vetrecordcareers.com",
+    "summary": "Lort Smith is seeking an Exotics Veterinary Surgeon in Melbourne, offering a unique caseload and a salary from $120k.",
+    "verified_unlisted": true,
     "checked_against": [
-      "search-filtered, not yet cross-checked"
+      "confirmed not on major boards"
     ],
     "evidence_url": null,
-    "first_seen": "2026-06-23",
-    "last_seen": "2026-06-23",
-    "last_checked": "2026-06-29",
-    "status": "unchecked",
-    "board_checked": false
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "secret",
+    "board_checked": true
+  },
+  "2d270a63a09f": {
+    "id": "2d270a63a09f",
+    "title": "Relocate to Melbourne - Small Animal Veterinary Surgeon",
+    "company": "Red Sector Recruitment (for independent hospital)",
+    "category": "Healthcare & Care",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoQ7UGJPtDlalO3OHLWCJdMxTOfSqlp8Wbxtn4kqmkpvX0SDqwCEMNXdf72yrusOD6mxsikn8mVQWoQsnfxfOY17vbLRtD_mFv0v0NwQokFyRBTYQ1G1X332VoZ-9jgmwz12pCQSSaEw==",
+    "source_domain": "vetrecordcareers.com",
+    "summary": "An independent veterinary hospital in Melbourne is seeking a Small Animal Veterinary Surgeon, offering flexible roles and career growth.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "secret",
+    "board_checked": true
+  },
+  "4415af98f156": {
+    "id": "4415af98f156",
+    "title": "Graphic Designer",
+    "company": "Thirst Creative",
+    "category": "Creative & Design",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://thirstcreative.com.au/careers/",
+    "source_domain": "thirstcreative.com.au",
+    "summary": "Seeking a gifted Graphic Designer to join a creative studio delivering brand, design, and digital solutions.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "secret",
+    "board_checked": true
+  },
+  "134cdbb0e5a9": {
+    "id": "134cdbb0e5a9",
+    "title": "Audio Operator (Casual) - SBS Audio Operations Melbourne",
+    "company": "SBS",
+    "category": "Creative & Design",
+    "city": "Melbourne",
+    "location": "Melbourne, Victoria, Australia",
+    "url": "https://careers.sbs.com.au/job-search",
+    "source_domain": "careers.sbs.com.au",
+    "summary": "Casual Audio Operator role in modern studios in Melbourne CBD for Australia's diverse media organization.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmiN1ums5sJlnSFVQ9fEoyhuzHqYmRYVvf-EiZqPVHaIgQitm6VnUmeDrNuoHakEF3iQH2En5codX-FM6CedyT0ieFpsc-C3qKiIhIopXH6Xi3qouWQ9tB1UhhQMAoL4eNDa-0auCpMXuY6-ylVYq43A==",
+    "first_seen": "2026-07-01",
+    "last_seen": "2026-07-01",
+    "last_checked": "2026-07-01",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "jora.com.au"
   }
 }
