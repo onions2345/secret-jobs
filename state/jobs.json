@@ -399,7 +399,7 @@
     ],
     "evidence_url": null,
     "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
+    "last_seen": "2026-07-02",
     "last_checked": "2026-07-01",
     "status": "unchecked",
     "board_checked": false
@@ -615,7 +615,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -636,7 +636,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -657,7 +657,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -678,7 +678,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -699,7 +699,7 @@
     "evidence_url": "https://au.indeed.com/q-diesel-mechanic-$70,000-jobs-in-malaga-wa.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -721,7 +721,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRn3m7FFS1IX8Sw1J90VQForpAZvW-F81oQdXSO1V5Yq7cn3-AVy4QJ3FseJBxPH3YjdnL4et9DyUUNrERGErzpegocqJ9kyitB__23XSrDFtqqLYMgLCOf5Nre2wEpDQiXgFS8QQWPkRyx9Ede3rtil3vH8Udynzi5kEZ2hle",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -743,29 +743,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsx_wNUBlM7T1CCV7IIq1LkTE8luTtH4fEdLfY5cisCikTYJLD_qw0NhBtaY88xqif4Mgd9oz8uweKgHf7rvwqB-2lsFtDGcaPAG30CCHQ79TN0a3j7vud9wZVYxO6la38Yq6XI-K2uj3Hcjo=",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "au.indeed.com"
-  },
-  "d6ed8d6843f2": {
-    "id": "d6ed8d6843f2",
-    "title": "Project Administrator/Document Controller",
-    "company": "Perkins Builders",
-    "category": "Construction & Building",
-    "city": "Perth",
-    "location": "Perth, Western Australia, Australia",
-    "url": "https://perkinsbuilders.com.au/careers/current-vacancies/",
-    "source_domain": "perkinsbuilders.com.au",
-    "summary": "Support construction projects in Perth by managing documentation and administrative tasks for a family-owned company.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/viewjob?jk=7227e26017b2049d",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -787,7 +765,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -808,7 +786,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -829,7 +807,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "unchecked",
     "board_checked": false
   },
@@ -850,7 +828,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh1q9yjB1BdWswpG43j9FVqgQSdy7L0DgN3gIBmmEmcx2gtPFC2Bj5Eej6HaX4-8bBmAQs17EIwEqHm7NvaDHCQK5sDqUyNGPJXGEGDUVwM_6y1xZaJ4XUhRKgcOshLRDi4r9PZJeVhQy7Qg==",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -872,7 +850,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -893,7 +871,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "unchecked",
     "board_checked": false
   },
@@ -914,7 +892,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -935,28 +913,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
-    "status": "secret",
-    "board_checked": true
-  },
-  "18195e3432f7": {
-    "id": "18195e3432f7",
-    "title": "Aged Care Jobs Hobart",
-    "company": "Regis Aged Care",
-    "category": "Healthcare & Care",
-    "city": "Hobart",
-    "location": "Hobart, Tasmania, Australia",
-    "url": "https://www.regis.com.au/careers/aged-care-jobs-hobart/",
-    "source_domain": "regis.com.au",
-    "summary": "Regis Aged Care is a leading provider of aged care jobs in Hobart, offering a dynamic work environment.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -977,7 +934,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -998,7 +955,7 @@
     "evidence_url": "https://au.indeed.com/q-roof-plumber-jobs-in-Darwin-NT.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1020,7 +977,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1041,32 +998,10 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWyxdPQX4cexSa6yPDUCgYHW-d10L-YPmHJ0Eun5j1Lfq8Tu4b8YsZFvmY4OmkdMSBezwivRrBn0-77yJxVY376bf_HG0d8fPtJLbbZL9uMTxqQzcjCtEijb4ASIS3b-Z4JupRlBT4LmtWefozUDO0LONkJL6u2_UlgXgIBV9ZvqpMUnHNErdWXa7U",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
-  },
-  "2bda30f26eca": {
-    "id": "2bda30f26eca",
-    "title": "Workplace Concierge",
-    "company": "Bupa",
-    "category": "Healthcare & Care",
-    "city": "Melbourne",
-    "location": "Melbourne, Victoria, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-rTSSjjITBdTET4L6AiD6YTIDj0hF6Xi2T1zH8YHEEUCBbvq-ayM1MAyND8GQAhz_LQlhS70yuTjHokecQLlTxHt3alkSvDJBFqhTJyqVdGua76YQqB9VzIdtTyvML7URU83xUF2AUL6d83TswWxZpYmjbXnBjAqhgurJab0xfCmBjf2ldfUt7kg=",
-    "source_domain": "bupa.com.au",
-    "summary": "Bupa is looking for a full-time Workplace Concierge in Melbourne to manage administrative tasks and enhance the office environment.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/jobs?q=Workplace+Concierge+Bupa+Melbourne",
-    "first_seen": "2026-06-15",
-    "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "au.indeed.com"
   },
   "8688eba90ade": {
     "id": "8688eba90ade",
@@ -1085,7 +1020,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1106,7 +1041,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1127,7 +1062,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdwd3VT2RQt1XVEFVktn4J52adsaNzEmXlvVTTinyuBCwiqTiX9Yp_2bUOZzNxvKdYsYy8nHGsUkr9bhUY4hg8W-CZPLKZwnl_NsnB0XhIxAnnhxiKyBjh9kvwe0T_rJVIra7idYwS-o7kkGHiRhrl",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1149,7 +1084,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1170,7 +1105,7 @@
     "evidence_url": "https://au.indeed.com/q-Site-Supervisor-Remedial-(QLD)-Freyssinet-Australia-jobs.html",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1192,28 +1127,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
-    "status": "secret",
-    "board_checked": true
-  },
-  "46a50c108246": {
-    "id": "46a50c108246",
-    "title": "Surveyor and Graduate Surveyor",
-    "company": "NorthGroup Consulting",
-    "category": "Construction & Building",
-    "city": "Brisbane",
-    "location": "Brisbane, Queensland, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyBgRj44H0XojkIcpNYfpdfwJ_NqqAavajkIrvw5yKnY2ULw_9D9c4AN_RTpXYBR3a1jH9JRrh3wkwPWP5J5uVyE5HYZusqLCVye-T76iATxar-4Jx1YLZRnqVjDtoVTSFojadl4XZWL3iACK3CP0EqECs4UtSt77_MUkCWvxQiNe5GDTVyOuMMyETh4dbH4Pmt4U=",
-    "source_domain": "northgroup.com.au",
-    "summary": "NorthGroup Consulting is seeking Surveyors and Graduate Surveyors for diverse projects in South-East Queensland, offering career development.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-15",
-    "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1234,31 +1148,9 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
-  },
-  "b4572bfc10a5": {
-    "id": "b4572bfc10a5",
-    "title": "Surveyors",
-    "company": "Queensland Surveying Solutions",
-    "category": "Construction & Building",
-    "city": "Brisbane",
-    "location": "Brisbane, Queensland, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKARMd3KbuOs1zgXVtLJD_-FN7qc9Y-L_dVxsovq7splzSdhWBZAYY-gXpECXk358XrVWqghX2Z8xtIXvSqKt7h5uzKgXXMI6CZU_FaZROFYZPu0FDVerNbrgrKlZj",
-    "source_domain": "qldsurveying.com.au",
-    "summary": "Queensland Surveying Solutions is continuously seeking qualified and experienced surveyors to join their Brisbane-based team for civil, building, and engineering projects.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://www.seek.com.au/job/76251411",
-    "first_seen": "2026-06-15",
-    "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "seek.com.au"
   },
   "5be849d42946": {
     "id": "5be849d42946",
@@ -1277,7 +1169,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1298,7 +1190,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1319,30 +1211,9 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "unchecked",
     "board_checked": false
-  },
-  "f4a07cd3e129": {
-    "id": "f4a07cd3e129",
-    "title": "EOI - Plant Operator (Civil, Construction, Mining)",
-    "company": "Westforce Construction",
-    "category": "Construction & Building",
-    "city": "Perth",
-    "location": "Perth, Western Australia, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSNuMapQM0d9GoqF3_nPHP2Hi4IEe73U-5pOtbtLELu0pZm8Gmee_1QNfhQz_Pdz18oS8_kzeqTKif3ZqozMxwo_3FKnLuCkLC2kZ8lIwpW-qaAcBTaiWiXbzA7g7vvgCeAjjld_YfMhpsQQ==",
-    "source_domain": "westforce.com.au",
-    "summary": "Seeking experienced Plant Operators for upcoming civil, energy, resources, and infrastructure projects across WA, including Perth-based work.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-15",
-    "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
-    "status": "secret",
-    "board_checked": true
   },
   "18cfc55ec760": {
     "id": "18cfc55ec760",
@@ -1361,7 +1232,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1382,7 +1253,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1403,7 +1274,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1424,7 +1295,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmVPtt5cPOiPdkjLoUNWwuzghaILM0fO6HXymhvvX6QSrnUmR7u2nEcgFdvJ52TkACIL7hGDLwnxPLSBaxaI_1VaLtjbfWe7UjIqLsI8cncmX5hO7XjlS-Miybv1xogRrt2O0SI_NCr0_elqsDNg==",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jobsora.com"
@@ -1446,7 +1317,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1553,28 +1424,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
-    "status": "secret",
-    "board_checked": true
-  },
-  "908c63a833bc": {
-    "id": "908c63a833bc",
-    "title": "Chef De Partie",
-    "company": "Restaurant Associates",
-    "category": "Hospitality & Food",
-    "city": "Melbourne",
-    "location": "Melbourne, Victoria, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc3Nh0WgTWN3_sWwMeZFfOcGlFhh-bL5d-gDG0svI2SkVVJ1NNClgSJpvCRqEMaOdRdwpDUzSszvuAM69IpEJHj6FrB1sVfHjYHJrOG46N8HACBpg13nBjK_WmsQiVJuNpPhrySgCG0D9PBUImTFfAI070ilhdaN0sin21nzLBVpdvKHjul7TjV85GPgpnuPwqIRB35s7-2giCPcktCTWmXWsrDcn1LIDbCg==",
-    "source_domain": "compass-group.com.au",
-    "summary": "Skilled Chef De Partie for a la carte dining at National Gallery of Victoria, focusing on high-quality Mediterranean/Modern Australian food.",
-    "verified_unlisted": true,
-    "checked_against": [
-      "confirmed not on major boards"
-    ],
-    "evidence_url": null,
-    "first_seen": "2026-06-20",
-    "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1595,7 +1445,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQanGT57q_CqA-WANwKsi6FpmSgGFklVbaMj6XmEeuj-isAt0kdf2SpnhGzv_2VGIv-w_ej2t2ckJoxcHc3uupMsh_c6f4RhUz8xWS7bXDLtp55Q7X_pwkAIz4PgLRM0pC31w39vWdd3L3QxIs_Bgtcv7hrQoFq2ViuFVexSXf2AFU7DONQFgR-W8IW18HZwePPhPN86lqajHMlQPSC4g6bQLyM4zsgu8y0i_RNQ==",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1617,31 +1467,9 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
-  },
-  "d8ce8e310cfe": {
-    "id": "d8ce8e310cfe",
-    "title": "Bartender - Collins Kitchen Restaurant (Part Time)",
-    "company": "Grand Hyatt Melbourne",
-    "category": "Hospitality & Food",
-    "city": "Melbourne",
-    "location": "Melbourne, Victoria, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6_rf10C6C74fUPCUZowiWLlOjsJaqs_ktbrBEKCp2DBV9s2R_UBqg0ToFwRBrFbKt15HUwkqlbEyf5jDlbRn6mLSfHXPJMYKuHK4L28zCd7iHDZL_mf538C5DKuD6d3yS6wOzFuN74l2rFA==",
-    "source_domain": "careers.hyatt.com",
-    "summary": "Part-time Bartender for Collins Kitchen Restaurant at Grand Hyatt Melbourne, providing service in a luxury hotel environment.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/q-part-time-hyatt-jobs-in-melbourne-vic.html?vjk=4213d29815c43d2c",
-    "first_seen": "2026-06-20",
-    "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "au.indeed.com"
   },
   "27b7a7ab02f5": {
     "id": "27b7a7ab02f5",
@@ -1660,7 +1488,7 @@
     "evidence_url": "https://au.indeed.com/viewjob?jk=721516093557434a",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1682,7 +1510,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmwR3AS4eKPUrcDKQmSlBfWPchzC6E-b6HSoezpeZO_v2WiiiJjEfX_ZD6H93bKYRLhZ0hn_xg3t1fHZWfiqQPR-sKLCRjZdRsC8ziiT9y1LvkVQCXbrc8G_EG4PS59SqhS3smjI-pCzjb68H8=",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1704,32 +1532,10 @@
     "evidence_url": "https://au.indeed.com/cmp/WTW/jobs?q=Client+Solutions+Manager&l=Melbourne+VIC",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
-  },
-  "373f2e058f3e": {
-    "id": "373f2e058f3e",
-    "title": "Crew Lead",
-    "company": "Bupa",
-    "category": "Healthcare & Care",
-    "city": "Melbourne",
-    "location": "Melbourne, Victoria, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuz7By9wJidLQKRz5J4gPUWuEW_yj13hXp8aHWAr-0gK5EX16e-b4oBYb_2SNOyOlCxY8bpb6GrjBODixnLPMOKUIIr4hJtWcwSnOBKZrXDgw-6-EIAQ6QHpU67H6WU2e4tZR1rPQ4sN2IiTSF0rZp1BIkGVufuRkj53aEHAX7",
-    "source_domain": "bupa.com.au",
-    "summary": "Leadership role in Bupa's digital transformation, focusing on customer engagement and service improvement.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://au.indeed.com/viewjob?jk=71a1c9d2f2c8d2d1",
-    "first_seen": "2026-06-20",
-    "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "indeed.com"
   },
   "bf0621dfa577": {
     "id": "bf0621dfa577",
@@ -1748,7 +1554,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1769,7 +1575,7 @@
     "evidence_url": "https://www.seek.com.au/job/76043831",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1791,7 +1597,7 @@
     "evidence_url": "https://au.jooble.org/jdp/6007621430030206109/Small-Animal-Senior-Veterinarian-Job-Sydney,-New-South-Wales,-Australia",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jooble.org"
@@ -1813,7 +1619,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1834,7 +1640,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1855,7 +1661,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "secret",
     "board_checked": true
   },
@@ -1876,7 +1682,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQglo8rTZLfp859DG7qAwA53gntYFXEiHUQBCzITKqXMxYC3P8GJUv58pvOkXdhARHPopiDIIfAaHkkxBOcUus7gjz9V_0iQPtDPMxqFdE8aTwJlXLXJhjdV8gYqbLfAUqCH0ssHIpfrbwwuDjA386WXFy5OiuluyssEw1jnxpAwLKvL6-",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1898,7 +1704,7 @@
     "evidence_url": "https://www.seek.com.au/job/76251433",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-06-30",
+    "last_checked": "2026-07-02",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -2941,5 +2747,459 @@
     "status": "on_board",
     "board_checked": true,
     "board_name": "jora.com.au"
+  },
+  "d6788fd223bb": {
+    "id": "d6788fd223bb",
+    "title": "Platform Engineer / DevOps Engineer / Infrastructure Engineer / Site Reliability Engineer",
+    "company": "Anduril Industries",
+    "category": "IT & Software",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0_J03nzRQM5RAJfLjOUjC7ClveBVsd2zANO_LOcahbxtOyeOW-z_R2Lyite0qvc-fAnj6JbTf4SOy0MZtFkR6rbg_sKJ_HmtyvY5GzERB5CAsVX1o-yTVRxCz0zUnpv9gsV0ipjK5Dm1caw==",
+    "source_domain": "linuxcareers.com.au",
+    "summary": "Develop and maintain cloud infrastructure and reliability for a defense technology company.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "secret",
+    "board_checked": true
+  },
+  "657541ed3ffd": {
+    "id": "657541ed3ffd",
+    "title": "Workshop Forklift Mechanic/Service Technician",
+    "company": "Crown Equipment",
+    "category": "Automotive & Mechanics",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrSL1fz8Ba7FZdmeMaqmKIwLyvlQXBbd7nbSkwaUAOKKVUy0JMcrpuWQ1Vm0V_X6D5vIBiDduv29YQAuG_pnjauJ5ayZDfd4Fxxy3m-SQlJ8k9kuHheSNf-Upk38dxPOX1pNq1WJOymgudpBii1lWfPqnU",
+    "source_domain": "crownequipment.workable.com",
+    "summary": "Full-time workshop role in Smithfield, Sydney, for a mechanically minded individual to service and repair forklift equipment.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://www.seek.com.au/Crown-Equipment-jobs/in-All-Sydney-NSW",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
+  },
+  "711542f3ea69": {
+    "id": "711542f3ea69",
+    "title": "Plumbing Careers / Apprenticeship Program",
+    "company": "Proximity Plumbing",
+    "category": "Skilled Trades",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsplunt4t8hcIxX2PxdfkfAqqE0A9NkQ4acuQgck68lvy0hhqDqSDYB_ifFKw1ARUAx2lXgu8OUZ3fFjpXaLsH39WmCot6tjljiejWCb_ZlA4gcOgcL05yaHbQjbl2Ixi7z-2UjC94",
+    "source_domain": "proximityplumbing.com.au",
+    "summary": "Proximity Plumbing is hiring skilled plumbers and offers an apprenticeship program for motivated individuals in Sydney.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "search-filtered, not yet cross-checked"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "unchecked",
+    "board_checked": false
+  },
+  "8304200d9a3f": {
+    "id": "8304200d9a3f",
+    "title": "Apprentice Electrician",
+    "company": "Thales Group",
+    "category": "Skilled Trades",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpWHdSoMrCFBCnaYVFrMCFBzMo0OTCOr5Z1SDHw2ZDjjoIW7S2QD5eu2_jKPPQesl1puSF_ZxJaoscjDvkqGrN3ZxyzIYZnkxPrsMzSxuZKM6G7YklLSTBHrmc_nDvy8wRx7E21OTAhyftqqsBJvWo6JsyqIMVOuJEs4caZbVJ2XXxT129amje",
+    "source_domain": "thalesgroup.com",
+    "summary": "Thales Group is seeking an Apprentice Electrician in Sydney, offering competitive benefits and professional development.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "secret",
+    "board_checked": true
+  },
+  "58185b3d55a2": {
+    "id": "58185b3d55a2",
+    "title": "Service Team Manager HVAC",
+    "company": "Johnson Controls",
+    "category": "Skilled Trades",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuk-xPPRZkYKDyUvOg_tQ3GfUlJG_CrxhjZY_Y6u6bMYvb9J7M56AnwFct8rjWo8iktfVebyQPeQfoONDruhZerXFa2T1sSxdbB_5zTYDjm-kmff4hCr5iB1scQVvNFGNFh8VHA7nHxisY",
+    "source_domain": "johnsoncontrols.com",
+    "summary": "Johnson Controls is hiring an HVAC Service Team Manager in Sydney for a permanent, full-time role with career growth.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://www.seek.com.au/job/76643640",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
+  },
+  "e90d13cc827d": {
+    "id": "e90d13cc827d",
+    "title": "Construction Labourer / Water Cart Driver",
+    "company": "Sydney Plant & Labour Hire",
+    "category": "Construction & Building",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://sydneyph.com.au/careers/",
+    "source_domain": "sydneyph.com.au",
+    "summary": "Seeking skilled and general labourers and water cart drivers for civil construction projects across Sydney.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "search-filtered, not yet cross-checked"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "unchecked",
+    "board_checked": false
+  },
+  "44e07b024736": {
+    "id": "44e07b024736",
+    "title": "Project Manager, Enterprise",
+    "company": "Procore Technologies",
+    "category": "Construction & Building",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://www.procore.com/jobs/sydney-new-south-wales-australia/project-manager-enterprise/",
+    "source_domain": "procore.com",
+    "summary": "Procore seeks an Enterprise Project Manager to guide clients through successful software implementation journeys.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://www.seek.com.au/job/76483561",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
+  },
+  "120abb1ec390": {
+    "id": "120abb1ec390",
+    "title": "Experienced Surveyor",
+    "company": "SurveyPlus",
+    "category": "Construction & Building",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://surveyplus.com.au/careers/",
+    "source_domain": "surveyplus.com.au",
+    "summary": "SurveyPlus is seeking experienced surveyors for diverse projects across Sydney, offering career development and flexible work.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "secret",
+    "board_checked": true
+  },
+  "27254cef7dc0": {
+    "id": "27254cef7dc0",
+    "title": "Chef",
+    "company": "Compass Group",
+    "category": "Hospitality & Food",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOBzsZbESCxHZPq833UyxUxhHlrsQxl9e03Ukk6wrYyFpNWwKJBxkdyIcYqXAt8jYih4GPoAyFhsY4F-Kvj_O4XY157_NA5UKP1igS0BHG_e-kCI88ztaV_aJNwEVGYK3mzTAi2sSs6bH7kvqGp2Dmz3NvjNNN1Q==",
+    "source_domain": "fifo-careers.com.au",
+    "summary": "Compass Group is hiring a Chef in Sydney for a Monday to Friday roster, focusing on healthy and nutritious food.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBWIsn6_Is4wv2F5AyxStvAiAj1ewlR3MzQN2wlP72_B1P1S-0QDmGQp9upKDre2y8ScwAcI3bbNBM2GeELJWibabg4fUq0NRBazJl29-27y4hnKvf616UHCYPwjfLtGEILWL1vnND2vI-mn0p2nd7xFa0xafWBwMKYDtncb3CMQMPwahgFuv7WusSNp0mip2ETjYmGufI5-Ro90gZs82qmByqCwb-",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
+  },
+  "b8c210c814f7": {
+    "id": "b8c210c814f7",
+    "title": "Marketing Associate (Freelance)",
+    "company": "HelloFresh",
+    "category": "Creative & Design",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjPQdEJFVTNR1ZHepmhXbeBBx2jVXhjBZBP1V3pjZJy0BBiT7_i8mAnCdKI337fcnh78SlaSuS8WJJGMxyzaxlM0lVPeRLbN0CDdnsJvr8axUHeAAwrVOz0aD0ejnnO68nEcot2VoW1XS5NuC8JwkmJaPknhTLmoKsXBu49AI=",
+    "source_domain": "careers.hellofreshgroup.com",
+    "summary": "HelloFresh seeks a freelance Marketing Associate in Sydney for content development, copywriting, and digital marketing.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/cmp/Hellofresh/jobs?q=Marketing+Associate+(Freelance)",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "au.indeed.com"
+  },
+  "3eb9109e76b1": {
+    "id": "3eb9109e76b1",
+    "title": "Marketing & Communications Specialist",
+    "company": "Constantinople",
+    "category": "Creative & Design",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmVJoVQT9Dd06s4hdVBPVkvFd5j4bzAH4h7fL4uSxBUj8Wjx29dW43vcmi7gw3teLf0RlzGuW3i5LEejqgsae0_gktQusB07o_AyIG3I21ybFhzdJYLSmy_aOPrIvBHSH_dVczLptFMRaWhauByqEcw9ssq5YAL3tNkLFNW4ZSaD3gzEU=",
+    "source_domain": "builtinsydney.com",
+    "summary": "Constantinople is hiring a Marketing & Communications Specialist in Sydney for content creation, brand initiatives, and digital channels.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "secret",
+    "board_checked": true
+  },
+  "564de06bf039": {
+    "id": "564de06bf039",
+    "title": "IB Global Politics Content Creator",
+    "company": "Revision Village (part of Crimson Education)",
+    "category": "Creative & Design",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDrD1nxDdDV-5-3Q5k0ivjqH4sAaIwyt8ykCAw5g0_0HsyoJRysXrO02F-j9ZrZFNh2t8wb5ZV0K2LzDai9l1NNXcgUS55Un16zIWQZlvDiiCcTxQd2pPjH_Ji30grJep3tiko3lonrKb_nAY-3OLTl91t5LSQonDUVDDn_IJ0ex42m9S1C4YtKThv1wI7_6xUJIdtTOZCAt38NlNSvi5MOKpFYVhh",
+    "source_domain": "advertisingindustrycareers.com.au",
+    "summary": "Revision Village seeks a remote IB Global Politics Content Creator to develop educational materials.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "secret",
+    "board_checked": true
+  },
+  "7625c2c9f811": {
+    "id": "7625c2c9f811",
+    "title": "Technical Procedures Writer",
+    "company": "Reserve Bank of Australia",
+    "category": "Creative & Design",
+    "city": "Sydney",
+    "location": "Sydney, New South Wales, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwTr9YO6_-effBDqF1gLUsqYdhpqiYqgqDbpj_t5TXG6h72ZsH-URyR361u4mkODi10C8c_NNm2gK6FQ_KMLXR23r9pcpu1aE5uLdwGAbYRCl7KqA2c4ep15R4p8YBXKCCpuxeMBRkG0Z7s5IFcurMWOegs1HCCVGq3THnIBmv",
+    "source_domain": "rba.gov.au/careers",
+    "summary": "Reserve Bank of Australia seeks a Technical Procedures Writer for knowledge management in IT and Payments Settlements.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://www.seek.com.au/job/76495346",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
+  },
+  "7f68c0760a48": {
+    "id": "7f68c0760a48",
+    "title": "Plumber",
+    "company": "BGIS",
+    "category": "Skilled Trades",
+    "city": "Brisbane",
+    "location": "Brisbane, Queensland, Australia",
+    "url": "https://apac.bgis.com/careers/",
+    "source_domain": "apac.bgis.com",
+    "summary": "BGIS is hiring a full-time Plumber for hydraulic and plumbing maintenance, repairs, and minor works across client facilities in Brisbane.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETYh41PC2Jcw6uv8qR-ylsIPG74q2Nk7dcKbnsclrIBihMQyhunNJ2RPgKx-n_gKoOfJ8VE3bq766H1hcK8ujJGm-gJjGiicMZ7qmLzN-oXO0AHqU8GpF_FOsb7TaICQ_-NkQo7DELSVGX4A==",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "au.indeed.com"
+  },
+  "f17fc21695ba": {
+    "id": "f17fc21695ba",
+    "title": "Plumber",
+    "company": "BGIS Technical Services",
+    "category": "Construction & Building",
+    "city": "Brisbane",
+    "location": "Brisbane, Queensland, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECEpJKfgocSIQ574spiBb7Z7sVLVoT5aRqvMJ4zIe0mvf_qQ_5mkC_gUMfsgubHTGkPNxMFZCVENNId7lXA21bofMVTyxvtMHHOeXXs3ZzKye-FzqztjB1-udTU_UcBPAUOJb9cTt2-X970Ho8g7ijykEE03WGoWsw",
+    "source_domain": "constructionjobsaustralia.com.au",
+    "summary": "Full-time permanent plumber role with BGIS Technical Services, performing maintenance and repairs on hydraulic and plumbing systems across client facilities.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/viewjob?jk=2985390729857298",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "indeed.com"
+  },
+  "76579e242000": {
+    "id": "76579e242000",
+    "title": "Chef",
+    "company": "Compass Group",
+    "category": "Hospitality & Food",
+    "city": "Brisbane",
+    "location": "Brisbane, Queensland, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-lejPIpRNVTrMTwZIc9WR4O348up8j7HyPCJts8BBj-3qvnhkLfw0OTdztH9FwTC8xRo8ChKmjN4834r-hdLpUc0CFR43QMPbqQMUgGzt7LRCxIMQh_FIoeNvB5dsjqtSND-xjQCC",
+    "source_domain": "compass-group.com.au",
+    "summary": "Compass Group is hiring a Chef to prepare high-quality meals, lead kitchen operations, and manage stock for school students in Brisbane.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://www.seek.com.au/job/76503730",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
+  },
+  "1b50e790bf2c": {
+    "id": "1b50e790bf2c",
+    "title": "Allied Health Careers",
+    "company": "Metro North Health",
+    "category": "Healthcare & Care",
+    "city": "Brisbane",
+    "location": "Brisbane, Queensland, Australia",
+    "url": "https://metronorth.health.qld.gov.au/careers/allied-health-careers",
+    "source_domain": "metronorth.health.qld.gov.au",
+    "summary": "Explore various temporary and permanent allied health roles across Metro North Health, offering professional development and competitive salaries.",
+    "verified_unlisted": true,
+    "checked_against": [
+      "confirmed not on major boards"
+    ],
+    "evidence_url": null,
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "secret",
+    "board_checked": true
+  },
+  "457e6c5642a3": {
+    "id": "457e6c5642a3",
+    "title": "Mobile Plant Operators",
+    "company": "Mineral Resources",
+    "category": "Construction & Building",
+    "city": "Perth",
+    "location": "Perth, Western Australia, Australia",
+    "url": "https://careers.mineralresources.com.au/caw/en/job/525874/mobile-plant-operators",
+    "source_domain": "careers.mineralresources.com.au",
+    "summary": "MinRes seeks experienced mobile plant operators for permanent FIFO roles from Perth to Pilbara.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/viewjob?jk=7243b7e774f3d231",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "au.indeed.com"
+  },
+  "3a9070fc9151": {
+    "id": "3a9070fc9151",
+    "title": "Registered Nurse - Salter Point",
+    "company": "BaptistCare",
+    "category": "Healthcare & Care",
+    "city": "Perth",
+    "location": "Perth, Western Australia, Australia",
+    "url": "https://www.baptistcare.com.au/careers",
+    "source_domain": "baptistcare.com.au",
+    "summary": "Part-time Registered Nurse role in aged care, delivering person-centred clinical care and leading staff.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_BaCkxl5BHRX5B-q-JBqBbMvf0SUiSbSUoiEvenp9jTs38Gix09k8i1mSSs9JHNzaYZ-zUaK4ssD9-HrBXqgoGluvlnkq0ZcfVy-xrrF4q9Aag17ydHvq42CCBsHsi5w1LzqGv2JKWwyIUnQ=",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "indeed.com"
+  },
+  "3b8b8fbc62d4": {
+    "id": "3b8b8fbc62d4",
+    "title": "MC Drivers",
+    "company": "MinRes",
+    "category": "Logistics & Driving",
+    "city": "Perth",
+    "location": "Perth, Western Australia, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd3dUsM1plyERrf5QFxHU9B2PAhjHsaRivs5tgJWp2dF-7pUHi3d7b_D4-EC9XteWXzE7P-p6KoUcQQEKaIXtpc2dkO0KjC7E9vauE59l2LVn6Zn5yUb1_Gi71RMhgNNWm5MvoWqtndoiec1Ak9fXyI3hHRW8Syt017pvHaybQB1aEubp7lrBwQg1DFO4VBd-Y_9R_wfymnrG3rpPAdvneL0_jB08TzZgbCi_MjZ2ymsKRIhBvnA==",
+    "source_domain": "minres.com.au",
+    "summary": "Seeking professional MC Drivers for heavy haulage in Pilbara, offering FIFO from Perth with permanent full-time roles.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://au.indeed.com/q-Mc-Driver-in-Mining-jobs.html",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "au.indeed.com"
+  },
+  "fbd96f98e8de": {
+    "id": "fbd96f98e8de",
+    "title": "Warehouse Operator - Part Time",
+    "company": "Hilti",
+    "category": "Logistics & Driving",
+    "city": "Perth",
+    "location": "Perth, Western Australia, Australia",
+    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsN5L_Di-Wg571SMSceG3KKJDhDXBZR2vES_aMraKnMFl9qgbrtr6L1WE70vyj9CV6t36Lee9A5XY-VtL5BnHwKBRnmuMjgXP0W3yqXP7txYjW7MZ5-iVpM-ImMyv-34OSHWv7rcqVhSmHcqOjBZOzfPVr88AIa2rm2_bcYSDGI1w5qRU=",
+    "source_domain": "hilti.com.au",
+    "summary": "Manage day-to-day warehouse operations, including stock processing, order picking, and maintaining inventory accuracy in Perth.",
+    "verified_unlisted": false,
+    "checked_against": [
+      "also listed on a major board"
+    ],
+    "evidence_url": "https://www.seek.com.au/Hilti-jobs/in-All-Perth-WA",
+    "first_seen": "2026-07-02",
+    "last_seen": "2026-07-02",
+    "last_checked": "2026-07-02",
+    "status": "on_board",
+    "board_checked": true,
+    "board_name": "seek.com.au"
   }
 }
