@@ -16,7 +16,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -37,7 +37,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -58,7 +58,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFvDBoivTAeew-KZVthUhgjJTU2hjqhus1EI71YnbFFNf2f4Td8MQsrh9uyO32l8lmBYFx2eujahcFoD0zAQ2mzwzKlfHcCfLyRe5IlRZHPVI1YbAytclKndH58S4ECbPdNDfYxCUksfK4hiV-",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -80,7 +80,7 @@
     "evidence_url": "https://au.jora.com/Dentist-Recruitment-Drive-2026-SA-Dental-jobs-in-Norwood-SA-5067-b5087532353f47260589255e4e844626?se=job_search&sp=serp&sl=Adelaide,+South+Australia,+Australia&st=job&sps=serp&spv=job_search&spp=1&spt=job&sps=serp&spv=job_search&spp=1&spt=job",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jora.com"
@@ -102,7 +102,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1VEg_RMALCLzOSxYkFlNP-h_Oplpko7_2InvF_dLepf8rJb-nkpmhr9hCcbFOUaK0LjWIwTrs7d7w_d7CoSVxj_EFprmWc5jegTzI2Ae55gwe7rPVw3pyICvacXM6BOzur9UzYqdK0jf15O,oRlYkmu82TypssiOcjD7cw7EU",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -124,7 +124,7 @@
     "evidence_url": "https://www.seek.com.au/anglicaresa-jobs/in-All-Adelaide-SA",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -146,7 +146,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -167,7 +167,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -188,7 +188,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -209,7 +209,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -230,7 +230,7 @@
     "evidence_url": "https://www.seek.com.au/job/76251214",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -252,7 +252,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -273,7 +273,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -294,7 +294,7 @@
     "evidence_url": "https://au.indeed.com/jobs?q=Vic+plumbing&l=Victoria",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -316,7 +316,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -337,7 +337,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -358,7 +358,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -379,7 +379,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -400,7 +400,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -421,7 +421,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -442,32 +442,10 @@
     "evidence_url": "https://au.indeed.com/q-junior-product-designer-$70,000-jobs.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
-  },
-  "9133d6094a84": {
-    "id": "9133d6094a84",
-    "title": "Electrician",
-    "company": "Alliance SI",
-    "category": "Skilled Trades",
-    "city": "Sydney",
-    "location": "Sydney, New South Wales, Australia",
-    "url": "https://www.alliancesi.com.au/careers/current-positions/",
-    "source_domain": "alliancesi.com.au",
-    "summary": "Alliance SI is hiring full-time Electricians in Sydney, offering career development and benefits within a growing electrical services company.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://www.seek.com.au/job/76251410",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "seek.com.au"
   },
   "bc481d469e99": {
     "id": "bc481d469e99",
@@ -486,7 +464,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -507,7 +485,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkKBNY9532rwcRBzSuBpFVLhVN6O2af5w8CkuMDA9t-t6zAP90qPY6ZuLLQoOD008uaZxG_9Co7imAz3XCUbZ0rZMzXS1jhtqDaBUZkcOtDZ18rF14OnOyGhdQkcQUrUAFY9NFWI9Xi2N2AihG5apEJtk1QxTdow==",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -529,7 +507,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -550,7 +528,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -571,7 +549,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0MQBcbBlfAlw1ICFAGHiy7ctV2vhMpn1kA_ZaMvqslzTFPk5i1vj0S9vLFvpA6iDZv90ZfwoPlY5MxPw5a__3wpKPBQS8UaiSzrnaDZqWMyTSDRLOIEW8dgSIQcOrNz8ZKThg0BXK5JV9UDZ0aWjAN2h80EQd",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -593,7 +571,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -614,7 +592,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -635,7 +613,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -656,7 +634,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -677,7 +655,7 @@
     "evidence_url": "https://au.indeed.com/q-diesel-mechanic-$70,000-jobs-in-malaga-wa.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -699,32 +677,10 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRn3m7FFS1IX8Sw1J90VQForpAZvW-F81oQdXSO1V5Yq7cn3-AVy4QJ3FseJBxPH3YjdnL4et9DyUUNrERGErzpegocqJ9kyitB__23XSrDFtqqLYMgLCOf5Nre2wEpDQiXgFS8QQWPkRyx9Ede3rtil3vH8Udynzi5kEZ2hle",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
-  },
-  "487337bec783": {
-    "id": "487337bec783",
-    "title": "Carpentry Teams",
-    "company": "Milford Homes",
-    "category": "Construction & Building",
-    "city": "Perth",
-    "location": "Perth, Western Australia, Australia",
-    "url": "https://milfordhomes.com.au/we-are-hiring/",
-    "source_domain": "milfordhomes.com.au",
-    "summary": "Seeking skilled carpentry teams with timber frame construction expertise for homes across Western Australia, offering consistent work.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsx_wNUBlM7T1CCV7IIq1LkTE8luTtH4fEdLfY5cisCikTYJLD_qw0NhBtaY88xqif4Mgd9oz8uweKgHf7rvwqB-2lsFtDGcaPAG30CCHQ79TN0a3j7vud9wZVYxO6la38Yq6XI-K2uj3Hcjo=",
-    "first_seen": "2026-06-14",
-    "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "au.indeed.com"
   },
   "7e317bd75776": {
     "id": "7e317bd75776",
@@ -743,7 +699,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -764,7 +720,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -785,7 +741,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -806,7 +762,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh1q9yjB1BdWswpG43j9FVqgQSdy7L0DgN3gIBmmEmcx2gtPFC2Bj5Eej6HaX4-8bBmAQs17EIwEqHm7NvaDHCQK5sDqUyNGPJXGEGDUVwM_6y1xZaJ4XUhRKgcOshLRDi4r9PZJeVhQy7Qg==",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -828,7 +784,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -849,7 +805,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -870,7 +826,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -891,7 +847,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -912,7 +868,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -933,7 +889,7 @@
     "evidence_url": "https://au.indeed.com/q-roof-plumber-jobs-in-Darwin-NT.html",
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -955,7 +911,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-14",
     "last_seen": "2026-06-14",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -976,7 +932,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWyxdPQX4cexSa6yPDUCgYHW-d10L-YPmHJ0Eun5j1Lfq8Tu4b8YsZFvmY4OmkdMSBezwivRrBn0-77yJxVY376bf_HG0d8fPtJLbbZL9uMTxqQzcjCtEijb4ASIS3b-Z4JupRlBT4LmtWefozUDO0LONkJL6u2_UlgXgIBV9ZvqpMUnHNErdWXa7U",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
@@ -998,7 +954,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1019,7 +975,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1040,7 +996,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdwd3VT2RQt1XVEFVktn4J52adsaNzEmXlvVTTinyuBCwiqTiX9Yp_2bUOZzNxvKdYsYy8nHGsUkr9bhUY4hg8W-CZPLKZwnl_NsnB0XhIxAnnhxiKyBjh9kvwe0T_rJVIra7idYwS-o7kkGHiRhrl",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1062,7 +1018,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1083,7 +1039,7 @@
     "evidence_url": "https://au.indeed.com/q-Site-Supervisor-Remedial-(QLD)-Freyssinet-Australia-jobs.html",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1105,7 +1061,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1126,7 +1082,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1147,7 +1103,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1168,7 +1124,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1189,7 +1145,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1210,7 +1166,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1231,7 +1187,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -1252,7 +1208,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1273,7 +1229,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmVPtt5cPOiPdkjLoUNWwuzghaILM0fO6HXymhvvX6QSrnUmR7u2nEcgFdvJ52TkACIL7hGDLwnxPLSBaxaI_1VaLtjbfWe7UjIqLsI8cncmX5hO7XjlS-Miybv1xogRrt2O0SI_NCr0_elqsDNg==",
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jobsora.com"
@@ -1295,7 +1251,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-15",
     "last_seen": "2026-06-15",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1316,7 +1272,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-16",
     "last_seen": "2026-06-16",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1337,7 +1293,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-16",
     "last_seen": "2026-06-16",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1358,7 +1314,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyOCvdoK9W2RqRqxcHKR_kafa1e0ddtdACbvhPaAIHZIA97qep6G8A9bMRxY_2IQ_dAj46i8SRfRDz94UhlZSPT2ziMwxWHU4kPbJlgYJ7crfA15WQ_HFyV9ysvAt82YSneVM12NDHSJ7Tw18C0erq4zR0MRFG",
     "first_seen": "2026-06-18",
     "last_seen": "2026-06-18",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1380,7 +1336,7 @@
     "evidence_url": "https://au.indeed.com/q-handyman-cushman-wakefield-canberra-act-jobs.html",
     "first_seen": "2026-06-18",
     "last_seen": "2026-06-18",
-    "last_checked": "2026-07-03",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1402,7 +1358,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1423,7 +1379,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQanGT57q_CqA-WANwKsi6FpmSgGFklVbaMj6XmEeuj-isAt0kdf2SpnhGzv_2VGIv-w_ej2t2ckJoxcHc3uupMsh_c6f4RhUz8xWS7bXDLtp55Q7X_pwkAIz4PgLRM0pC31w39vWdd3L3QxIs_Bgtcv7hrQoFq2ViuFVexSXf2AFU7DONQFgR-W8IW18HZwePPhPN86lqajHMlQPSC4g6bQLyM4zsgu8y0i_RNQ==",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1445,7 +1401,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1466,7 +1422,7 @@
     "evidence_url": "https://au.indeed.com/viewjob?jk=721516093557434a",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1488,7 +1444,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmwR3AS4eKPUrcDKQmSlBfWPchzC6E-b6HSoezpeZO_v2WiiiJjEfX_ZD6H93bKYRLhZ0hn_xg3t1fHZWfiqQPR-sKLCRjZdRsC8ziiT9y1LvkVQCXbrc8G_EG4PS59SqhS3smjI-pCzjb68H8=",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1510,7 +1466,7 @@
     "evidence_url": "https://au.indeed.com/cmp/WTW/jobs?q=Client+Solutions+Manager&l=Melbourne+VIC",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -1532,7 +1488,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1553,7 +1509,7 @@
     "evidence_url": "https://www.seek.com.au/job/76043831",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1575,7 +1531,7 @@
     "evidence_url": "https://au.jooble.org/jdp/6007621430030206109/Small-Animal-Senior-Veterinarian-Job-Sydney,-New-South-Wales,-Australia",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "jooble.org"
@@ -1597,7 +1553,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1618,7 +1574,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1639,7 +1595,7 @@
     "evidence_url": null,
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -1660,7 +1616,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQglo8rTZLfp859DG7qAwA53gntYFXEiHUQBCzITKqXMxYC3P8GJUv58pvOkXdhARHPopiDIIfAaHkkxBOcUus7gjz9V_0iQPtDPMxqFdE8aTwJlXLXJhjdV8gYqbLfAUqCH0ssHIpfrbwwuDjA386WXFy5OiuluyssEw1jnxpAwLKvL6-",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -1682,7 +1638,7 @@
     "evidence_url": "https://www.seek.com.au/job/76251433",
     "first_seen": "2026-06-20",
     "last_seen": "2026-06-20",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -2504,31 +2460,9 @@
     "evidence_url": null,
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
-  },
-  "657541ed3ffd": {
-    "id": "657541ed3ffd",
-    "title": "Workshop Forklift Mechanic/Service Technician",
-    "company": "Crown Equipment",
-    "category": "Automotive & Mechanics",
-    "city": "Sydney",
-    "location": "Sydney, New South Wales, Australia",
-    "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrSL1fz8Ba7FZdmeMaqmKIwLyvlQXBbd7nbSkwaUAOKKVUy0JMcrpuWQ1Vm0V_X6D5vIBiDduv29YQAuG_pnjauJ5ayZDfd4Fxxy3m-SQlJ8k9kuHheSNf-Upk38dxPOX1pNq1WJOymgudpBii1lWfPqnU",
-    "source_domain": "crownequipment.workable.com",
-    "summary": "Full-time workshop role in Smithfield, Sydney, for a mechanically minded individual to service and repair forklift equipment.",
-    "verified_unlisted": false,
-    "checked_against": [
-      "also listed on a major board"
-    ],
-    "evidence_url": "https://www.seek.com.au/Crown-Equipment-jobs/in-All-Sydney-NSW",
-    "first_seen": "2026-07-02",
-    "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
-    "status": "on_board",
-    "board_checked": true,
-    "board_name": "seek.com.au"
   },
   "711542f3ea69": {
     "id": "711542f3ea69",
@@ -2547,7 +2481,7 @@
     "evidence_url": null,
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -2568,7 +2502,7 @@
     "evidence_url": null,
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -2589,7 +2523,7 @@
     "evidence_url": "https://www.seek.com.au/job/76643640",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -2611,7 +2545,7 @@
     "evidence_url": null,
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "unchecked",
     "board_checked": false
   },
@@ -2632,7 +2566,7 @@
     "evidence_url": "https://www.seek.com.au/job/76483561",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -2654,7 +2588,7 @@
     "evidence_url": null,
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -2675,7 +2609,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBWIsn6_Is4wv2F5AyxStvAiAj1ewlR3MzQN2wlP72_B1P1S-0QDmGQp9upKDre2y8ScwAcI3bbNBM2GeELJWibabg4fUq0NRBazJl29-27y4hnKvf616UHCYPwjfLtGEILWL1vnND2vI-mn0p2nd7xFa0xafWBwMKYDtncb3CMQMPwahgFuv7WusSNp0mip2ETjYmGufI5-Ro90gZs82qmByqCwb-",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -2697,7 +2631,7 @@
     "evidence_url": "https://au.indeed.com/cmp/Hellofresh/jobs?q=Marketing+Associate+(Freelance)",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -2719,7 +2653,7 @@
     "evidence_url": null,
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -2740,7 +2674,7 @@
     "evidence_url": null,
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -2761,7 +2695,7 @@
     "evidence_url": "https://www.seek.com.au/job/76495346",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -2783,7 +2717,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETYh41PC2Jcw6uv8qR-ylsIPG74q2Nk7dcKbnsclrIBihMQyhunNJ2RPgKx-n_gKoOfJ8VE3bq766H1hcK8ujJGm-gJjGiicMZ7qmLzN-oXO0AHqU8GpF_FOsb7TaICQ_-NkQo7DELSVGX4A==",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -2805,7 +2739,7 @@
     "evidence_url": "https://au.indeed.com/viewjob?jk=2985390729857298",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
@@ -2827,7 +2761,7 @@
     "evidence_url": "https://www.seek.com.au/job/76503730",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"
@@ -2849,7 +2783,7 @@
     "evidence_url": null,
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "secret",
     "board_checked": true
   },
@@ -2870,7 +2804,7 @@
     "evidence_url": "https://au.indeed.com/viewjob?jk=7243b7e774f3d231",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -2892,7 +2826,7 @@
     "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_BaCkxl5BHRX5B-q-JBqBbMvf0SUiSbSUoiEvenp9jTs38Gix09k8i1mSSs9JHNzaYZ-zUaK4ssD9-HrBXqgoGluvlnkq0ZcfVy-xrrF4q9Aag17ydHvq42CCBsHsi5w1LzqGv2JKWwyIUnQ=",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "indeed.com"
@@ -2914,7 +2848,7 @@
     "evidence_url": "https://au.indeed.com/q-Mc-Driver-in-Mining-jobs.html",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "au.indeed.com"
@@ -2936,7 +2870,7 @@
     "evidence_url": "https://www.seek.com.au/Hilti-jobs/in-All-Perth-WA",
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
-    "last_checked": "2026-07-02",
+    "last_checked": "2026-07-04",
     "status": "on_board",
     "board_checked": true,
     "board_name": "seek.com.au"

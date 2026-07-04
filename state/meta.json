@@ -21,7 +21,7 @@
     "zeil.com"
   ],
   "boards_updated": "2026-06-28",
-  "city_rotation": 2,
+  "city_rotation": 6,
   "last_searched": {
     "Adelaide|Skilled Trades": "2026-07-01",
     "Adelaide|Construction & Building": "2026-07-01",
@@ -142,6 +142,16 @@
     "Canberra|Automotive & Mechanics": "2026-06-23",
     "Canberra|Skilled Trades": "2026-06-23",
     "Canberra|Construction & Building": "2026-06-23",
-    "Canberra|Hospitality & Food": "2026-06-23"
+    "Canberra|Hospitality & Food": "2026-06-23",
+    "Mount Gambier|Automotive & Mechanics": "2026-07-04",
+    "Mount Gambier|Skilled Trades": "2026-07-04",
+    "Mount Gambier|Construction & Building": "2026-07-04",
+    "Mount Gambier|Hospitality & Food": "2026-07-04",
+    "Mount Gambier|Healthcare & Care": "2026-07-04",
+    "Mount Gambier|Creative & Design": "2026-07-04",
+    "Mount Gambier|Retail & Sales": "2026-07-04",
+    "Mount Gambier|Logistics & Driving": "2026-07-04",
+    "Mount Gambier|Office & Admin": "2026-07-04",
+    "Mount Gambier|IT & Software": "2026-07-04"
   }
 }
