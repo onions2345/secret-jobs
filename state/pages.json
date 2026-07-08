@@ -1,14 +1,18 @@
 {
   "Australia": {
-    "blurb": "Here you'll find Australian job openings not advertised on the major job boards. We source these roles directly from employer career pages and niche industry websites. Discover opportunities across Construction, Healthcare, Creative, Logistics, and Skilled Trades.",
-    "updated": "2026-07-07"
+    "blurb": "Discover Australian job openings you won't find on the major job boards. We source these roles directly from employer career pages and specialist niche sites, giving you access to less-advertised opportunities across many sectors. This means less competition for your next role.",
+    "updated": "2026-07-08"
   },
   "United Kingdom": {
-    "blurb": "This page lists UK job openings you won't find on the big job boards. We source these opportunities directly from employers' own career pages and specialist niche sites, spanning roles in creative, trades, hospitality, construction, and office administration.",
-    "updated": "2026-07-03"
+    "blurb": "This page features UK job openings that are not advertised on major job boards. We find these roles directly on employers' own websites and specialist niche platforms, providing access to opportunities in skilled trades, IT, construction, and more, often before they're widely known.",
+    "updated": "2026-07-08"
   },
   "New Zealand": {
     "blurb": "Discover unlisted job openings across New Zealand, pulled directly from employer websites and specialist niche sites, not the major job boards. These roles span categories like Logistics, Automotive, Healthcare, and Skilled Trades, offering opportunities you might otherwise miss.",
     "updated": "2026-07-07"
+  },
+  "Singapore": {
+    "blurb": "This page lists job openings in Singapore that are not advertised on major job boards. We've compiled these roles directly from employers' own career sites and specialized industry portals, offering a different view of the market. Explore current positions across Healthcare, Retail, Office & Admin, Skilled Trades, and Creative & Design.",
+    "updated": "2026-07-08"
   }
 }
